@@ -232,27 +232,10 @@ public class EnhancerServiceImpl implements EnhancerService {
          origin = object.getBucketName() + ":" + object.getKey();
          document = documentService.findByOrigin(origin);
          // Document was not enhanced or previous enhancement failed
-         if (document == null) {
-            InputStream s3FileContent = s3Client.getFile(object.getBucketName(), object.getKey());
-            String sha1Hash = IOUtils.getSha1Hash(s3FileContent);
-            document = documentService.findBySha1Hash(sha1Hash);
-            if (document == null) {
+         if (document == null || document.getStatus() == EnhancementStatus.FAILURE) {
                output.add(object);
-
-            // Same document found at a different source location skip and set status as duplicate
-            } else if (!document.getOrigin().equals(origin)) {
-               Document duplicate = new Document();
-               duplicate.setOrigin(origin);
-               duplicate.setTitle(document.getTitle());
-               duplicate.setType(document.getType());
-               duplicate.setStatus(EnhancementStatus.DUPLICATE);
-               duplicate.setStatusReason("Document already exists at " + document.getOrigin());
-               documentService.create(duplicate);
             }
-         } else if (document.getStatus() == EnhancementStatus.FAILURE) {
-            output.add(object);
          }
-      }
       return output;
    }
 
@@ -269,10 +252,28 @@ public class EnhancerServiceImpl implements EnhancerService {
             DateUtils.parseDate(metadata.get("Creation-Date"), new String[]{"yyyy-MM-dd'T'HH:mm:ss'Z'"}));
    }
 
+   private boolean isDuplicate(String origin, String sha1Hash, DocumentType documentType) {
+      Document existingDocument = documentService.findBySha1Hash(sha1Hash);
+
+      // Same document found at a different source location skip and set status as duplicate
+      if (existingDocument != null && !existingDocument.getOrigin().equals(origin)) {
+         Document duplicate = new Document();
+         duplicate.setOrigin(origin);
+         duplicate.setTitle(existingDocument.getTitle());
+         duplicate.setType(documentType);
+         duplicate.setStatus(EnhancementStatus.DUPLICATE);
+         duplicate.setStatusReason("Document already exists at " + existingDocument.getOrigin());
+         documentService.create(duplicate);
+         return true;
+      }
+
+      return false;
+   }
+
    private void enhanceCollection(DocumentType documentType) {
       Metadata metadata;
       DocumentDTO document;
-      InputStream s3FileContent;
+      byte[] s3FileContent;
       String key = configuration.getS3EnhancerInput() + documentType.name().toLowerCase() + "s";
       List<DataObjectSummary> objects = s3Client.listObjects(configuration.getS3Bucket(), key);
       objects = getDocumentsForEnhancement(objects);
@@ -280,14 +281,18 @@ public class EnhancerServiceImpl implements EnhancerService {
       for (DataObjectSummary object : objects) {
          document = new DocumentDTO();
          try {
-            s3FileContent = s3Client.getFile(object.getBucketName(), object.getKey());
+            s3FileContent = s3Client.getFileAsByteArray(object.getBucketName(), object.getKey());
+            String origin = object.getBucketName() + ":" + object.getKey();
+            String sha1Hash = IOUtils.getSha1Hash(s3FileContent);
+
+            if (isDuplicate(origin, sha1Hash, documentType)) {
+               continue;
+            }
 
             metadata = new Metadata();
-            document.setContent(IOUtils.parseStream(s3FileContent, metadata));
-            document.setOrigin(configuration.getS3Bucket() + ":" + object.getKey());
-            String sha1 = IOUtils.getSha1Hash(s3FileContent);
-            logger.info("Origin: " + document.getOrigin() + ", sha1: " + sha1);
-            document.setSha1Hash(sha1);
+            document.setContent(IOUtils.parseStream(new ByteArrayInputStream(s3FileContent), metadata));
+            document.setOrigin(origin);
+            document.setSha1Hash(sha1Hash);
             copyMetadataToDocument(metadata, document, getFileNameFromS3ObjectSummary(object));
 
             enhance(document);
@@ -301,10 +306,12 @@ public class EnhancerServiceImpl implements EnhancerService {
    private String getImageMetadataAsString(InputStream s3FileContent) {
       StringBuilder result = new StringBuilder();
       ImageMetadata imageMetadata = imageService.getImageMetadata(s3FileContent);
-      for (ImageAnnotation imageLabel : imageMetadata.getImageLabels()) {
-         result.append(imageLabel.getDescription()).append(" (").append(imageLabel.getScore()).append("), ");
+      if (!imageMetadata.getImageLabels().isEmpty()) {
+         for (ImageAnnotation imageLabel : imageMetadata.getImageLabels()) {
+            result.append(imageLabel.getDescription()).append(" (").append(imageLabel.getScore()).append("), ");
+         }
+         result.setLength(result.length() - 2);
       }
-      result.setLength(result.length() - 2);
       return result.toString();
    }
 
@@ -330,7 +337,7 @@ public class EnhancerServiceImpl implements EnhancerService {
             }
 
             document.setOrigin(dbDocument.getOrigin());
-            document.setSha1Hash(IOUtils.getSha1Hash(inputStream));
+            document.setSha1Hash(IOUtils.getSha1Hash(IOUtils.fromInputStreamToByteArray(inputStream)));
             copyMetadataToDocument(metadata, document, dbDocument.getOrigin());
 
             enhance(document);
@@ -360,36 +367,39 @@ public class EnhancerServiceImpl implements EnhancerService {
    @Override
    public void enhanceImages() {
       DocumentDTO document;
-      InputStream s3FileContent;
+      byte[] s3FileContent;
       String key = configuration.getS3EnhancerInput() + DocumentType.IMAGE.name().toLowerCase() + "s";
       List<DataObjectSummary> objectsForEnhancement = getDocumentsForEnhancement(s3Client.listObjects(configuration.getS3Bucket(), key));
       logger.info("enhanceImages - there are " + objectsForEnhancement.size() + " images to be enhanced");
       for (DataObjectSummary s3ObjectSummary : objectsForEnhancement) {
-
-         // Ignore folders
-         if (s3ObjectSummary.getKey().endsWith("/")) {
-            continue;
-         }
-
+         document = new DocumentDTO();
          try {
-            document = new DocumentDTO();
+            s3FileContent = s3Client.getFileAsByteArray(s3ObjectSummary.getBucketName(), s3ObjectSummary.getKey());
+            String origin = s3ObjectSummary.getBucketName() + ":" + s3ObjectSummary.getKey();
+            String sha1Hash = IOUtils.getSha1Hash(s3FileContent);
+
+            if (isDuplicate(origin, sha1Hash, DocumentType.IMAGE)) {
+               continue;
+            }
+
             document.setDocType(DocumentType.IMAGE.name());
             document.setTitle(getFileNameFromS3ObjectSummary(s3ObjectSummary));
-            document.setOrigin(configuration.getS3Bucket() + ":" + s3ObjectSummary.getKey());
+            document.setOrigin(origin);
 
             // The cached imaged metadata will be used for enhancement (if exists)
             document.setContent(documentService.readImageMetadata(document.getOrigin()));
 
             // The image metadata will be extracted and used for enhancement
             if (document.getContent() == null) {
-               s3FileContent = s3Client.getFile(s3ObjectSummary.getBucketName(), s3ObjectSummary.getKey());
-               document.setContent("The labels found for " + document.getTitle() + " are " + getImageMetadataAsString(s3FileContent));
-               document.setSha1Hash(IOUtils.getSha1Hash(s3FileContent));
+               document.setContent("The labels found for " + document.getTitle() + " are " +
+                     getImageMetadataAsString(new ByteArrayInputStream(s3FileContent)));
+               document.setSha1Hash(sha1Hash);
             }
 
             enhance(document);
          } catch (Exception e) {
             logger.error("enhanceImages - error processing file key: " + s3ObjectSummary.getKey(), e);
+            processFailure(document, null, e.getMessage());
          }
       }
    }

@@ -80,9 +80,9 @@ public class IOUtils {
       return null;
    }
 
-   public static String getSha1Hash(InputStream inputStream) {
+   public static String getSha1Hash(byte[] input) {
       try {
-         return DigestUtils.sha1Hex(inputStream);
+         return DigestUtils.sha1Hex(input);
       } catch (Exception e) {
          throw new HydroidException(e);
       }

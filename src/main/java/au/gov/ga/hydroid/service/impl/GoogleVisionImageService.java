@@ -98,7 +98,7 @@ public class GoogleVisionImageService implements ImageService {
 
          ImageMetadata result = new ImageMetadata();
          for (AnnotateImageResponse imgRes : response.getResponses()) {
-            if (imgRes != null) {
+            if (imgRes != null && imgRes.getLabelAnnotations() != null) {
                for (EntityAnnotation entityAnnotation : imgRes.getLabelAnnotations()) {
                   result.getImageLabels().add(
                         new ImageAnnotation(entityAnnotation.getDescription(), round(entityAnnotation.getScore(), 2))

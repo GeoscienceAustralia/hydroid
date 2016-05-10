@@ -89,7 +89,7 @@ public class IOUtilsTest {
    @Test
    public void testGetSha1Hash() {
       String documentPath = "/testfiles/36_4_1175-1197_Buss_and_Clote.pdf";
-      String sha1Hash = IOUtils.getSha1Hash(this.getClass().getResourceAsStream(documentPath));
+      String sha1Hash = IOUtils.getSha1Hash(IOUtils.fromInputStreamToByteArray(this.getClass().getResourceAsStream(documentPath)));
       Assert.assertNotNull("SHA1 is null: ", sha1Hash);
       Assert.assertEquals("SHA1 is not equal: ", "b5d5b085d117cbb2625c6177b3617cbfcdeaaaf7", sha1Hash);
    }

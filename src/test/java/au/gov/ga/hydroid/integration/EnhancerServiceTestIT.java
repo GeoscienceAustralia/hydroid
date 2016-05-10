@@ -19,7 +19,7 @@ import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.util.ReflectionTestUtils;
 
-import java.io.InputStream;
+import java.io.ByteArrayInputStream;
 
 /**
  * Created by u24529 on 3/02/2016.
@@ -46,11 +46,44 @@ public class EnhancerServiceTestIT {
       DocumentDTO document = new DocumentDTO();
       document.setDocType(DocumentType.DOCUMENT.name());
       document.setContent(IOUtils.parseStream(this.getClass().getResourceAsStream(origin)));
-      document.setTitle(metadata.get("title"));
+      document.setTitle(metadata.get("title") == null ? "36_4_1175-1197_Buss_and_Clote.pdf" : metadata.get("title"));
       document.setAuthor(metadata.get("author") == null ? metadata.get("Author") : metadata.get("author"));
-      document.setDateCreated(DateUtils.parseDate(metadata.get("Creation-Date"), new String[]{"yyyy-MM-dd'T'HH:mm:ss'Z'"}));
+      if (metadata.get("Creation-Date") != null) {
+         document.setDateCreated(DateUtils.parseDate(metadata.get("Creation-Date"), new String[]{"yyyy-MM-dd'T'HH:mm:ss'Z'"}));
+      }
       enhancerService.enhance(document);
    }
+
+   @Test
+   public void testEnhanceFromS3() {
+      byte[] s3FileContent = s3Client.getFileAsByteArray(configuration.getS3Bucket(),
+            "enhancer/input/documents/13658816.2011_IJGIS_HUANGetal.pdf");
+      String origin = configuration.getS3Bucket() + ":enhancer/input/documents/13658816.2011_IJGIS_HUANGetal.pdf";
+      String sha1Hash = IOUtils.getSha1Hash(s3FileContent);
+
+      Metadata metadata = new Metadata();
+      DocumentDTO document = new DocumentDTO();
+      document.setDocType(DocumentType.DOCUMENT.name());
+      document.setContent(IOUtils.parseStream(new ByteArrayInputStream(s3FileContent), metadata));
+      document.setOrigin(origin);
+      document.setSha1Hash(sha1Hash);
+
+      String fallBackTitle = "13658816.2011_IJGIS_HUANGetal.pdf";
+      if (metadata.get("title") != null) {
+         document.setTitle(metadata.get("title"));
+      } else if (metadata.get("dc:title") != null) {
+         document.setTitle(metadata.get("dc:title"));
+      } else {
+         document.setTitle(fallBackTitle);
+      }
+      document.setAuthor(metadata.get("author") == null ? metadata.get("Author") : metadata.get("author"));
+      document.setDateCreated(metadata.get("Creation-Date") == null ? null :
+            DateUtils.parseDate(metadata.get("Creation-Date"), new String[]{"yyyy-MM-dd'T'HH:mm:ss'Z'"}));
+
+      Assert.assertTrue(enhancerService.enhance(document));
+   }
+
+
 
    @Test
    public void testEnhanceDocuments() {
@@ -100,8 +133,8 @@ public class EnhancerServiceTestIT {
 
    @Test
    public void testSameContentHash() {
-      InputStream file1 = s3Client.getFile(configuration.getS3Bucket(), "enhancer/input/documents/13658816.2011_IJGIS_HUANGetal.pdf");
-      InputStream file2 = s3Client.getFile(configuration.getS3Bucket(), "enhancer/input/documents/20160408/05_fsr06_wtbf.pdf");
+      byte[] file1 = s3Client.getFileAsByteArray(configuration.getS3Bucket(), "enhancer/input/documents/13658816.2011_IJGIS_HUANGetal.pdf");
+      byte[] file2 = s3Client.getFileAsByteArray(configuration.getS3Bucket(), "enhancer/input/documents/20160408/05_fsr06_wtbf.pdf");
 
       String hashFile1 = IOUtils.getSha1Hash(file1);
       String hashFile2 = IOUtils.getSha1Hash(file2);
