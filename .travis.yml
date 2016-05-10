@@ -35,4 +35,5 @@ before_install:
 install:
   - mvn clean package
 after_success:
+  - chmod a+x ./scripts/sonar-qube.sh
   - ./scripts/sonar-qube.sh
