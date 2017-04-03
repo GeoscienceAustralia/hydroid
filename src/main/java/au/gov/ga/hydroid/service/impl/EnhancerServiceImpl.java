@@ -4,6 +4,8 @@ import au.gov.ga.hydroid.HydroidConfiguration;
 import au.gov.ga.hydroid.dto.DocumentDTO;
 import au.gov.ga.hydroid.dto.ImageAnnotation;
 import au.gov.ga.hydroid.dto.ImageMetadata;
+import au.gov.ga.hydroid.dto.CmiDocumentDTO;
+import au.gov.ga.hydroid.dto.CmiNodeDTO;
 import au.gov.ga.hydroid.model.Document;
 import au.gov.ga.hydroid.model.DocumentType;
 import au.gov.ga.hydroid.model.EnhancementStatus;
@@ -13,9 +15,11 @@ import au.gov.ga.hydroid.utils.HydroidException;
 import au.gov.ga.hydroid.utils.IOUtils;
 import au.gov.ga.hydroid.utils.StanbolMediaTypes;
 import com.amazonaws.services.s3.model.ObjectMetadata;
+import com.google.gson.Gson;
 import org.apache.commons.lang.StringUtils;
 import org.apache.http.client.utils.DateUtils;
 import org.apache.http.entity.ContentType;
+import org.apache.jena.ext.com.google.common.reflect.TypeToken;
 import org.apache.jena.rdf.model.Statement;
 import org.apache.tika.metadata.Metadata;
 import org.apache.tika.parser.AbstractParser;
@@ -29,10 +33,8 @@ import org.springframework.stereotype.Service;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
@@ -415,6 +417,51 @@ public class EnhancerServiceImpl implements EnhancerService {
          }
       }
    }
+
+    @Override
+    public void enhanceCMINodes() {
+        DocumentDTO document = null;
+        String cmiSummaryEndpointUrl = "src/test/resources/testfiles/cmi_summary_test.json"; // #TODO Dee from url
+
+//        String cmiEndpointUrl = "13.54.54.186/hydroid-view2"; // Dee read from config file
+//        List<CmiDocumentDTO> cmiDocumentDTOs = cmiGson.fromJson(org.apache.commons.io.IOUtils.toString(new URL(cmiEndpointUrl), "UTF-8"), new TypeToken<List<CmiDocumentDTO>>(){}.getType());
+
+        try {
+            Gson cmiGson = new Gson();
+            List<CmiNodeDTO> cmiNodes = cmiGson.fromJson(new FileReader(cmiSummaryEndpointUrl), new TypeToken<List<CmiNodeDTO>>(){}.getType());
+            cmiNodes.forEach(System.out::println);
+
+            for (CmiNodeDTO cmiNode : cmiNodes) {
+                String nodeOrigin = "http://13.55.186.172/node/" + cmiNode.getNodeId(); // TODO Dee
+                String cmiNodeEndpointUrl = "src/test/resources/testfiles/cmi_test.json"; // TODO Dee from url
+                Document dbDoc = this.documentService.findByOrigin(nodeOrigin);
+                // Document was not enhanced or previous enhancement failed
+                if (dbDoc == null || dbDoc.getStatus() == EnhancementStatus.FAILURE || dbDoc.getProcessDate().before(cmiNode.getLastChanged())) {
+                    CmiDocumentDTO cmiDocumentDTO = cmiGson.fromJson(new FileReader(cmiNodeEndpointUrl), CmiDocumentDTO.class); // TODO Dee from origin url cmiGson.fromJson(nodeOrigin, CmiDocumentDTO.class);
+                    System.out.println(cmiDocumentDTO.toString());
+                    System.out.println("<< Document Enhanced >> " + cmiDocumentDTO.getNid());
+//                    this.enhance(cmiDocumentDTO.toDocumentDTO()); // TODO Dee enhance
+                }
+            }
+        /*
+            String cmiEndpointUrl = "src/test/resources/testfiles/cmi.json"; // TODO Dee from url
+
+            List<CmiDocumentDTO> cmiDocumentDTOs = cmiGson.fromJson(new FileReader(cmiEndpointUrl), new TypeToken<List<CmiDocumentDTO>>(){}.getType());
+
+            cmiDocumentDTOs.forEach(System.out::println);
+
+            List<DocumentDTO> documentDTOs = cmiDocumentDTOs.stream().map(CmiDocumentDTO::toDocumentDTO).collect(Collectors.toList());
+
+            documentDTOs.forEach(System.out::println);*/
+
+            // Dee forEach DocumentDTO enhance()
+
+        }
+        catch (IOException ioe) {
+            ioe.printStackTrace();
+        }
+
+    }
 
    private void rollbackEnhancement(String urn) {
       if (urn == null) {
