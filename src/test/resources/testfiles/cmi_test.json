@@ -1,0 +1,374 @@
+{
+    "nid": [
+        {
+            "value": 125
+        }
+    ],
+    "uuid": [
+        {
+            "value": "e0a78d83-888c-44e2-bfba-7ef454fc8f5d"
+        }
+    ],
+    "vid": [
+        {
+            "value": 209
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "product",
+            "target_type": "node_type",
+            "target_uuid": "9b63d36e-b747-4565-9991-99c5a3e112ff"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "title": [
+        {
+            "value": "Sentinel-3 OCLI"
+        }
+    ],
+    "uid": [
+        {
+            "target_id": 1,
+            "target_type": "user",
+            "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+            "url": "\/user\/1"
+        }
+    ],
+    "created": [
+        {
+            "value": 1490060464
+        }
+    ],
+    "changed": [
+        {
+            "value": 1490061785
+        }
+    ],
+    "promote": [
+        {
+            "value": false
+        }
+    ],
+    "sticky": [
+        {
+            "value": false
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": 1490061785
+        }
+    ],
+    "revision_uid": [
+        {
+            "target_id": 1,
+            "target_type": "user",
+            "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+            "url": "\/user\/1"
+        }
+    ],
+    "revision_log": [],
+    "revision_translation_affected": [
+        {
+            "value": true
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true
+        }
+    ],
+    "moderation_state": [
+        {
+            "value": "draft"
+        }
+    ],
+    "workspace": [
+        {
+            "target_id": 1,
+            "target_type": "workspace",
+            "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+        }
+    ],
+    "_deleted": [
+        {
+            "value": false
+        }
+    ],
+    "_rev": [
+        {
+            "value": "4-1c3857b175e0609be7234bdc364462c3"
+        }
+    ],
+    "path": [],
+    "field_access_constraints": [
+        {
+            "value": "\u003Cp\u003EData is open to anyone but requires accepting an ESA-specific license,\u003C\/p\u003E\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "field_accuracy_and_limitations": [],
+    "field_acknowledgments": [],
+    "field_alternate_title": [
+        {
+            "value": "Copernicus Australia Hub Sentinel-3-OCLI",
+            "format": "basic_html"
+        }
+    ],
+    "field_applications": [
+        {
+            "value": "\u003Cp\u003EThe observations acquired by the mission will be used to in conjunction with other ocean-observing missions to contribute to the Global Ocean Observing System (GOOS) which aims to create a permanent system of ocean observation:\u003C\/p\u003E\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003EOcean colour and land reflectance data\u003C\/li\u003E\r\n\t\u003Cli\u003ESea, land and ice surface temperature\u003C\/li\u003E\r\n\t\u003Cli\u003EActive fire and burnt area monitoring\u003C\/li\u003E\r\n\t\u003Cli\u003ESea surface topography data\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "field_background": [
+        {
+            "value": "\u003Cp\u003EEurope\u2019s Copernicus programme, and its constituent Sentinel constellation of satellites specifically, has been identified as a critical source of Earth observations from space data for Australia.\u003C\/p\u003E\r\n\r\n\u003Cp\u003ERecognising the importance of these satellites, Geoscience Australia, CSIRO, the Government of New South Wales, Government of Queensland and Government of Western Australia have formed a consortium to make data from Europe\u0027s Sentinel satellites easier to access and use for businesses, researchers, governments and the general public in the South-East Asia and South Pacific region.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EOn 4 November 2015, Australia and the European Union agreed to cooperate and to promote exploitation of data from the Sentinel satellites. A key element of this cooperation is around enhancing data access in the South East Asia-South Pacific region, with Australia agreeing to establish a Data Hub to support data access and exploitation in that region.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EGeoscience Australia, representing consortium partners, is responsible for the download, maintenance and distribution to users of Sentinel-3 data at various levels of processing in South-East Asia\/South Pacific through the regional data hub of Copernicus Australian Area of Interest. The National Computational Infrastructure in Canberra is the master repository of the data.\u003C\/p\u003E\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "field_backup_and_recovery": [],
+    "field_catalogues": [
+        {
+            "uri": "http:\/\/dap.nci.org.au\/thredds\/remoteCatalogService?catalog=http:\/\/dapds00.nci.org.au\/thredds\/catalog\/fj7\/Copernicus\/Sentinel-3\/catalog.xml",
+            "title": "National Computational Infrastructure THREDDS catalogue",
+            "options": []
+        }
+    ],
+    "field_contact": [],
+    "field_coverage_content_type": [
+        {
+            "target_id": 6950,
+            "target_type": "taxonomy_term",
+            "target_uuid": "4941b5eb-8114-40d7-ab98-f3e74a717f04",
+            "url": "\/taxonomy\/term\/6950"
+        }
+    ],
+    "field_custodian": [
+        {
+            "target_id": 64,
+            "target_type": "node",
+            "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+            "url": "\/node\/64"
+        }
+    ],
+    "field_data_description": [],
+    "field_data_ingestion": [],
+    "field_data_ingestion_time_frame": [
+        {
+            "value": "2017-03-21T01:41:04",
+            "end_value": "2017-03-21T01:41:04"
+        }
+    ],
+    "field_data_source_contact": [
+        {
+            "target_id": 66,
+            "target_type": "node",
+            "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+            "url": "\/node\/66"
+        }
+    ],
+    "field_data_sources": [],
+    "field_data_transfer": [],
+    "field_developer_title": [],
+    "field_distribution_entity": [
+        {
+            "target_id": 64,
+            "target_type": "node",
+            "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+            "url": "\/node\/64"
+        }
+    ],
+    "field_documents": [],
+    "field_doi": [],
+    "field_ecat_id": [],
+    "field_features": [
+        {
+            "value": "\u003Cp\u003ESentinel-3 Ocean and Land Colour Instrument (OLCI) is a push-broom imaging spectrometer that measures solar radiation reflected by the Earth, at a ground spatial resolution of 300 m, in 21 spectral bands:\u003C\/p\u003E\r\n\r\n\u003Cp\u003EBand \/ Center (Spectral Width) [nm]\u003Cbr \/\u003E\r\nO1 \/ 400 (15)\u003Cbr \/\u003E\r\nO2 \/ 412.5 (10)\u003Cbr \/\u003E\r\nO3 \/ 442.5 (10)\u003Cbr \/\u003E\r\nO4 \/ 490 (10)\u003Cbr \/\u003E\r\nO5 \/ 510 (10)\u003Cbr \/\u003E\r\nO6 \/ 560 (10)\u003Cbr \/\u003E\r\nO7 \/ 620 (10)\u003Cbr \/\u003E\r\nO8 \/ 665 (10)\u003Cbr \/\u003E\r\nO9 \/ 673.5 (7.5)\u003Cbr \/\u003E\r\nO10 \/ 681.25 (7.5)\u003Cbr \/\u003E\r\nO11 \/ 708.75 (10)\u003Cbr \/\u003E\r\nO12 \/ 753.75 (7.5)\u003Cbr \/\u003E\r\nO13 \/ 761.25 (2.5)\u003Cbr \/\u003E\r\nO14 \/ 764.375 (3.75)\u003Cbr \/\u003E\r\nO15 \/ 767.5 (2.5)\u003Cbr \/\u003E\r\nO16 \/ 778.75 (15)\u003Cbr \/\u003E\r\nO17 \/ 865 (20)\u003Cbr \/\u003E\r\nO18 \/ 885 (10)\u003Cbr \/\u003E\r\nO19 \/ 900 (10)\u003Cbr \/\u003E\r\nO20 \/ 940 (20)\u003Cbr \/\u003E\r\nO21 \/ 1020 (40)\u003C\/p\u003E\r\n\r\n\u003Cp\u003EThe primary objective of OLCI products is to screen the ocean and land surface to harvest information related to biology. OLCI also provides information on the atmosphere and contributes to climate study.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EOLCI\u0027s field of view allows global coverage to be provided in 2-3 days.\u003C\/p\u003E\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "field_feedback_contact": [
+        {
+            "target_id": 70,
+            "target_type": "node",
+            "target_uuid": "6d21432c-5223-479b-83dd-62905d69a7ff",
+            "url": "\/node\/70"
+        }
+    ],
+    "field_hprm_references": [],
+    "field_images": [],
+    "field_ingestion_contact": [
+        {
+            "target_id": 66,
+            "target_type": "node",
+            "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+            "url": "\/node\/66"
+        }
+    ],
+    "field_license": [
+        {
+            "target_id": 6724,
+            "target_type": "taxonomy_term",
+            "target_uuid": "f383ed6b-5ece-4241-a686-9ea847269e6e",
+            "url": "\/taxonomy\/term\/6724"
+        }
+    ],
+    "field_maintenance": [],
+    "field_maintenance_contact": [
+        {
+            "target_id": 66,
+            "target_type": "node",
+            "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+            "url": "\/node\/66"
+        }
+    ],
+    "field_media_contact": [
+        {
+            "target_id": 69,
+            "target_type": "node",
+            "target_uuid": "254fd315-8ea7-4a9f-a591-0a166e583293",
+            "url": "\/node\/69"
+        }
+    ],
+    "field_metadata_catalogue_time_fr": [
+        {
+            "value": "2017-05-20T01:41:04",
+            "end_value": "2017-05-20T01:41:04"
+        }
+    ],
+    "field_metadata_contact": [
+        {
+            "target_id": 68,
+            "target_type": "node",
+            "target_uuid": "ce66a680-27fc-4712-9c9e-bbc14b0ff8ed",
+            "url": "\/node\/68"
+        }
+    ],
+    "field_nci_for_codes": [],
+    "field_nci_geonetwork_id": [],
+    "field_nci_product_name": [],
+    "field_nci_project_code": [],
+    "field_one_line_summary": [
+        {
+            "value": "SENTINEL-3 measures sea surface topography, sea and land surface temperature, and ocean and land surface colour.",
+            "format": "basic_html"
+        }
+    ],
+    "field_ordering_entity": [
+        {
+            "target_id": 65,
+            "target_type": "node",
+            "target_uuid": "0902e4b7-2788-46e6-ac6e-603aba2d98e9",
+            "url": "\/node\/65"
+        }
+    ],
+    "field_overview": [
+        {
+            "value": "\u003Cp\u003EThe main objective of the SENTINEL-3 mission is to measure sea surface topography, sea and land surface temperature, and ocean and land surface colour with high accuracy and reliability to support ocean forecasting systems, environmental monitoring and climate monitoring.\u003C\/p\u003E\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "field_principal_contact": [
+        {
+            "target_id": 65,
+            "target_type": "node",
+            "target_uuid": "0902e4b7-2788-46e6-ac6e-603aba2d98e9",
+            "url": "\/node\/65"
+        }
+    ],
+    "field_principal_contributors": [],
+    "field_processes": [],
+    "field_product_life_span": [
+        {
+            "value": "2017-03-21T01:41:04",
+            "end_value": "2017-03-21T01:41:04"
+        }
+    ],
+    "field_product_type": [],
+    "field_production_stage": [],
+    "field_publishing_entity": [],
+    "field_publishing_time_frame": [
+        {
+            "value": "2017-06-19T01:41:04",
+            "end_value": "2017-06-19T01:41:04"
+        }
+    ],
+    "field_qa_contact": [
+        {
+            "target_id": 67,
+            "target_type": "node",
+            "target_uuid": "de760eb7-3f10-4b69-96b2-04f7c0e50bf6",
+            "url": "\/node\/67"
+        }
+    ],
+    "field_qa_time_frame": [
+        {
+            "value": "2017-03-21T01:41:04",
+            "end_value": "2017-03-21T01:41:04"
+        }
+    ],
+    "field_quality_assurance": [],
+    "field_resource_type": [
+        {
+            "target_id": 6671,
+            "target_type": "taxonomy_term",
+            "target_uuid": "d56ac5fe-8efa-4e4d-8f40-20f9883ef37b",
+            "url": "\/taxonomy\/term\/6671"
+        }
+    ],
+    "field_resource_type_definition": [],
+    "field_reviewer": [],
+    "field_rights_statement": [],
+    "field_security_classification": [
+        {
+            "target_id": 6725,
+            "target_type": "taxonomy_term",
+            "target_uuid": "d7d8386f-bae1-43c7-b543-367f41f17e36",
+            "url": "\/taxonomy\/term\/6725"
+        }
+    ],
+    "field_services": [],
+    "field_simple_title": [
+        {
+            "value": "Sentinel-3 OCLI",
+            "format": "basic_html"
+        }
+    ],
+    "field_software_dependencies": [],
+    "field_subject_matter_experts": [],
+    "field_summary": [],
+    "field_tables": [],
+    "field_update_frequency": [
+        {
+            "target_id": 6697,
+            "target_type": "taxonomy_term",
+            "target_uuid": "bc69c89f-deef-463b-9be8-b5c9962fe979",
+            "url": "\/taxonomy\/term\/6697"
+        }
+    ],
+    "field_use_constraints": [
+        {
+            "value": "\u003Cp\u003ENot recorded.\u003C\/p\u003E\r\n",
+            "format": "basic_html"
+        }
+    ],
+    "field_version_number": [],
+    "field_websites": [
+        {
+            "uri": "http:\/\/www.copernicus.gov.au\/regionaldatahub",
+            "title": "Copernicus Australia Regional Data Hub",
+            "options": []
+        }
+    ]
+}

@@ -1,0 +1,4166 @@
+[
+    {
+        "nid": [
+            {
+                "value": 125
+            }
+        ],
+        "uuid": [
+            {
+                "value": "e0a78d83-888c-44e2-bfba-7ef454fc8f5d"
+            }
+        ],
+        "vid": [
+            {
+                "value": 209
+            }
+        ],
+        "langcode": [
+            {
+                "value": "en"
+            }
+        ],
+        "type": [
+            {
+                "target_id": "product",
+                "target_type": "node_type",
+                "target_uuid": "9b63d36e-b747-4565-9991-99c5a3e112ff"
+            }
+        ],
+        "status": [
+            {
+                "value": true
+            }
+        ],
+        "title": [
+            {
+                "value": "Sentinel-3 OCLI"
+            }
+        ],
+        "uid": [
+            {
+                "target_id": 1,
+                "target_type": "user",
+                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                "url": "\/user\/1"
+            }
+        ],
+        "created": [
+            {
+                "value": 1490060464
+            }
+        ],
+        "changed": [
+            {
+                "value": 1490061785
+            }
+        ],
+        "promote": [
+            {
+                "value": false
+            }
+        ],
+        "sticky": [
+            {
+                "value": false
+            }
+        ],
+        "revision_timestamp": [
+            {
+                "value": 1490061785
+            }
+        ],
+        "revision_uid": [
+            {
+                "target_id": 1,
+                "target_type": "user",
+                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                "url": "\/user\/1"
+            }
+        ],
+        "revision_log": [],
+        "revision_translation_affected": [
+            {
+                "value": true
+            }
+        ],
+        "default_langcode": [
+            {
+                "value": true
+            }
+        ],
+        "moderation_state": [
+            {
+                "value": "draft"
+            }
+        ],
+        "workspace": [
+            {
+                "target_id": 1,
+                "target_type": "workspace",
+                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+            }
+        ],
+        "_deleted": [
+            {
+                "value": false
+            }
+        ],
+        "_rev": [
+            {
+                "value": "4-1c3857b175e0609be7234bdc364462c3"
+            }
+        ],
+        "path": [],
+        "field_access_constraints": [
+            {
+                "value": "\u003Cp\u003EData is open to anyone but requires accepting an ESA-specific license,\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_accuracy_and_limitations": [],
+        "field_acknowledgments": [],
+        "field_alternate_title": [
+            {
+                "value": "Copernicus Australia Hub Sentinel-3-OCLI",
+                "format": "basic_html"
+            }
+        ],
+        "field_applications": [
+            {
+                "value": "\u003Cp\u003EThe observations acquired by the mission will be used to in conjunction with other ocean-observing missions to contribute to the Global Ocean Observing System (GOOS) which aims to create a permanent system of ocean observation:\u003C\/p\u003E\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003EOcean colour and land reflectance data\u003C\/li\u003E\r\n\t\u003Cli\u003ESea, land and ice surface temperature\u003C\/li\u003E\r\n\t\u003Cli\u003EActive fire and burnt area monitoring\u003C\/li\u003E\r\n\t\u003Cli\u003ESea surface topography data\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_background": [
+            {
+                "value": "\u003Cp\u003EEurope\u2019s Copernicus programme, and its constituent Sentinel constellation of satellites specifically, has been identified as a critical source of Earth observations from space data for Australia.\u003C\/p\u003E\r\n\r\n\u003Cp\u003ERecognising the importance of these satellites, Geoscience Australia, CSIRO, the Government of New South Wales, Government of Queensland and Government of Western Australia have formed a consortium to make data from Europe\u0027s Sentinel satellites easier to access and use for businesses, researchers, governments and the general public in the South-East Asia and South Pacific region.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EOn 4 November 2015, Australia and the European Union agreed to cooperate and to promote exploitation of data from the Sentinel satellites. A key element of this cooperation is around enhancing data access in the South East Asia-South Pacific region, with Australia agreeing to establish a Data Hub to support data access and exploitation in that region.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EGeoscience Australia, representing consortium partners, is responsible for the download, maintenance and distribution to users of Sentinel-3 data at various levels of processing in South-East Asia\/South Pacific through the regional data hub of Copernicus Australian Area of Interest. The National Computational Infrastructure in Canberra is the master repository of the data.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_backup_and_recovery": [],
+        "field_catalogues": [
+            {
+                "uri": "http:\/\/dap.nci.org.au\/thredds\/remoteCatalogService?catalog=http:\/\/dapds00.nci.org.au\/thredds\/catalog\/fj7\/Copernicus\/Sentinel-3\/catalog.xml",
+                "title": "National Computational Infrastructure THREDDS catalogue",
+                "options": []
+            }
+        ],
+        "field_contact": [],
+        "field_coverage_content_type": [
+            {
+                "target_id": 6950,
+                "target_type": "taxonomy_term",
+                "target_uuid": "4941b5eb-8114-40d7-ab98-f3e74a717f04",
+                "url": "\/taxonomy\/term\/6950"
+            }
+        ],
+        "field_custodian": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_data_description": [],
+        "field_data_ingestion": [],
+        "field_data_ingestion_time_frame": [
+            {
+                "value": "2017-03-21T01:41:04",
+                "end_value": "2017-03-21T01:41:04"
+            }
+        ],
+        "field_data_source_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_data_sources": [],
+        "field_data_transfer": [],
+        "field_developer_title": [],
+        "field_distribution_entity": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_documents": [],
+        "field_doi": [],
+        "field_ecat_id": [],
+        "field_features": [
+            {
+                "value": "\u003Cp\u003ESentinel-3 Ocean and Land Colour Instrument (OLCI) is a push-broom imaging spectrometer that measures solar radiation reflected by the Earth, at a ground spatial resolution of 300 m, in 21 spectral bands:\u003C\/p\u003E\r\n\r\n\u003Cp\u003EBand \/ Center (Spectral Width) [nm]\u003Cbr \/\u003E\r\nO1 \/ 400 (15)\u003Cbr \/\u003E\r\nO2 \/ 412.5 (10)\u003Cbr \/\u003E\r\nO3 \/ 442.5 (10)\u003Cbr \/\u003E\r\nO4 \/ 490 (10)\u003Cbr \/\u003E\r\nO5 \/ 510 (10)\u003Cbr \/\u003E\r\nO6 \/ 560 (10)\u003Cbr \/\u003E\r\nO7 \/ 620 (10)\u003Cbr \/\u003E\r\nO8 \/ 665 (10)\u003Cbr \/\u003E\r\nO9 \/ 673.5 (7.5)\u003Cbr \/\u003E\r\nO10 \/ 681.25 (7.5)\u003Cbr \/\u003E\r\nO11 \/ 708.75 (10)\u003Cbr \/\u003E\r\nO12 \/ 753.75 (7.5)\u003Cbr \/\u003E\r\nO13 \/ 761.25 (2.5)\u003Cbr \/\u003E\r\nO14 \/ 764.375 (3.75)\u003Cbr \/\u003E\r\nO15 \/ 767.5 (2.5)\u003Cbr \/\u003E\r\nO16 \/ 778.75 (15)\u003Cbr \/\u003E\r\nO17 \/ 865 (20)\u003Cbr \/\u003E\r\nO18 \/ 885 (10)\u003Cbr \/\u003E\r\nO19 \/ 900 (10)\u003Cbr \/\u003E\r\nO20 \/ 940 (20)\u003Cbr \/\u003E\r\nO21 \/ 1020 (40)\u003C\/p\u003E\r\n\r\n\u003Cp\u003EThe primary objective of OLCI products is to screen the ocean and land surface to harvest information related to biology. OLCI also provides information on the atmosphere and contributes to climate study.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EOLCI\u0027s field of view allows global coverage to be provided in 2-3 days.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_feedback_contact": [
+            {
+                "target_id": 70,
+                "target_type": "node",
+                "target_uuid": "6d21432c-5223-479b-83dd-62905d69a7ff",
+                "url": "\/node\/70"
+            }
+        ],
+        "field_hprm_references": [],
+        "field_images": [],
+        "field_ingestion_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_license": [
+            {
+                "target_id": 6724,
+                "target_type": "taxonomy_term",
+                "target_uuid": "f383ed6b-5ece-4241-a686-9ea847269e6e",
+                "url": "\/taxonomy\/term\/6724"
+            }
+        ],
+        "field_maintenance": [],
+        "field_maintenance_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_media_contact": [
+            {
+                "target_id": 69,
+                "target_type": "node",
+                "target_uuid": "254fd315-8ea7-4a9f-a591-0a166e583293",
+                "url": "\/node\/69"
+            }
+        ],
+        "field_metadata_catalogue_time_fr": [
+            {
+                "value": "2017-05-20T01:41:04",
+                "end_value": "2017-05-20T01:41:04"
+            }
+        ],
+        "field_metadata_contact": [
+            {
+                "target_id": 68,
+                "target_type": "node",
+                "target_uuid": "ce66a680-27fc-4712-9c9e-bbc14b0ff8ed",
+                "url": "\/node\/68"
+            }
+        ],
+        "field_nci_for_codes": [],
+        "field_nci_geonetwork_id": [],
+        "field_nci_product_name": [],
+        "field_nci_project_code": [],
+        "field_one_line_summary": [
+            {
+                "value": "SENTINEL-3 measures sea surface topography, sea and land surface temperature, and ocean and land surface colour.",
+                "format": "basic_html"
+            }
+        ],
+        "field_ordering_entity": [
+            {
+                "target_id": 65,
+                "target_type": "node",
+                "target_uuid": "0902e4b7-2788-46e6-ac6e-603aba2d98e9",
+                "url": "\/node\/65"
+            }
+        ],
+        "field_overview": [
+            {
+                "value": "\u003Cp\u003EThe main objective of the SENTINEL-3 mission is to measure sea surface topography, sea and land surface temperature, and ocean and land surface colour with high accuracy and reliability to support ocean forecasting systems, environmental monitoring and climate monitoring.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_principal_contact": [
+            {
+                "target_id": 65,
+                "target_type": "node",
+                "target_uuid": "0902e4b7-2788-46e6-ac6e-603aba2d98e9",
+                "url": "\/node\/65"
+            }
+        ],
+        "field_principal_contributors": [],
+        "field_processes": [],
+        "field_product_life_span": [
+            {
+                "value": "2017-03-21T01:41:04",
+                "end_value": "2017-03-21T01:41:04"
+            }
+        ],
+        "field_product_type": [],
+        "field_production_stage": [],
+        "field_publishing_entity": [],
+        "field_publishing_time_frame": [
+            {
+                "value": "2017-06-19T01:41:04",
+                "end_value": "2017-06-19T01:41:04"
+            }
+        ],
+        "field_qa_contact": [
+            {
+                "target_id": 67,
+                "target_type": "node",
+                "target_uuid": "de760eb7-3f10-4b69-96b2-04f7c0e50bf6",
+                "url": "\/node\/67"
+            }
+        ],
+        "field_qa_time_frame": [
+            {
+                "value": "2017-03-21T01:41:04",
+                "end_value": "2017-03-21T01:41:04"
+            }
+        ],
+        "field_quality_assurance": [],
+        "field_resource_type": [
+            {
+                "target_id": 6671,
+                "target_type": "taxonomy_term",
+                "target_uuid": "d56ac5fe-8efa-4e4d-8f40-20f9883ef37b",
+                "url": "\/taxonomy\/term\/6671"
+            }
+        ],
+        "field_resource_type_definition": [],
+        "field_reviewer": [],
+        "field_rights_statement": [],
+        "field_security_classification": [
+            {
+                "target_id": 6725,
+                "target_type": "taxonomy_term",
+                "target_uuid": "d7d8386f-bae1-43c7-b543-367f41f17e36",
+                "url": "\/taxonomy\/term\/6725"
+            }
+        ],
+        "field_services": [],
+        "field_simple_title": [
+            {
+                "value": "Sentinel-3 OCLI",
+                "format": "basic_html"
+            }
+        ],
+        "field_software_dependencies": [],
+        "field_subject_matter_experts": [],
+        "field_summary": [],
+        "field_tables": [],
+        "field_update_frequency": [
+            {
+                "target_id": 6697,
+                "target_type": "taxonomy_term",
+                "target_uuid": "bc69c89f-deef-463b-9be8-b5c9962fe979",
+                "url": "\/taxonomy\/term\/6697"
+            }
+        ],
+        "field_use_constraints": [
+            {
+                "value": "\u003Cp\u003ENot recorded.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_version_number": [],
+        "field_websites": [
+            {
+                "uri": "http:\/\/www.copernicus.gov.au\/regionaldatahub",
+                "title": "Copernicus Australia Regional Data Hub",
+                "options": []
+            }
+        ]
+    },
+    {
+        "nid": [
+            {
+                "value": 124
+            }
+        ],
+        "uuid": [
+            {
+                "value": "c5125063-fd73-406c-9a93-fd6de8372389"
+            }
+        ],
+        "vid": [
+            {
+                "value": 207
+            }
+        ],
+        "langcode": [
+            {
+                "value": "en"
+            }
+        ],
+        "type": [
+            {
+                "target_id": "product",
+                "target_type": "node_type",
+                "target_uuid": "9b63d36e-b747-4565-9991-99c5a3e112ff"
+            }
+        ],
+        "status": [
+            {
+                "value": true
+            }
+        ],
+        "title": [
+            {
+                "value": "Sentinel-2 MSI"
+            }
+        ],
+        "uid": [
+            {
+                "target_id": 1,
+                "target_type": "user",
+                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                "url": "\/user\/1"
+            }
+        ],
+        "created": [
+            {
+                "value": 1490060464
+            }
+        ],
+        "changed": [
+            {
+                "value": 1490061233
+            }
+        ],
+        "promote": [
+            {
+                "value": false
+            }
+        ],
+        "sticky": [
+            {
+                "value": false
+            }
+        ],
+        "revision_timestamp": [
+            {
+                "value": 1490061233
+            }
+        ],
+        "revision_uid": [
+            {
+                "target_id": 1,
+                "target_type": "user",
+                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                "url": "\/user\/1"
+            }
+        ],
+        "revision_log": [],
+        "revision_translation_affected": [
+            {
+                "value": true
+            }
+        ],
+        "default_langcode": [
+            {
+                "value": true
+            }
+        ],
+        "moderation_state": [
+            {
+                "value": "draft"
+            }
+        ],
+        "workspace": [
+            {
+                "target_id": 1,
+                "target_type": "workspace",
+                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+            }
+        ],
+        "_deleted": [
+            {
+                "value": false
+            }
+        ],
+        "_rev": [
+            {
+                "value": "3-5294d6e7b86371cf126836a05bcf16c0"
+            }
+        ],
+        "path": [],
+        "field_access_constraints": [
+            {
+                "value": "\u003Cp\u003EData is open to anyone but requires accepting an ESA-specific license,\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_accuracy_and_limitations": [],
+        "field_acknowledgments": [],
+        "field_alternate_title": [
+            {
+                "value": "Copernicus Australia Hub Sentinel-2 MSI",
+                "format": "basic_html"
+            }
+        ],
+        "field_applications": [
+            {
+                "value": "\u003Cp\u003EExamples for applications include:\u003C\/p\u003E\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003EMonitoring land cover change for environmental monitoring\u003C\/li\u003E\r\n\t\u003Cli\u003EAgricultural applications, such as crop monitoring and management to help food security\u003C\/li\u003E\r\n\t\u003Cli\u003EDetailed vegetation and forest monitoring and parameter generation (e.g. leaf area index, chlorophyll concentration, carbon mass estimations)\u003C\/li\u003E\r\n\t\u003Cli\u003EObservation of coastal zones (marine environmental monitoring, coastal zone mapping)\u003C\/li\u003E\r\n\t\u003Cli\u003EInland water monitoring\u003C\/li\u003E\r\n\t\u003Cli\u003EGlacier monitoring, ice extent mapping, snow cover monitoring\u003C\/li\u003E\r\n\t\u003Cli\u003EFlood mapping \u0026amp; management (risk analysis, loss assessment, disaster management during floods)\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_background": [
+            {
+                "value": "\u003Cp\u003EEurope\u2019s Copernicus programme, and its constituent Sentinel constellation of satellites specifically, has been identified as a critical source of Earth observations from space data for Australia.\u003C\/p\u003E\r\n\r\n\u003Cp\u003ERecognising the importance of these satellites, Geoscience Australia, CSIRO, the Government of New South Wales, Government of Queensland and Government of Western Australia have formed a consortium to make data from Europe\u0027s Sentinel satellites easier to access and use for businesses, researchers, governments and the general public in the South-East Asia and South Pacific region.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EOn 4 November 2015, Australia and the European Union agreed to cooperate and to promote exploitation of data from the Sentinel satellites. A key element of this cooperation is around enhancing data access in the South East Asia-South Pacific region, with Australia agreeing to establish a Data Hub to support data access and exploitation in that region.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EGeoscience Australia, representing consortium partners, is responsible for the download, maintenance and distribution to users of Sentinel-2 data at various levels of processing in South-East Asia\/South Pacific through the regional data hub of Copernicus Australian Area of Interest. The National Computational Infrastructure in Canberra is the master repository of the data.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_backup_and_recovery": [],
+        "field_catalogues": [
+            {
+                "uri": "http:\/\/dap.nci.org.au\/thredds\/remoteCatalogService?catalog=http:\/\/dapds00.nci.org.au\/thredds\/catalog\/fj7\/Copernicus\/Sentinel-1\/catalog.xml",
+                "title": "National Computational Infrastructure THREDDS catalogue",
+                "options": []
+            }
+        ],
+        "field_contact": [],
+        "field_coverage_content_type": [
+            {
+                "target_id": 6950,
+                "target_type": "taxonomy_term",
+                "target_uuid": "4941b5eb-8114-40d7-ab98-f3e74a717f04",
+                "url": "\/taxonomy\/term\/6950"
+            }
+        ],
+        "field_custodian": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_data_description": [],
+        "field_data_ingestion": [],
+        "field_data_ingestion_time_frame": [
+            {
+                "value": "2017-03-21T01:41:04",
+                "end_value": "2017-03-21T01:41:04"
+            }
+        ],
+        "field_data_source_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_data_sources": [],
+        "field_data_transfer": [],
+        "field_developer_title": [],
+        "field_distribution_entity": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_documents": [],
+        "field_doi": [],
+        "field_ecat_id": [],
+        "field_features": [
+            {
+                "value": "\u003Cp\u003EThe Sentinel-2 mission will offer the following capabilities:\u003C\/p\u003E\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003Esystematic global coverage of land surfaces from 56\u00b0S to 84\u00b0N, including coastal waters;\u003C\/li\u003E\r\n\t\u003Cli\u003Ehigh revisit frequency: every five days at the equator under the same viewing conditions;\u003C\/li\u003E\r\n\t\u003Cli\u003Ea wide field of view: 290 km.\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n\r\n\u003Cp\u003ESentinel-2 MultiSpectral Instrument (MSI) has 13 spectral bands in the visible\/near infrared (VNIR) and short wave infrared spectral range (SWIR). In particular:\u003C\/p\u003E\r\n\r\n\u003Cp\u003ESentinel-2 Bands\/ Central Wavelength (\u00b5m) \/Resolution (m)\u003Cbr \/\u003E\r\nBand 1 - Coastal aerosol \/ 0.443 \/ 60\u003Cbr \/\u003E\r\nBand 2 - Blue \/ 0.490 \/10\u003Cbr \/\u003E\r\nBand 3 - Green \/ 0.560 \/ 10\u003Cbr \/\u003E\r\nBand 4 - Red \/ 0.665 \/ 10\u003Cbr \/\u003E\r\nBand 5 - Vegetation Red Edge \/ 0.705\/ 20\u003Cbr \/\u003E\r\nBand 6 - Vegetation Red Edge \/ 0.740 \/ 20\u003Cbr \/\u003E\r\nBand 7 - Vegetation Red Edge \/ 0.783 \/ 20\u003Cbr \/\u003E\r\nBand 8 - NIR \/ 0.842 \/ 10\u003Cbr \/\u003E\r\nBand 8A - Vegetation Red Edge \/ 0.865 \/ 20\u003Cbr \/\u003E\r\nBand 9 - Water vapour \/ 0.945 \/ 60\u003Cbr \/\u003E\r\nBand 10 - SWIR - Cirrus \/ 1.375 \/ 60\u003Cbr \/\u003E\r\nBand 11 - SWIR \/ 1.610 \/ 20\u003Cbr \/\u003E\r\nBand 12 - SWIR \/ 2.190 \/ 20\u003C\/p\u003E\r\n\r\n\u003Cp\u003EThe average observation time per orbit is 17 min, while the peak value is 32 min. The combination of the large swath and broad spectral range, coupled with the requirement for global and continuous acquisition with a high revisit frequency, will lead to the generation of about 1.6 TBytes of compressed raw image data each day from the constellation of two satellites.\u003C\/p\u003E\r\n\r\n\u003Cp\u003ESentinel-2\u0027s multi-spectral imager undertakes systematic acquisition in a single observation mode. Copernicus Australia Hub Sentinel-2 MSI will distribute Level-1C product only: Top of atmosphere reflectances in fixed cartographic geometry (combined UTM projection and WGS84 ellipsoid). Level-1C images are a set of tiles of 100 km2, each of which is approximately 500 MB. These products contain applied radiometric and geometric corrections (including orthorectification and spatial registration). More information at: \u003Ca href=\u0022https:\/\/sentinel.esa.int\/web\/sentinel\/user-guides\/sentinel-2-msi\/product-types\/level-1c\u0022\u003Ehttps:\/\/sentinel.esa.int\/web\/sentinel\/user-guides\/sentinel-2-msi\/product...\u003C\/a\u003E\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_feedback_contact": [
+            {
+                "target_id": 70,
+                "target_type": "node",
+                "target_uuid": "6d21432c-5223-479b-83dd-62905d69a7ff",
+                "url": "\/node\/70"
+            }
+        ],
+        "field_hprm_references": [],
+        "field_images": [],
+        "field_ingestion_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_license": [
+            {
+                "target_id": 6724,
+                "target_type": "taxonomy_term",
+                "target_uuid": "f383ed6b-5ece-4241-a686-9ea847269e6e",
+                "url": "\/taxonomy\/term\/6724"
+            }
+        ],
+        "field_maintenance": [],
+        "field_maintenance_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_media_contact": [
+            {
+                "target_id": 69,
+                "target_type": "node",
+                "target_uuid": "254fd315-8ea7-4a9f-a591-0a166e583293",
+                "url": "\/node\/69"
+            }
+        ],
+        "field_metadata_catalogue_time_fr": [
+            {
+                "value": "2017-05-20T01:41:04",
+                "end_value": "2017-05-20T01:41:04"
+            }
+        ],
+        "field_metadata_contact": [
+            {
+                "target_id": 68,
+                "target_type": "node",
+                "target_uuid": "ce66a680-27fc-4712-9c9e-bbc14b0ff8ed",
+                "url": "\/node\/68"
+            }
+        ],
+        "field_nci_for_codes": [],
+        "field_nci_geonetwork_id": [],
+        "field_nci_product_name": [],
+        "field_nci_project_code": [],
+        "field_one_line_summary": [
+            {
+                "value": "SENTINEL-2 uses twin polar-orbiting satellites to monitor variability in land surface conditions.",
+                "format": "basic_html"
+            }
+        ],
+        "field_ordering_entity": [
+            {
+                "target_id": 65,
+                "target_type": "node",
+                "target_uuid": "0902e4b7-2788-46e6-ac6e-603aba2d98e9",
+                "url": "\/node\/65"
+            }
+        ],
+        "field_overview": [
+            {
+                "value": "\u003Cp\u003EThe full SENTINEL-2 mission comprises twin polar-orbiting satellites in the same orbit, phased at 180\u00b0 to each other. The mission carries optical sensors and monitors variability in land surface conditions.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_principal_contact": [
+            {
+                "target_id": 65,
+                "target_type": "node",
+                "target_uuid": "0902e4b7-2788-46e6-ac6e-603aba2d98e9",
+                "url": "\/node\/65"
+            }
+        ],
+        "field_principal_contributors": [],
+        "field_processes": [],
+        "field_product_life_span": [
+            {
+                "value": "2017-03-21T01:41:04",
+                "end_value": "2017-03-21T01:41:04"
+            }
+        ],
+        "field_product_type": [],
+        "field_production_stage": [],
+        "field_publishing_entity": [],
+        "field_publishing_time_frame": [
+            {
+                "value": "2017-06-19T01:41:04",
+                "end_value": "2017-06-19T01:41:04"
+            }
+        ],
+        "field_qa_contact": [
+            {
+                "target_id": 67,
+                "target_type": "node",
+                "target_uuid": "de760eb7-3f10-4b69-96b2-04f7c0e50bf6",
+                "url": "\/node\/67"
+            }
+        ],
+        "field_qa_time_frame": [
+            {
+                "value": "2017-03-21T01:41:04",
+                "end_value": "2017-03-21T01:41:04"
+            }
+        ],
+        "field_quality_assurance": [],
+        "field_resource_type": [
+            {
+                "target_id": 6671,
+                "target_type": "taxonomy_term",
+                "target_uuid": "d56ac5fe-8efa-4e4d-8f40-20f9883ef37b",
+                "url": "\/taxonomy\/term\/6671"
+            }
+        ],
+        "field_resource_type_definition": [],
+        "field_reviewer": [],
+        "field_rights_statement": [],
+        "field_security_classification": [
+            {
+                "target_id": 6725,
+                "target_type": "taxonomy_term",
+                "target_uuid": "d7d8386f-bae1-43c7-b543-367f41f17e36",
+                "url": "\/taxonomy\/term\/6725"
+            }
+        ],
+        "field_services": [],
+        "field_simple_title": [
+            {
+                "value": "Sentinel-2 MSI",
+                "format": "basic_html"
+            }
+        ],
+        "field_software_dependencies": [],
+        "field_subject_matter_experts": [],
+        "field_summary": [],
+        "field_tables": [],
+        "field_update_frequency": [
+            {
+                "target_id": 6697,
+                "target_type": "taxonomy_term",
+                "target_uuid": "bc69c89f-deef-463b-9be8-b5c9962fe979",
+                "url": "\/taxonomy\/term\/6697"
+            }
+        ],
+        "field_use_constraints": [
+            {
+                "value": "\u003Cp\u003ENot recorded.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_version_number": [],
+        "field_websites": [
+            {
+                "uri": "http:\/\/www.copernicus.gov.au\/regionaldatahub",
+                "title": "Copernicus Australia Regional Data Hub",
+                "options": []
+            }
+        ]
+    },
+    {
+        "nid": [
+            {
+                "value": 123
+            }
+        ],
+        "uuid": [
+            {
+                "value": "78554b2c-7347-4cc6-a1d6-2641d2f85c05"
+            }
+        ],
+        "vid": [
+            {
+                "value": 206
+            }
+        ],
+        "langcode": [
+            {
+                "value": "en"
+            }
+        ],
+        "type": [
+            {
+                "target_id": "product",
+                "target_type": "node_type",
+                "target_uuid": "9b63d36e-b747-4565-9991-99c5a3e112ff"
+            }
+        ],
+        "status": [
+            {
+                "value": true
+            }
+        ],
+        "title": [
+            {
+                "value": "Sentinel-1 SAR"
+            }
+        ],
+        "uid": [
+            {
+                "target_id": 1,
+                "target_type": "user",
+                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                "url": "\/user\/1"
+            }
+        ],
+        "created": [
+            {
+                "value": 1490060464
+            }
+        ],
+        "changed": [
+            {
+                "value": 1490061019
+            }
+        ],
+        "promote": [
+            {
+                "value": false
+            }
+        ],
+        "sticky": [
+            {
+                "value": false
+            }
+        ],
+        "revision_timestamp": [
+            {
+                "value": 1490061019
+            }
+        ],
+        "revision_uid": [
+            {
+                "target_id": 1,
+                "target_type": "user",
+                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                "url": "\/user\/1"
+            }
+        ],
+        "revision_log": [],
+        "revision_translation_affected": [],
+        "default_langcode": [
+            {
+                "value": true
+            }
+        ],
+        "moderation_state": [
+            {
+                "value": "draft"
+            }
+        ],
+        "workspace": [
+            {
+                "target_id": 1,
+                "target_type": "workspace",
+                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+            }
+        ],
+        "_deleted": [
+            {
+                "value": false
+            }
+        ],
+        "_rev": [
+            {
+                "value": "2-4f830932088acbd794b87caf20a4698c"
+            }
+        ],
+        "path": [],
+        "field_access_constraints": [
+            {
+                "value": "\u003Cp\u003EData is open to anyone but requires accepting an ESA-specific license,\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_accuracy_and_limitations": [],
+        "field_acknowledgments": [],
+        "field_alternate_title": [
+            {
+                "value": "Copernicus Australia Hub Sentinel-1 SAR",
+                "format": "basic_html"
+            }
+        ],
+        "field_applications": [
+            {
+                "value": "\u003Cp\u003EPotential applications are:\u003C\/p\u003E\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003EMonitoring sea ice zones and the Arctic environment, and surveillance of marine environment.\u003C\/li\u003E\r\n\t\u003Cli\u003EMonitoring land surface motion risks\u003C\/li\u003E\r\n\t\u003Cli\u003EMapping of land surfaces: forest, water and soil\u003C\/li\u003E\r\n\t\u003Cli\u003EMapping in support of humanitarian aid in crisis situations\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_background": [
+            {
+                "value": "\u003Cp\u003EEurope\u2019s Copernicus programme, and its constituent Sentinel constellation of satellites specifically, has been identified as a critical source of Earth observations from space data for Australia.\u003C\/p\u003E\r\n\r\n\u003Cp\u003ERecognising the importance of these satellites, Geoscience Australia, CSIRO, the Government of New South Wales, Government of Queensland and Government of Western Australia have formed a consortium to make data from Europe\u0027s Sentinel satellites easier to access and use for businesses, researchers, governments and the general public in the South-East Asia and South Pacific region.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EOn 4 November 2015, Australia and the European Union agreed to cooperate and to promote exploitation of data from the Sentinel satellites. A key element of this cooperation is around enhancing data access in the South East Asia-South Pacific region, with Australia agreeing to establish a Data Hub to support data access and exploitation in that region.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EGeoscience Australia, representing consortium partners, is responsible for the download, maintenance and distribution to users of Sentinel-1 data at various levels of processing in South-East Asia\/South Pacific through the regional data hub of Copernicus Australian Area of Interest. The National Computational Infrastructure in Canberra is the master repository of the data.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_backup_and_recovery": [],
+        "field_catalogues": [
+            {
+                "uri": "http:\/\/dap.nci.org.au\/thredds\/remoteCatalogService?catalog=http:\/\/dapds00.nci.org.au\/thredds\/catalog\/fj7\/Copernicus\/Sentinel-1\/catalog.xml",
+                "title": "National Computational Infrastructure THREDDS catalogue",
+                "options": []
+            }
+        ],
+        "field_contact": [],
+        "field_coverage_content_type": [
+            {
+                "target_id": 6950,
+                "target_type": "taxonomy_term",
+                "target_uuid": "4941b5eb-8114-40d7-ab98-f3e74a717f04",
+                "url": "\/taxonomy\/term\/6950"
+            }
+        ],
+        "field_custodian": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_data_description": [],
+        "field_data_ingestion": [],
+        "field_data_ingestion_time_frame": [
+            {
+                "value": "2017-03-21T01:41:04",
+                "end_value": "2017-03-21T01:41:04"
+            }
+        ],
+        "field_data_source_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_data_sources": [],
+        "field_data_transfer": [],
+        "field_developer_title": [],
+        "field_distribution_entity": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_documents": [],
+        "field_doi": [],
+        "field_ecat_id": [],
+        "field_features": [
+            {
+                "value": "\u003Cp\u003ESentinel-1 Synthetic Aperture Radar (SAR) data products are acquired in Stripmap (SM), Interferometric Wide swath (IW), Extra Wide swath (EW) and Wave (WV) mode and are distributed at three levels of processing:\u003C\/p\u003E\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003ELevel-0: SAR raw data\u003C\/li\u003E\r\n\t\u003Cli\u003ELevel-1: Single Look Complex (SLC) data comprising complex imagery with amplitude and phase, and Ground Range Detected (GRD) data with multi-looked intensity only;\u003C\/li\u003E\r\n\t\u003Cli\u003ELevel-2: Ocean (OCN) data for retrieved geophysical parameters of the ocean.\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n\r\n\u003Cp\u003EMore information at: \u003Ca href=\u0022https:\/\/sentinel.esa.int\/web\/sentinel\/user-guides\/sentinel-1-sar\/product-types-processing-levels\u0022\u003Ehttps:\/\/sentinel.esa.int\/web\/sentinel\/user-guides\/sentinel-1-sar\/product...\u003C\/a\u003E\u003C\/p\u003E\r\n\r\n\u003Cp\u003EA single SENTINEL-1 satellite is potentially able to map the global landmasses in the Interferometric Wide swath mode once every 12 days, in a single pass (ascending or descending). The two-satellite constellation offers a 6 day exact repeat cycle at the equator. Since the orbit track spacing varies with latitude, the revisit rate is significantly greater at higher latitudes than at the equator.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_feedback_contact": [
+            {
+                "target_id": 70,
+                "target_type": "node",
+                "target_uuid": "6d21432c-5223-479b-83dd-62905d69a7ff",
+                "url": "\/node\/70"
+            }
+        ],
+        "field_hprm_references": [],
+        "field_images": [],
+        "field_ingestion_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_license": [
+            {
+                "target_id": 6724,
+                "target_type": "taxonomy_term",
+                "target_uuid": "f383ed6b-5ece-4241-a686-9ea847269e6e",
+                "url": "\/taxonomy\/term\/6724"
+            }
+        ],
+        "field_maintenance": [],
+        "field_maintenance_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_media_contact": [
+            {
+                "target_id": 69,
+                "target_type": "node",
+                "target_uuid": "254fd315-8ea7-4a9f-a591-0a166e583293",
+                "url": "\/node\/69"
+            }
+        ],
+        "field_metadata_catalogue_time_fr": [
+            {
+                "value": "2017-05-20T01:41:04",
+                "end_value": "2017-05-20T01:41:04"
+            }
+        ],
+        "field_metadata_contact": [
+            {
+                "target_id": 68,
+                "target_type": "node",
+                "target_uuid": "ce66a680-27fc-4712-9c9e-bbc14b0ff8ed",
+                "url": "\/node\/68"
+            }
+        ],
+        "field_nci_for_codes": [],
+        "field_nci_geonetwork_id": [],
+        "field_nci_product_name": [],
+        "field_nci_project_code": [],
+        "field_one_line_summary": [
+            {
+                "value": "The SENTINEL-1 mission is a constellation of two polar-orbiting satellites performing C-band synthetic aperture radar imaging.",
+                "format": "basic_html"
+            }
+        ],
+        "field_ordering_entity": [
+            {
+                "target_id": 65,
+                "target_type": "node",
+                "target_uuid": "0902e4b7-2788-46e6-ac6e-603aba2d98e9",
+                "url": "\/node\/65"
+            }
+        ],
+        "field_overview": [
+            {
+                "value": "\u003Cp\u003EThe SENTINEL-1 mission comprises a constellation of two polar-orbiting satellites, operating day and night performing C-band synthetic aperture radar imaging, enabling them to acquire imagery regardless of the weather.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_principal_contact": [
+            {
+                "target_id": 65,
+                "target_type": "node",
+                "target_uuid": "0902e4b7-2788-46e6-ac6e-603aba2d98e9",
+                "url": "\/node\/65"
+            }
+        ],
+        "field_principal_contributors": [],
+        "field_processes": [],
+        "field_product_life_span": [
+            {
+                "value": "2017-03-21T01:41:04",
+                "end_value": "2017-03-21T01:41:04"
+            }
+        ],
+        "field_product_type": [],
+        "field_production_stage": [],
+        "field_publishing_entity": [],
+        "field_publishing_time_frame": [
+            {
+                "value": "2017-06-19T01:41:04",
+                "end_value": "2017-06-19T01:41:04"
+            }
+        ],
+        "field_qa_contact": [
+            {
+                "target_id": 67,
+                "target_type": "node",
+                "target_uuid": "de760eb7-3f10-4b69-96b2-04f7c0e50bf6",
+                "url": "\/node\/67"
+            }
+        ],
+        "field_qa_time_frame": [
+            {
+                "value": "2017-03-21T01:41:04",
+                "end_value": "2017-03-21T01:41:04"
+            }
+        ],
+        "field_quality_assurance": [],
+        "field_resource_type": [
+            {
+                "target_id": 6671,
+                "target_type": "taxonomy_term",
+                "target_uuid": "d56ac5fe-8efa-4e4d-8f40-20f9883ef37b",
+                "url": "\/taxonomy\/term\/6671"
+            }
+        ],
+        "field_resource_type_definition": [],
+        "field_reviewer": [],
+        "field_rights_statement": [],
+        "field_security_classification": [
+            {
+                "target_id": 6725,
+                "target_type": "taxonomy_term",
+                "target_uuid": "d7d8386f-bae1-43c7-b543-367f41f17e36",
+                "url": "\/taxonomy\/term\/6725"
+            }
+        ],
+        "field_services": [],
+        "field_simple_title": [
+            {
+                "value": "Sentinel-1 SAR",
+                "format": "basic_html"
+            }
+        ],
+        "field_software_dependencies": [],
+        "field_subject_matter_experts": [],
+        "field_summary": [],
+        "field_tables": [],
+        "field_update_frequency": [
+            {
+                "target_id": 6697,
+                "target_type": "taxonomy_term",
+                "target_uuid": "bc69c89f-deef-463b-9be8-b5c9962fe979",
+                "url": "\/taxonomy\/term\/6697"
+            }
+        ],
+        "field_use_constraints": [
+            {
+                "value": "\u003Cp\u003ENot recorded.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_version_number": [],
+        "field_websites": [
+            {
+                "uri": "http:\/\/www.copernicus.gov.au\/regionaldatahub",
+                "title": "Copernicus Australia Regional Data Hub",
+                "options": []
+            }
+        ]
+    },
+    {
+        "nid": [
+            {
+                "value": 122
+            }
+        ],
+        "uuid": [
+            {
+                "value": "e3579cf9-83d5-4349-9967-0476a64c8dc2"
+            }
+        ],
+        "vid": [
+            {
+                "value": 204
+            }
+        ],
+        "langcode": [
+            {
+                "value": "en"
+            }
+        ],
+        "type": [
+            {
+                "target_id": "product",
+                "target_type": "node_type",
+                "target_uuid": "9b63d36e-b747-4565-9991-99c5a3e112ff"
+            }
+        ],
+        "status": [
+            {
+                "value": true
+            }
+        ],
+        "title": [
+            {
+                "value": "WO-STATS_25_2.1.5"
+            }
+        ],
+        "uid": [
+            {
+                "target_id": 1,
+                "target_type": "user",
+                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                "url": "\/user\/1"
+            }
+        ],
+        "created": [
+            {
+                "value": 1490052613
+            }
+        ],
+        "changed": [
+            {
+                "value": 1490054289
+            }
+        ],
+        "promote": [
+            {
+                "value": false
+            }
+        ],
+        "sticky": [
+            {
+                "value": false
+            }
+        ],
+        "revision_timestamp": [
+            {
+                "value": 1490054289
+            }
+        ],
+        "revision_uid": [
+            {
+                "target_id": 1,
+                "target_type": "user",
+                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                "url": "\/user\/1"
+            }
+        ],
+        "revision_log": [],
+        "revision_translation_affected": [
+            {
+                "value": true
+            }
+        ],
+        "default_langcode": [
+            {
+                "value": true
+            }
+        ],
+        "moderation_state": [
+            {
+                "value": "draft"
+            }
+        ],
+        "workspace": [
+            {
+                "target_id": 1,
+                "target_type": "workspace",
+                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+            }
+        ],
+        "_deleted": [
+            {
+                "value": false
+            }
+        ],
+        "_rev": [
+            {
+                "value": "1-ec1dcb89c2ddfabf32e6cf4ffd563285"
+            }
+        ],
+        "path": [],
+        "field_access_constraints": [],
+        "field_accuracy_and_limitations": [
+            {
+                "value": "\u003Cp\u003EPlease refer to the SR-N_25_2.0.0 Product Description (GA, 2013) for the accuracy and limitations of the atmospheric, BRDF and topographic shading processing sequence. Please refer to Mueller et al. 2016 for details on accuracy and limitations.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_acknowledgments": [
+            {
+                "value": "\u003Cp\u003ELandsat data is provided by the United States Geological Survey (USGS) through direct reception of the data at Geoscience Australias satellite reception facility or download.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_alternate_title": [
+            {
+                "value": "Water Observations from Space Statistics 25m 2.1.5",
+                "format": "basic_html"
+            }
+        ],
+        "field_applications": [
+            {
+                "value": "\u003Cp\u003EThe primary purpose of the WO_2.1.5 and WO_STATS_2.1.5 products is to help understand where flooding may have occurred in the past. This has application in emergency management and risk assessment.\u003Cbr \/\u003E\r\nThe product has many secondary uses. For example the products provide an indication of the permanence of surface water in the Australian landscape by showing where water is observed rarely in comparison to where it is often observed. This has application in water management and mapping. The products have also been used for wetland analyses, water connectivity and surface-ground water relationships.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_background": [
+            {
+                "value": "\u003Cp\u003EThe Water Observations from Space product (WO_2.1.5) is a key component of the National Flood Risk Information Portal (NFRIP), developed by Geoscience Australia (GA). The objective of Water Observations from Space is to analyse GA\u0027s historic archive of satellite imagery to derive water observations, to help understand where flooding may have occurred in the past. The collection of many hundred thousand WOFLs that make up WO_2.1.5 are too cumbersome to display easily. WO_STATS_2.1.5 provides the mechanism to present and deliver WO_2.1.5 in an easily digestible form, and provides understanding of water in the landscape.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_backup_and_recovery": [],
+        "field_catalogues": [],
+        "field_contact": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_coverage_content_type": [],
+        "field_custodian": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_data_description": [],
+        "field_data_ingestion": [],
+        "field_data_ingestion_time_frame": [
+            {
+                "value": "2017-03-20T23:30:13",
+                "end_value": "2017-03-20T23:30:13"
+            }
+        ],
+        "field_data_source_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_data_sources": [
+            {
+                "target_id": 121,
+                "target_type": "node",
+                "target_uuid": "150873e7-7aa8-472d-91ea-dd250ac663ef",
+                "url": "\/node\/121"
+            }
+        ],
+        "field_data_transfer": [],
+        "field_developer_title": [],
+        "field_distribution_entity": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_documents": [],
+        "field_doi": [],
+        "field_ecat_id": [
+            {
+                "value": "81568"
+            }
+        ],
+        "field_features": [
+            {
+                "value": "\u003Cp\u003EWO_STATS_2.1.5 delivers statistics of the WO_2.1.5 data in cumulative \u0022summaries\u0022 that combine all water observations from the entire time series into a gridded datasets. Each WOFL in WO_2.1.5 provides information for each pixel, defining whether an observation was clear and dry, clear and wet or masked due to the presence of clouds, shadows or technical issues with the observation. WO_STATS_2.1.5 provides basic statistical summaries of the observation of each pixel through the entire time series from 1987 to present. Five statistics are calculated and delivered as individual dataset: There are five datasets:\u003C\/p\u003E\r\n\r\n\u003Col\u003E\r\n\t\u003Cli\u003ETotal number of clear observations for the pixel, is a count per pixel of the number of observations that were clear and either wet or dry for the full depth of the time series.\u003C\/li\u003E\r\n\t\u003Cli\u003ETotal number of wet observation for the pixel, is a count per pixel of the number of observations that were clear and wet for the full depth of the time series.\u003C\/li\u003E\r\n\t\u003Cli\u003ESummary, is the ratio of clear wet observations to clear wet or dry observation, expressed as a percentage.\u003C\/li\u003E\r\n\t\u003Cli\u003EConfidence, is a value assigned to each pixel based on a statistical analysis of factors, including topographic position, elevation and slope, other independent satellite observations of water, topographic maps of water features, and the observation frequency. It indicates how well the Summary indicates the presence of water in a pixel.\u003C\/li\u003E\r\n\t\u003Cli\u003EFiltered Summary, is produced by combining the Summary and Confidence outputs to mask out those areas where Confidence is less than 1%. Online display of the Water Observations from Space suite of products defaults to the Filtered Summary.\u003C\/li\u003E\r\n\u003C\/ol\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_feedback_contact": [
+            {
+                "target_id": 70,
+                "target_type": "node",
+                "target_uuid": "6d21432c-5223-479b-83dd-62905d69a7ff",
+                "url": "\/node\/70"
+            }
+        ],
+        "field_hprm_references": [
+            {
+                "value": "D2014-70006"
+            },
+            {
+                "value": "D2015-8035"
+            }
+        ],
+        "field_images": [],
+        "field_ingestion_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_license": [
+            {
+                "target_id": 6718,
+                "target_type": "taxonomy_term",
+                "target_uuid": "519c97b7-c3a8-4a44-b2cf-ea0de47683a8",
+                "url": "\/taxonomy\/term\/6718"
+            }
+        ],
+        "field_maintenance": [],
+        "field_maintenance_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_media_contact": [
+            {
+                "target_id": 69,
+                "target_type": "node",
+                "target_uuid": "254fd315-8ea7-4a9f-a591-0a166e583293",
+                "url": "\/node\/69"
+            }
+        ],
+        "field_metadata_catalogue_time_fr": [
+            {
+                "value": "2017-05-19T23:30:13",
+                "end_value": "2017-05-19T23:30:13"
+            }
+        ],
+        "field_metadata_contact": [
+            {
+                "target_id": 68,
+                "target_type": "node",
+                "target_uuid": "ce66a680-27fc-4712-9c9e-bbc14b0ff8ed",
+                "url": "\/node\/68"
+            }
+        ],
+        "field_nci_for_codes": [
+            {
+                "target_id": 6915,
+                "target_type": "taxonomy_term",
+                "target_uuid": "38e30bd0-6a45-4f0d-bfb9-9062b82268b3",
+                "url": "\/taxonomy\/term\/6915"
+            }
+        ],
+        "field_nci_geonetwork_id": [],
+        "field_nci_product_name": [],
+        "field_nci_project_code": [
+            {
+                "value": "fk4"
+            }
+        ],
+        "field_one_line_summary": [
+            {
+                "value": "Water Observations from Space Statistics (WO_STATS_2.1.5) is a set of gridded datasets derived from the Water Observations from Space dataset (WO_2.1.5).",
+                "format": "basic_html"
+            }
+        ],
+        "field_ordering_entity": [
+            {
+                "target_id": 65,
+                "target_type": "node",
+                "target_uuid": "0902e4b7-2788-46e6-ac6e-603aba2d98e9",
+                "url": "\/node\/65"
+            }
+        ],
+        "field_overview": [
+            {
+                "value": "\u003Cp\u003EWater Observations from Space Statistics (WO_STATS_2.1.5) is a set of gridded datasets derived from the Water Observations from Space dataset (WO_2.1.5). WO_STATS_2.1.5 provides five statistical summaries of the WO_2.1.5 dataset:\u003C\/p\u003E\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003Ethe number of clear satellite observations from 1987 to present day;\u003C\/li\u003E\r\n\t\u003Cli\u003Ethe number of occasions water was detected;\u003C\/li\u003E\r\n\t\u003Cli\u003Ethe percentage of clear observations on which water was detected;\u003C\/li\u003E\r\n\t\u003Cli\u003Ethe confidence (or probability) that a water observation in this location is correct. This is a percentage, based on a number of factors including the slope of the land and the existence of other corroborative evidence.\u003C\/li\u003E\r\n\t\u003Cli\u003EThe percentage of clear observations on which water was detected, masked where the confidence is less than 1%.\u003C\/li\u003E\r\n\t\u003Cli\u003EWO_STATS_2.1.5 is updated for each update of WO_2.1.5.\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_principal_contact": [
+            {
+                "target_id": 65,
+                "target_type": "node",
+                "target_uuid": "0902e4b7-2788-46e6-ac6e-603aba2d98e9",
+                "url": "\/node\/65"
+            }
+        ],
+        "field_principal_contributors": [],
+        "field_processes": [],
+        "field_product_life_span": [
+            {
+                "value": "2017-03-20T23:30:13",
+                "end_value": "2017-03-20T23:30:13"
+            }
+        ],
+        "field_product_type": [
+            {
+                "target_id": 6664,
+                "target_type": "taxonomy_term",
+                "target_uuid": "b66971bd-53ac-40f6-b046-206ab3a972d1",
+                "url": "\/taxonomy\/term\/6664"
+            }
+        ],
+        "field_production_stage": [],
+        "field_publishing_entity": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_publishing_time_frame": [
+            {
+                "value": "2017-06-18T23:30:13",
+                "end_value": "2017-06-18T23:30:13"
+            }
+        ],
+        "field_qa_contact": [
+            {
+                "target_id": 67,
+                "target_type": "node",
+                "target_uuid": "de760eb7-3f10-4b69-96b2-04f7c0e50bf6",
+                "url": "\/node\/67"
+            }
+        ],
+        "field_qa_time_frame": [
+            {
+                "value": "2017-03-20T23:30:13",
+                "end_value": "2017-03-20T23:30:13"
+            }
+        ],
+        "field_quality_assurance": [
+            {
+                "value": "\u003Cp\u003EPlease refer to the SR-N_25_2.0.0 Product Description for the validation of the atmospheric, BRDF and topographic shading processing sequence.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_resource_type": [
+            {
+                "target_id": 6671,
+                "target_type": "taxonomy_term",
+                "target_uuid": "d56ac5fe-8efa-4e4d-8f40-20f9883ef37b",
+                "url": "\/taxonomy\/term\/6671"
+            }
+        ],
+        "field_resource_type_definition": [
+            {
+                "target_id": 6694,
+                "target_type": "taxonomy_term",
+                "target_uuid": "528e9c1a-3c49-41a9-ae03-ed9e41653f69",
+                "url": "\/taxonomy\/term\/6694"
+            }
+        ],
+        "field_reviewer": [],
+        "field_rights_statement": [
+            {
+                "value": "\u003Cp\u003E(c) Commonwealth of Australia (Geoscience Australia) 2015. Creative Commons Attribution 4.0 International License. https:\/\/creativecommons.org\/licenses\/by\/4.0\/.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_security_classification": [
+            {
+                "target_id": 6725,
+                "target_type": "taxonomy_term",
+                "target_uuid": "d7d8386f-bae1-43c7-b543-367f41f17e36",
+                "url": "\/taxonomy\/term\/6725"
+            }
+        ],
+        "field_services": [
+            {
+                "uri": "http:\/\/eos.ga.gov.au\/geoserver\/web\/",
+                "title": "WMS",
+                "options": []
+            }
+        ],
+        "field_simple_title": [
+            {
+                "value": "Water Observations from Space Statistics 2.1.5",
+                "format": "basic_html"
+            }
+        ],
+        "field_software_dependencies": [],
+        "field_subject_matter_experts": [
+            {
+                "target_id": 6,
+                "target_type": "node",
+                "target_uuid": "6ae4e810-3899-4dd3-bfa2-15ba818211c6",
+                "url": "\/node\/6"
+            }
+        ],
+        "field_summary": [],
+        "field_tables": [],
+        "field_update_frequency": [
+            {
+                "target_id": 6697,
+                "target_type": "taxonomy_term",
+                "target_uuid": "bc69c89f-deef-463b-9be8-b5c9962fe979",
+                "url": "\/taxonomy\/term\/6697"
+            }
+        ],
+        "field_use_constraints": [
+            {
+                "value": "\u003Cp\u003E(c) Commonwealth of Australia (Geoscience Australia) 2015. Creative Commons Attribution 4.0 International License. https:\/\/creativecommons.org\/licenses\/by\/4.0\/. Please refer to Mueller et al. 2016 for further details.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_version_number": [
+            {
+                "value": "2.1.5"
+            }
+        ],
+        "field_websites": [
+            {
+                "uri": "http:\/\/www.ga.gov.au\/hazards\/flood\/portal\/national-flood-risk-information-portal.html",
+                "title": "National Flood Risk Information Project (NFRIP) Portal",
+                "options": []
+            }
+        ]
+    },
+    {
+        "nid": [
+            {
+                "value": 121
+            }
+        ],
+        "uuid": [
+            {
+                "value": "150873e7-7aa8-472d-91ea-dd250ac663ef"
+            }
+        ],
+        "vid": [
+            {
+                "value": 203
+            }
+        ],
+        "langcode": [
+            {
+                "value": "en"
+            }
+        ],
+        "type": [
+            {
+                "target_id": "product",
+                "target_type": "node_type",
+                "target_uuid": "9b63d36e-b747-4565-9991-99c5a3e112ff"
+            }
+        ],
+        "status": [
+            {
+                "value": true
+            }
+        ],
+        "title": [
+            {
+                "value": "WO_25_2.1.5"
+            }
+        ],
+        "uid": [
+            {
+                "target_id": 1,
+                "target_type": "user",
+                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                "url": "\/user\/1"
+            }
+        ],
+        "created": [
+            {
+                "value": 1489988156
+            }
+        ],
+        "changed": [
+            {
+                "value": 1489988548
+            }
+        ],
+        "promote": [
+            {
+                "value": false
+            }
+        ],
+        "sticky": [
+            {
+                "value": false
+            }
+        ],
+        "revision_timestamp": [
+            {
+                "value": 1489988548
+            }
+        ],
+        "revision_uid": [
+            {
+                "target_id": 1,
+                "target_type": "user",
+                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                "url": "\/user\/1"
+            }
+        ],
+        "revision_log": [],
+        "revision_translation_affected": [
+            {
+                "value": true
+            }
+        ],
+        "default_langcode": [
+            {
+                "value": true
+            }
+        ],
+        "moderation_state": [
+            {
+                "value": "draft"
+            }
+        ],
+        "workspace": [
+            {
+                "target_id": 1,
+                "target_type": "workspace",
+                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+            }
+        ],
+        "_deleted": [
+            {
+                "value": false
+            }
+        ],
+        "_rev": [
+            {
+                "value": "1-c445db2b33a858027f2a0ae58ebbb079"
+            }
+        ],
+        "path": [],
+        "field_access_constraints": [],
+        "field_accuracy_and_limitations": [],
+        "field_acknowledgments": [],
+        "field_alternate_title": [
+            {
+                "value": "Water Observations from Space 25m 2.1.5",
+                "format": "basic_html"
+            }
+        ],
+        "field_applications": [
+            {
+                "value": "\u003Cp\u003EThe primary purpose of the WO_25_2.1.5 product is to help understand where flooding may have occurred in the past. This has application in emergency management and risk assessment.\u003Cbr \/\u003E\r\nThe product has many secondary uses. For example the WO_25_2.1.5 product provides an indication on the permanence of surface water in the Australian landscape by showing where water is observed rarely in comparison to where it is often observed. This has application in water management and mapping. WO_25_2.1.5 has also been used for wetland analyses, water connectivity and surface-ground water relationships.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_background": [
+            {
+                "value": "\u003Cp\u003EThe Water Observations from Space product (WO_25_2.1.5) is a key component of the National Flood Risk Information Portal (NFRIP), developed by Geoscience Australia (GA). The objective of Water Observations from Space is to analyse GA\u0027s historic archive of satellite imagery to derive water observations, to help understand where flooding may have occurred in the past.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_backup_and_recovery": [],
+        "field_catalogues": [],
+        "field_contact": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_coverage_content_type": [],
+        "field_custodian": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_data_description": [
+            {
+                "value": "\u003Cp\u003EData is provided as time series stacks of Water Observation Feature Layers (WOFLs), in a 1 to 1 relationship with the input satellite data. Hence, there is one WOFL for each surface reflectance dataset processed for the occurrence of water in the tile location. WOFLs are stacked into time series NetCDF-CF files for each tile location. WOFLs are structured as bitmap products indicating the presence\/absence of water and any detected confounding pixel quality issues. The bit flags are non-exclusive, so multiple bits may be set to indicate the presence of multiple factors. The frequency of observation for WOfS varies according to which satellites were operational during which years. The breakdown of the satellite observation availability is as follows:\u003C\/p\u003E\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E1987 - 1998: Landsat 5\u003C\/li\u003E\r\n\t\u003Cli\u003E1999: Landsat 5 and Landsat 7\u003C\/li\u003E\r\n\t\u003Cli\u003E2000 - 2003: Landsat 7\u003C\/li\u003E\r\n\t\u003Cli\u003E2003 - 2011: Landsat 5 and Landsat 7\u003C\/li\u003E\r\n\t\u003Cli\u003E2011 - 2013: Landsat 7\u003C\/li\u003E\r\n\t\u003Cli\u003E2013 onward: Landsat 7 and Landsat 8\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_data_ingestion": [],
+        "field_data_ingestion_time_frame": [
+            {
+                "value": "2017-03-20T05:35:56",
+                "end_value": "2017-03-20T05:35:56"
+            }
+        ],
+        "field_data_source_contact": [],
+        "field_data_sources": [],
+        "field_data_transfer": [],
+        "field_developer_title": [],
+        "field_distribution_entity": [],
+        "field_documents": [],
+        "field_doi": [],
+        "field_ecat_id": [],
+        "field_features": [
+            {
+                "value": "\u003Cp\u003EWO_25_2.1.5 shows water observed for every Landsat-5, Landsat-7 and Landsat-8 image across Australia (excluding External Territories) for the period of 1987 to 2016. The dataset is updated quarterly and is expected to increase in update frequency in the future so that as a satellite acquires data, it will automatically be analysed for the presence of water and added to the WO_25_2.1.5 product in near real time.\u003Cbr \/\u003E\r\nData is provided as Water Observation Feature Layers (WOFLs), in a 1 to 1 relationship with the input satellite data. Hence there is one WOFL for each NBAR dataset processed for the occurrence of water. The details of the content of each WOFL is below.\u003Cbr \/\u003E\r\nIn the future, WO_25_2.1.5 will be updated as new data are added. This is potentially possible because the dataset is produced using the Australian Geoscience Data Cube, containing GA\u0027s entire Australian Landsat archive in a supercomputing environment at the National Computational Infrastructure at the Australian National University.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_feedback_contact": [],
+        "field_hprm_references": [],
+        "field_images": [],
+        "field_ingestion_contact": [],
+        "field_license": [
+            {
+                "target_id": 6718,
+                "target_type": "taxonomy_term",
+                "target_uuid": "519c97b7-c3a8-4a44-b2cf-ea0de47683a8",
+                "url": "\/taxonomy\/term\/6718"
+            }
+        ],
+        "field_maintenance": [],
+        "field_maintenance_contact": [],
+        "field_media_contact": [],
+        "field_metadata_catalogue_time_fr": [
+            {
+                "value": "2017-05-19T05:35:56",
+                "end_value": "2017-05-19T05:35:56"
+            }
+        ],
+        "field_metadata_contact": [],
+        "field_nci_for_codes": [],
+        "field_nci_geonetwork_id": [],
+        "field_nci_product_name": [],
+        "field_nci_project_code": [],
+        "field_one_line_summary": [
+            {
+                "value": "Water Observations from Space (WOfS) provides historical surface water observations for all of Australia from 1987 to present.",
+                "format": "basic_html"
+            }
+        ],
+        "field_ordering_entity": [],
+        "field_overview": [
+            {
+                "value": "\u003Cp\u003EWater Observations from Space (WO_25_2.1.5) is a gridded dataset indicating areas where surface water has been observed using the Geoscience Australia (GA) Earth observation satellite data holdings. The current product (Version 1.5) includes observations taken between 1987 and 2016 (inclusive) from the Landsat 5, 7 and 8 satellites. WO_25_2.1.5 covers all of mainland Australia and Tasmania but excludes off-shore Territories.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_principal_contact": [],
+        "field_principal_contributors": [],
+        "field_processes": [],
+        "field_product_life_span": [
+            {
+                "value": "2017-03-20T05:35:56",
+                "end_value": "2017-03-20T05:35:56"
+            }
+        ],
+        "field_product_type": [
+            {
+                "target_id": 6666,
+                "target_type": "taxonomy_term",
+                "target_uuid": "7512c7d3-b137-4db5-9bc9-7f365d5d426b",
+                "url": "\/taxonomy\/term\/6666"
+            }
+        ],
+        "field_production_stage": [],
+        "field_publishing_entity": [],
+        "field_publishing_time_frame": [
+            {
+                "value": "2017-06-18T05:35:56",
+                "end_value": "2017-06-18T05:35:56"
+            }
+        ],
+        "field_qa_contact": [],
+        "field_qa_time_frame": [
+            {
+                "value": "2017-03-20T05:35:56",
+                "end_value": "2017-03-20T05:35:56"
+            }
+        ],
+        "field_quality_assurance": [],
+        "field_resource_type": [
+            {
+                "target_id": 6671,
+                "target_type": "taxonomy_term",
+                "target_uuid": "d56ac5fe-8efa-4e4d-8f40-20f9883ef37b",
+                "url": "\/taxonomy\/term\/6671"
+            }
+        ],
+        "field_resource_type_definition": [
+            {
+                "target_id": 6694,
+                "target_type": "taxonomy_term",
+                "target_uuid": "528e9c1a-3c49-41a9-ae03-ed9e41653f69",
+                "url": "\/taxonomy\/term\/6694"
+            }
+        ],
+        "field_reviewer": [],
+        "field_rights_statement": [],
+        "field_security_classification": [
+            {
+                "target_id": 6725,
+                "target_type": "taxonomy_term",
+                "target_uuid": "d7d8386f-bae1-43c7-b543-367f41f17e36",
+                "url": "\/taxonomy\/term\/6725"
+            }
+        ],
+        "field_services": [],
+        "field_simple_title": [
+            {
+                "value": "Water Observations from Space 2.1.5",
+                "format": "basic_html"
+            }
+        ],
+        "field_software_dependencies": [],
+        "field_subject_matter_experts": [],
+        "field_summary": [
+            {
+                "value": "\u003Cp\u003EWater Observations from Space (WOfS) provides surface water observations derived from satellite imagery for all of Australia from 1987 to the present. The WOfS product allows users to get a better understanding of where water is normally present in a landscape, where water is seldom, and where inundation has occurred occasionally. WOfS displays the detected surface water from cloud-free Landsat observations for the whole of Australia.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_tables": [],
+        "field_update_frequency": [
+            {
+                "target_id": 6697,
+                "target_type": "taxonomy_term",
+                "target_uuid": "bc69c89f-deef-463b-9be8-b5c9962fe979",
+                "url": "\/taxonomy\/term\/6697"
+            }
+        ],
+        "field_use_constraints": [],
+        "field_version_number": [
+            {
+                "value": "2.1.5"
+            }
+        ],
+        "field_websites": []
+    },
+    {
+        "nid": [
+            {
+                "value": 120
+            }
+        ],
+        "uuid": [
+            {
+                "value": "248b520f-a67d-45c5-a260-dfc3fbc2cfed"
+            }
+        ],
+        "vid": [
+            {
+                "value": 202
+            }
+        ],
+        "langcode": [
+            {
+                "value": "en"
+            }
+        ],
+        "type": [
+            {
+                "target_id": "product",
+                "target_type": "node_type",
+                "target_uuid": "9b63d36e-b747-4565-9991-99c5a3e112ff"
+            }
+        ],
+        "status": [
+            {
+                "value": true
+            }
+        ],
+        "title": [
+            {
+                "value": "SR_MEDOID_25_2.0.0"
+            }
+        ],
+        "uid": [
+            {
+                "target_id": 1,
+                "target_type": "user",
+                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                "url": "\/user\/1"
+            }
+        ],
+        "created": [
+            {
+                "value": 1489986720
+            }
+        ],
+        "changed": [
+            {
+                "value": 1489987746
+            }
+        ],
+        "promote": [
+            {
+                "value": false
+            }
+        ],
+        "sticky": [
+            {
+                "value": false
+            }
+        ],
+        "revision_timestamp": [
+            {
+                "value": 1489987746
+            }
+        ],
+        "revision_uid": [
+            {
+                "target_id": 1,
+                "target_type": "user",
+                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                "url": "\/user\/1"
+            }
+        ],
+        "revision_log": [],
+        "revision_translation_affected": [],
+        "default_langcode": [
+            {
+                "value": true
+            }
+        ],
+        "moderation_state": [
+            {
+                "value": "draft"
+            }
+        ],
+        "workspace": [
+            {
+                "target_id": 1,
+                "target_type": "workspace",
+                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+            }
+        ],
+        "_deleted": [
+            {
+                "value": false
+            }
+        ],
+        "_rev": [
+            {
+                "value": "2-8d38b89c3c3c1ad019208023e0742588"
+            }
+        ],
+        "path": [],
+        "field_access_constraints": [],
+        "field_accuracy_and_limitations": [
+            {
+                "value": "\u003Cp\u003EAtmospheric correction accuracy is dependent on the quality of aerosol data available to determine the atmospheric profile at time of image acquisition.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EBRDF correction is based on low resolution imagery (MODIS) which is assumed to be relevant to medium resolution imagery such as Landsat TM\/ETM+\/OLI. BRDF correction is applied to each whole Landsat TM\/ETM+\/OLI scenes and does not account for changes in land cover. It also excludes effects due to topographic shading and local BRDF. This algorithm is dependent on the availability of relevant MODIS BRDF data.\u003C\/p\u003E\r\n\r\n\u003Cp\u003ETopographic shading correction algorithm is designed for medium resolution imagery and assumes that hill slopes are resolved by the sensor system (Li et al., 2012). The algorithm assumes that: a. BRDF effect for inclined surfaces is modelled by the surface slope and does not account for land cover orientation relative to gravity (as occurs for some broad leaf vegetation with vertical leaf orientation).\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_acknowledgments": [],
+        "field_alternate_title": [
+            {
+                "value": "Surface Reflectance NBAR+ 25 Medoid v. 2.0.0",
+                "format": "basic_html"
+            }
+        ],
+        "field_applications": [
+            {
+                "value": "\u003Cp\u003ESR eliminates pre-processing requirements for a wide range of land and coastal monitoring applications and renders more accurate results from analyses, particularly those utilising time series data. Such applications include various forms of change detection, including monitoring of urban growth, coastal habitats, mining activities, and agricultural production, as well as compliance surveys, scientific research and emergency management.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_background": [
+            {
+                "value": "\u003Cp\u003ELandsat Archive\u003Cbr \/\u003E\r\nGA has acquired Landsat imagery over Australia since 1979, including TM, ETM+ and OLI imagery. While this data has been used extensively for numerous land and coastal mapping studies, its utility for accurate monitoring of environmental resources has been limited by the processing methods that have been traditionally used to correct for inherent geometric and radiometric distortions in EO imagery. To improve access to Australia\u2019s archive of Landsat TM\/ETM+\/OLI data, several collaborative projects have been undertaken in conjunction with industry, government and academic partners. These projects have enabled implementation of a more integrated approach to image data correction that incorporates normalising models to account for atmospheric effects, BRDF and topographic shading (Li et al., 2012). The approach has been applied to Landsat TM\/ETM+ and OLI imagery to create the SR products. The advanced supercomputing facilities provided by the National Computational Infrastructure (NCI) at the Australian National University (ANU) have been instrumental in handling the considerable data volumes and processing complexities involved with production of this product.\u003C\/p\u003E\r\n\r\n\u003Cp\u003ESurface Reflectance Correction Models\u003Cbr \/\u003E\r\nImage radiance values recorded by passive EO sensors are a composite of:\u003Cbr \/\u003E\r\n\u2022 surface reflectance;\u003Cbr \/\u003E\r\n\u2022 atmospheric condition;\u003Cbr \/\u003E\r\n\u2022 interaction between surface land cover, solar radiation and sensor view angle; and\u003Cbr \/\u003E\r\n\u2022 land surface orientation relative to the imaging sensor.\u003Cbr \/\u003E\r\nIt has been traditionally assumed that Landsat imagery display negligible variation in sun and sensor view angles, however these can vary significantly both within and between scenes, especially in different seasons and geographic regions (Li et al., 2012). The SR product delivers modeled surface reflectance from Landsat TM\/ETM+\/OLI\/ data using physical rather than empirical models. Accordingly, this product will ensure that reflective value differences between imagery acquired at different times by different sensors will be primarily due to on-ground changes in biophysical parameters rather than artifacts of the imaging environment.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EIntegrated Time Series Data\u003Cbr \/\u003E\r\nOnce consistent and comparable measures of surface reflectance have been retrieved from EO data, it is possible to quantify changes in Earth surface features through time.\u003Cbr \/\u003E\r\nGiven the growing time series of EO imagery, this landmark facility will streamline the process of reliably monitoring long-term changes in land and water resources.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_backup_and_recovery": [
+            {
+                "value": "\u003Cp\u003EThe low level (aka raw or Level 0 or RCC) data from which this collection is derived is stored at the NCI (working copy), at GA (authoritative Australian archive) and at the USGS (authoritative global archive). The SR collection can be recreated from the low level data. Interim processing levels (aka Level 1T) are also stored at the NCI.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_catalogues": [],
+        "field_contact": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_coverage_content_type": [],
+        "field_custodian": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_data_description": [],
+        "field_data_ingestion": [
+            {
+                "value": "\u003Cp\u003EData is transferred using rsync from GA project space to the RDSI.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_data_ingestion_time_frame": [
+            {
+                "value": "2017-03-20T05:12:00",
+                "end_value": "2017-03-20T05:12:00"
+            }
+        ],
+        "field_data_source_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_data_sources": [
+            {
+                "target_id": 40,
+                "target_type": "node",
+                "target_uuid": "327ef1c6-a29d-49a6-bf5b-c19735956382",
+                "url": "\/node\/40"
+            },
+            {
+                "target_id": 41,
+                "target_type": "node",
+                "target_uuid": "af1ad1c1-124c-41d7-af7c-60e1cb712e4a",
+                "url": "\/node\/41"
+            },
+            {
+                "target_id": 42,
+                "target_type": "node",
+                "target_uuid": "96909ae8-b10b-43e9-883a-639f4bda78d4",
+                "url": "\/node\/42"
+            },
+            {
+                "target_id": 47,
+                "target_type": "node",
+                "target_uuid": "95d49888-d884-4dd1-85a8-973492d7ec99",
+                "url": "\/node\/47"
+            },
+            {
+                "target_id": 49,
+                "target_type": "node",
+                "target_uuid": "04085299-9fac-4d42-aa19-54eedaa78161",
+                "url": "\/node\/49"
+            },
+            {
+                "target_id": 50,
+                "target_type": "node",
+                "target_uuid": "cf43a830-13f4-4ec8-8f95-1c6550412ba2",
+                "url": "\/node\/50"
+            },
+            {
+                "target_id": 51,
+                "target_type": "node",
+                "target_uuid": "96d9bd89-855e-4828-8f32-7de50dfa63b7",
+                "url": "\/node\/51"
+            },
+            {
+                "target_id": 52,
+                "target_type": "node",
+                "target_uuid": "856fb6f3-d64f-4679-9d29-42c1735e5e9c",
+                "url": "\/node\/52"
+            },
+            {
+                "target_id": 53,
+                "target_type": "node",
+                "target_uuid": "6e953df3-5664-4b82-9086-dd78af0c6eed",
+                "url": "\/node\/53"
+            },
+            {
+                "target_id": 54,
+                "target_type": "node",
+                "target_uuid": "40b3ad0a-304a-4c93-9322-0be1921ab053",
+                "url": "\/node\/54"
+            },
+            {
+                "target_id": 55,
+                "target_type": "node",
+                "target_uuid": "c833d8e1-e142-4d66-8956-d35bb5205eb1",
+                "url": "\/node\/55"
+            },
+            {
+                "target_id": 56,
+                "target_type": "node",
+                "target_uuid": "407e3e72-425f-4202-9bfa-2b91f7976fd2",
+                "url": "\/node\/56"
+            },
+            {
+                "target_id": 57,
+                "target_type": "node",
+                "target_uuid": "3c8ef073-4491-4c8f-8bbd-3d2e2a65f7b6",
+                "url": "\/node\/57"
+            },
+            {
+                "target_id": 58,
+                "target_type": "node",
+                "target_uuid": "7d14a2eb-d18c-4bdb-a49b-747cad78522d",
+                "url": "\/node\/58"
+            },
+            {
+                "target_id": 59,
+                "target_type": "node",
+                "target_uuid": "22c27856-f5ab-4a4d-825f-8a9a499af60d",
+                "url": "\/node\/59"
+            },
+            {
+                "target_id": 60,
+                "target_type": "node",
+                "target_uuid": "48cd24f4-0721-40db-8519-219e7fa548c1",
+                "url": "\/node\/60"
+            },
+            {
+                "target_id": 61,
+                "target_type": "node",
+                "target_uuid": "e916c9c8-9ec5-41e7-823d-3b03463f6576",
+                "url": "\/node\/61"
+            }
+        ],
+        "field_data_transfer": [],
+        "field_developer_title": [
+            {
+                "value": "sr_medoid_albers"
+            }
+        ],
+        "field_distribution_entity": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_documents": [],
+        "field_doi": [],
+        "field_ecat_id": [],
+        "field_features": [
+            {
+                "value": "\u003Cp\u003EThe standardised SR data products deliver calibrated optical surface reflectance data across land and coastal fringes. SR is a medium resolution (~25 m) grid based on the Landsat TM\/ETM+\/OLI archive and presents surface reflectance data in 25 m\u00b2 grid cells.\u003C\/p\u003E\r\n\r\n\u003Cp\u003ERadiance measurements from EO sensors do not directly quantify the surface reflectance of the Earth. Such measurements are modified by variations in atmospheric properties, sun position, sensor view angle, surface slope and surface aspect. To obtain consistent and comparable measures of Earth surface reflectance from EO, these variations need to be reduced or removed from the radiance measurements (Li et al., 2010). This is especially important when comparing imagery acquired in different seasons and geographic regions.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EThe SR product is created using a physics-based, coupled BRDF and atmospheric correction model that can be applied to both flat and inclined surfaces (Li et al., 2012). The resulting surface reflectance values are comparable both within individual images and between images acquired at different times and\/or with different sensors.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EThis product does not include terrain illumination reflectance correction (see SR-NT_25)\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_feedback_contact": [
+            {
+                "target_id": 70,
+                "target_type": "node",
+                "target_uuid": "6d21432c-5223-479b-83dd-62905d69a7ff",
+                "url": "\/node\/70"
+            }
+        ],
+        "field_hprm_references": [],
+        "field_images": [],
+        "field_ingestion_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_license": [
+            {
+                "target_id": 6718,
+                "target_type": "taxonomy_term",
+                "target_uuid": "519c97b7-c3a8-4a44-b2cf-ea0de47683a8",
+                "url": "\/taxonomy\/term\/6718"
+            }
+        ],
+        "field_maintenance": [
+            {
+                "value": "\u003Cp\u003ENew data is added continuously (at least once week) . Entire archive will be reprocessed when data spec is upgraded to V2.0 (release schedule not yet determined).\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_maintenance_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_media_contact": [
+            {
+                "target_id": 69,
+                "target_type": "node",
+                "target_uuid": "254fd315-8ea7-4a9f-a591-0a166e583293",
+                "url": "\/node\/69"
+            }
+        ],
+        "field_metadata_catalogue_time_fr": [
+            {
+                "value": "2017-05-19T05:12:00",
+                "end_value": "2017-05-19T05:12:00"
+            }
+        ],
+        "field_metadata_contact": [
+            {
+                "target_id": 68,
+                "target_type": "node",
+                "target_uuid": "ce66a680-27fc-4712-9c9e-bbc14b0ff8ed",
+                "url": "\/node\/68"
+            }
+        ],
+        "field_nci_for_codes": [],
+        "field_nci_geonetwork_id": [],
+        "field_nci_product_name": [],
+        "field_nci_project_code": [],
+        "field_one_line_summary": [
+            {
+                "value": "\u003C!no description specific to Medoid!\u003E",
+                "format": "basic_html"
+            }
+        ],
+        "field_ordering_entity": [
+            {
+                "target_id": 65,
+                "target_type": "node",
+                "target_uuid": "0902e4b7-2788-46e6-ac6e-603aba2d98e9",
+                "url": "\/node\/65"
+            }
+        ],
+        "field_overview": [
+            {
+                "value": "\u003Cp\u003ESurface Reflectance (SR) is a suite of Earth Observation (EO) products from GA. The SR product suite provides standardised optical surface reflectance datasets using robust physical models to correct for variations in image radiance values due to atmospheric properties, and sun and sensor geometry. The resulting stack of surface reflectance grids are consistent over space and time which is instrumental in identifying and quantifying environmental change. SR is based on radiance data from the Landsat TM\/ETM+ and OLI sensors.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_principal_contact": [
+            {
+                "target_id": 65,
+                "target_type": "node",
+                "target_uuid": "0902e4b7-2788-46e6-ac6e-603aba2d98e9",
+                "url": "\/node\/65"
+            }
+        ],
+        "field_principal_contributors": [],
+        "field_processes": [
+            {
+                "target_id": 117,
+                "target_type": "node",
+                "target_uuid": "4d49da54-9db7-4028-abbc-691108a6d0c8",
+                "url": "\/node\/117"
+            },
+            {
+                "target_id": 118,
+                "target_type": "node",
+                "target_uuid": "c06d5f0b-9f33-4bbc-9d1f-9e47bb0172b2",
+                "url": "\/node\/118"
+            },
+            {
+                "target_id": 119,
+                "target_type": "node",
+                "target_uuid": "0950bfb9-2e3f-4537-bfb4-59f98115ec76",
+                "url": "\/node\/119"
+            },
+            {
+                "target_id": 84,
+                "target_type": "node",
+                "target_uuid": "10cf077d-decc-4712-86ca-843ad7874796",
+                "url": "\/node\/84"
+            }
+        ],
+        "field_product_life_span": [
+            {
+                "value": "2017-03-20T05:12:00",
+                "end_value": "2017-03-20T05:12:00"
+            }
+        ],
+        "field_product_type": [
+            {
+                "target_id": 6663,
+                "target_type": "taxonomy_term",
+                "target_uuid": "8462c18d-cbb5-4c6a-82cd-f7fe7af47c49",
+                "url": "\/taxonomy\/term\/6663"
+            }
+        ],
+        "field_production_stage": [],
+        "field_publishing_entity": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_publishing_time_frame": [
+            {
+                "value": "2017-06-18T05:12:00",
+                "end_value": "2017-06-18T05:12:00"
+            }
+        ],
+        "field_qa_contact": [
+            {
+                "target_id": 67,
+                "target_type": "node",
+                "target_uuid": "de760eb7-3f10-4b69-96b2-04f7c0e50bf6",
+                "url": "\/node\/67"
+            }
+        ],
+        "field_qa_time_frame": [
+            {
+                "value": "2017-03-20T05:12:00",
+                "end_value": "2017-03-20T05:12:00"
+            }
+        ],
+        "field_quality_assurance": [
+            {
+                "value": "\u003Cp\u003EValidate combined atmospheric and surface BRDF correction using field reflectance measurements at two very different sites, Gwydir, NSW, and Lake Frome, SA\u2014correlation (measured as r) between corrected image values and field data was \u0026gt; 0.95.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EValidate surface BRDF correction using data from image overlap areas of adjacent paths acquired one week apart in northeast Queensland\u2014normalised reflectance factor was very close in corrected images, but not in original images, and difference in reflectance factor values between corrected and uncorrected images can be \u0026gt; 0.05.\u003C\/p\u003E\r\n\r\n\u003Cp\u003ECross-validate Landsat TM data for accuracy of spectral reflectance using the MODIS reflectance product for Lake Frome\u2014correlation (measured as r2) between corrected Landsat TM image values and MODIS reflectance product was 0.93\u20130.97 in all bands except Landsat TM band 5, which was 0.90.\u003C\/p\u003E\r\n\r\n\u003Cp\u003ETopographic Correction As detailed in Li et al. (2012), two high relief areas in southeast Australia (Australian Alps in northeast Victoria and the Blue Mountains in NSW) were used to test the algorithm against eight Landsat images with varying solar angles (seasons), and terrain types. Visual assessment showed that the algorithm removed much of the topographic effect and detected deep shadows in all eight images. An indirect validation based on the change in correlation between the data and terrain slope showed that the correlation coefficient between the surface reflectance factor and the cosine of the incident (sun) angle reduced dramatically after the topographic correction algorithm was applied. The correlation coefficient typically reduced from 0.80\u20130.70 to 0.05 in areas of significant relief. It was also shown how the corrected surface reflectance can provide suitable input data for multi-temporal land cover classification in areas of high relief based on spectral signatures and spectral albedo, while the products based only on BRDF and atmospheric correction cannot. To provide comparison with previous work and to validate the proposed algorithm, two empirical methods based on the C-correction were used as well as the established sun-canopy-sensor SCS-method to provide benchmarks. The proposed method was found to achieve the same measures of shade reduction without empirical regression.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EThe Geometric QA software utilises an area based image-to-image correlation technique to assess and compare the difference between the target image and the reference image at regular gridded QA points. The residual of each QA point will be derived and scene statistics such as number of valid QA points, mean residual X\/Y, STD residual X\/Y and CEP90 will be recorded in v2 AGDC.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EBecause each scene recorded in v2 AGDC will have a GQA assessment result, the \u201cminimum GCP number\u201d threshold has been lowered to enable more products processed to Ortho level \u2013 especially for coastal scenes where only a very small portion of the image contains land for GCP identification purpose.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EProduct generation process is fully automated and there are checks in place to ensure that each step results in output meeting relevant product specification criteria. For example, the production system performs geometry QA before generating the final version of the product. Failed processes are rerun according to set up routines to ensure completeness of data. A sample of final data is verified manually for conformance to product specification.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EAt the end of the process, the system generates a companion dataset, the Pixel Quality assessment (PQ25). The PQ25 is a classification that represents an assessment of whether an image pixel represents an unobscured unsaturated observation of the Earth\u2019s surface and whether the pixel is represented in each spectral band. In particular, whether a pixel contains: \u2022 Spectral Contiguity \u2022 Per band saturation assessment \u2022 Cloud detection \u2022 Cloud shadow estimation \u2022 Offshore (sea) \u2022 Onshore (land) The PQ25 product allows users to produce masks which can be used to exclude affected pixels which don\u2019t meet quality criteria from further analysis.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_resource_type": [
+            {
+                "target_id": 6675,
+                "target_type": "taxonomy_term",
+                "target_uuid": "4d480e06-b1c3-4e8d-a129-b5bd15af5f51",
+                "url": "\/taxonomy\/term\/6675"
+            }
+        ],
+        "field_resource_type_definition": [
+            {
+                "target_id": 6693,
+                "target_type": "taxonomy_term",
+                "target_uuid": "de8def0c-84a6-421c-aba6-f8fec91b812d",
+                "url": "\/taxonomy\/term\/6693"
+            }
+        ],
+        "field_reviewer": [],
+        "field_rights_statement": [
+            {
+                "value": "\u003Cp\u003E\u00a9 Commonwealth of Australia (Geoscience Australia) 2015. Creative Commons Attribution 4.0 International Australia License. https:\/\/creativecommons.org\/licenses\/by\/4.0\/.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_security_classification": [
+            {
+                "target_id": 6725,
+                "target_type": "taxonomy_term",
+                "target_uuid": "d7d8386f-bae1-43c7-b543-367f41f17e36",
+                "url": "\/taxonomy\/term\/6725"
+            }
+        ],
+        "field_services": [],
+        "field_simple_title": [
+            {
+                "value": "Surface Reflectance Medoid 2.0.0",
+                "format": "basic_html"
+            }
+        ],
+        "field_software_dependencies": [],
+        "field_subject_matter_experts": [],
+        "field_summary": [],
+        "field_tables": [],
+        "field_update_frequency": [
+            {
+                "target_id": 6697,
+                "target_type": "taxonomy_term",
+                "target_uuid": "bc69c89f-deef-463b-9be8-b5c9962fe979",
+                "url": "\/taxonomy\/term\/6697"
+            }
+        ],
+        "field_use_constraints": [
+            {
+                "value": "\u003Cp\u003E\u00a9 Commonwealth of Australia (Geoscience Australia) 2015. Creative Commons Attribution 4.0 International Australia License. https:\/\/creativecommons.org\/licenses\/by\/4.0\/.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_version_number": [
+            {
+                "value": "2.0.0"
+            }
+        ],
+        "field_websites": []
+    },
+    {
+        "nid": [
+            {
+                "value": 115
+            }
+        ],
+        "uuid": [
+            {
+                "value": "ad3e09d1-4c20-4aa5-a02e-8afe46cfcca6"
+            }
+        ],
+        "vid": [
+            {
+                "value": 200
+            }
+        ],
+        "langcode": [
+            {
+                "value": "en"
+            }
+        ],
+        "type": [
+            {
+                "target_id": "product",
+                "target_type": "node_type",
+                "target_uuid": "9b63d36e-b747-4565-9991-99c5a3e112ff"
+            }
+        ],
+        "status": [
+            {
+                "value": true
+            }
+        ],
+        "title": [
+            {
+                "value": "SR_GEOMEDIAN_25_2.0.0"
+            }
+        ],
+        "uid": [
+            {
+                "target_id": 1,
+                "target_type": "user",
+                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                "url": "\/user\/1"
+            }
+        ],
+        "created": [
+            {
+                "value": 1489975826
+            }
+        ],
+        "changed": [
+            {
+                "value": 1489983773
+            }
+        ],
+        "promote": [
+            {
+                "value": false
+            }
+        ],
+        "sticky": [
+            {
+                "value": false
+            }
+        ],
+        "revision_timestamp": [
+            {
+                "value": 1489983773
+            }
+        ],
+        "revision_uid": [
+            {
+                "target_id": 1,
+                "target_type": "user",
+                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                "url": "\/user\/1"
+            }
+        ],
+        "revision_log": [],
+        "revision_translation_affected": [],
+        "default_langcode": [
+            {
+                "value": true
+            }
+        ],
+        "moderation_state": [
+            {
+                "value": "draft"
+            }
+        ],
+        "workspace": [
+            {
+                "target_id": 1,
+                "target_type": "workspace",
+                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+            }
+        ],
+        "_deleted": [
+            {
+                "value": false
+            }
+        ],
+        "_rev": [
+            {
+                "value": "2-a4f891064e7c84cbaf1b1560ebeef729"
+            }
+        ],
+        "path": [],
+        "field_access_constraints": [],
+        "field_accuracy_and_limitations": [
+            {
+                "value": "\u003Cp\u003EAtmospheric correction accuracy is dependent on the quality of aerosol data available to determine the atmospheric profile at time of image acquisition.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EBRDF correction is based on low resolution imagery (MODIS) which is assumed to be relevant to medium resolution imagery such as Landsat TM\/ETM+\/OLI. BRDF correction is applied to each whole Landsat TM\/ETM+\/OLI scenes and does not account for changes in land cover. It also excludes effects due to topographic shading and local BRDF. This algorithm is dependent on the availability of relevant MODIS BRDF data.\u003C\/p\u003E\r\n\r\n\u003Cp\u003ETopographic shading correction algorithm is designed for medium resolution imagery and assumes that hill slopes are resolved by the sensor system (Li et al., 2012). The algorithm assumes that: a. BRDF effect for inclined surfaces is modelled by the surface slope and does not account for land cover orientation relative to gravity (as occurs for some broad leaf vegetation with vertical leaf orientation).\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_acknowledgments": [
+            {
+                "value": "\u003Cp\u003ELandsat data is provided by the United States Geological Survey (USGS) through direct reception of the data at Geoscience Australia\u0027s satellite reception facility or download.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_alternate_title": [
+            {
+                "value": "Surface Reflectance NBAR+ 25m Geomedian 2.0.0",
+                "format": "basic_html"
+            }
+        ],
+        "field_applications": [
+            {
+                "value": "\u003Cp\u003EThe annual geomedian provides an annual reflectance composite for any area of interest within the area covered by the AGDC. It provides a cloud-free overview of the middle surface reflectance value for each year and can be used in further analyses such as Tasselled Cap, Principal Components Analysis and Normalised Difference Indices.\u003C\/p\u003E\r\n\r\n\u003Cp\u003ESR eliminates pre-processing requirements for a wide range of land and coastal monitoring applications and renders more accurate results from analyses, particularly those utilising time series data. Such applications include various forms of change detection, including monitoring of urban growth, coastal habitats, mining activities, and agricultural production, as well as compliance surveys, scientific research and emergency management.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_background": [
+            {
+                "value": "\u003Cp\u003ELandsat Archive\u003Cbr \/\u003E\r\nGA has acquired Landsat imagery over Australia since 1979, including TM, ETM+ and OLI imagery. While this data has been used extensively for numerous land and coastal mapping studies, its utility for accurate monitoring of environmental resources has been limited by the processing methods that have been traditionally used to correct for inherent geometric and radiometric distortions in EO imagery. To improve access to Australia\u2019s archive of Landsat TM\/ETM+\/OLI data, several collaborative projects have been undertaken in conjunction with industry, government and academic partners. These projects have enabled implementation of a more integrated approach to image data correction that incorporates normalising models to account for atmospheric effects, BRDF and topographic shading (Li et al., 2012). The approach has been applied to Landsat TM\/ETM+ and OLI imagery to create the SR products. The advanced supercomputing facilities provided by the National Computational Infrastructure (NCI) at the Australian National University (ANU) have been instrumental in handling the considerable data volumes and processing complexities involved with production of this product.\u003C\/p\u003E\r\n\r\n\u003Cp\u003ESurface Reflectance Correction Models\u003Cbr \/\u003E\r\nImage radiance values recorded by passive EO sensors are a composite of:\u003C\/p\u003E\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003Esurface reflectance;\u003C\/li\u003E\r\n\t\u003Cli\u003Eatmospheric condition;\u003C\/li\u003E\r\n\t\u003Cli\u003Einteraction between surface land cover, solar radiation and sensor view angle; and\u003C\/li\u003E\r\n\t\u003Cli\u003Eland surface orientation relative to the imaging sensor.\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n\r\n\u003Cp\u003EIt has been traditionally assumed that Landsat imagery display negligible variation in sun and sensor view angles, however these can vary significantly both within and between scenes, especially in different seasons and geographic regions (Li et al., 2012). The SR product delivers modeled surface reflectance from Landsat TM\/ETM+\/OLI\/ data using physical rather than empirical models. Accordingly, this product will ensure that reflective value differences between imagery acquired at different times by different sensors will be primarily due to on-ground changes in biophysical parameters rather than artifacts of the imaging environment.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EIntegrated Time Series Data\u003Cbr \/\u003E\r\nOnce consistent and comparable measures of surface reflectance have been retrieved from EO data, it is possible to quantify changes in Earth surface features through time.\u003Cbr \/\u003E\r\nGiven the growing time series of EO imagery, this landmark facility will streamline the process of reliably monitoring long-term changes in land and water resources.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_backup_and_recovery": [
+            {
+                "value": "\u003Cp\u003EThe low level (aka raw or Level 0 or RCC) data from which this collection is derived is stored at the NCI (working copy), at GA (authoritative Australian archive) and at the USGS (authoritative global archive). The SR collection can be recreated from the low level data. Interim processing levels (aka Level 1T) are also stored at the NCI.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_catalogues": [],
+        "field_contact": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_coverage_content_type": [
+            {
+                "target_id": 6949,
+                "target_type": "taxonomy_term",
+                "target_uuid": "bf65731c-e590-4cef-9397-b81674bd494e",
+                "url": "\/taxonomy\/term\/6949"
+            }
+        ],
+        "field_custodian": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_data_description": [],
+        "field_data_ingestion": [
+            {
+                "value": "\u003Cp\u003EData is transferred using rsync from GA project space to the RDSI.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_data_ingestion_time_frame": [
+            {
+                "value": "2017-03-20T02:10:26",
+                "end_value": "2017-03-20T02:10:26"
+            }
+        ],
+        "field_data_source_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_data_sources": [
+            {
+                "target_id": 40,
+                "target_type": "node",
+                "target_uuid": "327ef1c6-a29d-49a6-bf5b-c19735956382",
+                "url": "\/node\/40"
+            },
+            {
+                "target_id": 41,
+                "target_type": "node",
+                "target_uuid": "af1ad1c1-124c-41d7-af7c-60e1cb712e4a",
+                "url": "\/node\/41"
+            },
+            {
+                "target_id": 42,
+                "target_type": "node",
+                "target_uuid": "96909ae8-b10b-43e9-883a-639f4bda78d4",
+                "url": "\/node\/42"
+            },
+            {
+                "target_id": 47,
+                "target_type": "node",
+                "target_uuid": "95d49888-d884-4dd1-85a8-973492d7ec99",
+                "url": "\/node\/47"
+            },
+            {
+                "target_id": 49,
+                "target_type": "node",
+                "target_uuid": "04085299-9fac-4d42-aa19-54eedaa78161",
+                "url": "\/node\/49"
+            },
+            {
+                "target_id": 50,
+                "target_type": "node",
+                "target_uuid": "cf43a830-13f4-4ec8-8f95-1c6550412ba2",
+                "url": "\/node\/50"
+            },
+            {
+                "target_id": 51,
+                "target_type": "node",
+                "target_uuid": "96d9bd89-855e-4828-8f32-7de50dfa63b7",
+                "url": "\/node\/51"
+            },
+            {
+                "target_id": 53,
+                "target_type": "node",
+                "target_uuid": "6e953df3-5664-4b82-9086-dd78af0c6eed",
+                "url": "\/node\/53"
+            },
+            {
+                "target_id": 54,
+                "target_type": "node",
+                "target_uuid": "40b3ad0a-304a-4c93-9322-0be1921ab053",
+                "url": "\/node\/54"
+            },
+            {
+                "target_id": 55,
+                "target_type": "node",
+                "target_uuid": "c833d8e1-e142-4d66-8956-d35bb5205eb1",
+                "url": "\/node\/55"
+            },
+            {
+                "target_id": 56,
+                "target_type": "node",
+                "target_uuid": "407e3e72-425f-4202-9bfa-2b91f7976fd2",
+                "url": "\/node\/56"
+            },
+            {
+                "target_id": 57,
+                "target_type": "node",
+                "target_uuid": "3c8ef073-4491-4c8f-8bbd-3d2e2a65f7b6",
+                "url": "\/node\/57"
+            },
+            {
+                "target_id": 58,
+                "target_type": "node",
+                "target_uuid": "7d14a2eb-d18c-4bdb-a49b-747cad78522d",
+                "url": "\/node\/58"
+            },
+            {
+                "target_id": 59,
+                "target_type": "node",
+                "target_uuid": "22c27856-f5ab-4a4d-825f-8a9a499af60d",
+                "url": "\/node\/59"
+            },
+            {
+                "target_id": 60,
+                "target_type": "node",
+                "target_uuid": "48cd24f4-0721-40db-8519-219e7fa548c1",
+                "url": "\/node\/60"
+            },
+            {
+                "target_id": 61,
+                "target_type": "node",
+                "target_uuid": "e916c9c8-9ec5-41e7-823d-3b03463f6576",
+                "url": "\/node\/61"
+            }
+        ],
+        "field_data_transfer": [],
+        "field_developer_title": [],
+        "field_distribution_entity": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_documents": [],
+        "field_doi": [],
+        "field_ecat_id": [
+            {
+                "value": "103501"
+            }
+        ],
+        "field_features": [
+            {
+                "value": "\u003Cp\u003EThe annual geomedian product provides the median surface reflectance of each calendar year. The geomedian is a synthetic value as opposed to an actual observation, and is the high dimensional median of all reflectance bands of the source dataset for each year.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EThe standardised SR data products deliver calibrated optical surface reflectance data across land and coastal fringes. SR is a medium resolution (~25 m) grid based on the Landsat TM\/ETM+\/OLI archive and presents surface reflectance data in 25 m\u00b2 grid cells.\u003C\/p\u003E\r\n\r\n\u003Cp\u003ERadiance measurements from EO sensors do not directly quantify the surface reflectance of the Earth. Such measurements are modified by variations in atmospheric properties, sun position, sensor view angle, surface slope and surface aspect. To obtain consistent and comparable measures of Earth surface reflectance from EO, these variations need to be reduced or removed from the radiance measurements (Li et al., 2010). This is especially important when comparing imagery acquired in different seasons and geographic regions.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EThe SR product is created using a physics-based, coupled BRDF and atmospheric correction model that can be applied to both flat and inclined surfaces (Li et al., 2012). The resulting surface reflectance values are comparable both within individual images and between images acquired at different times and\/or with different sensors.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EThis product does not include terrain illumination reflectance correction data.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_feedback_contact": [
+            {
+                "target_id": 70,
+                "target_type": "node",
+                "target_uuid": "6d21432c-5223-479b-83dd-62905d69a7ff",
+                "url": "\/node\/70"
+            }
+        ],
+        "field_hprm_references": [],
+        "field_images": [],
+        "field_ingestion_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_license": [
+            {
+                "target_id": 6718,
+                "target_type": "taxonomy_term",
+                "target_uuid": "519c97b7-c3a8-4a44-b2cf-ea0de47683a8",
+                "url": "\/taxonomy\/term\/6718"
+            }
+        ],
+        "field_maintenance": [],
+        "field_maintenance_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_media_contact": [
+            {
+                "target_id": 69,
+                "target_type": "node",
+                "target_uuid": "254fd315-8ea7-4a9f-a591-0a166e583293",
+                "url": "\/node\/69"
+            }
+        ],
+        "field_metadata_catalogue_time_fr": [
+            {
+                "value": "2017-05-19T02:10:26",
+                "end_value": "2017-05-19T02:10:26"
+            }
+        ],
+        "field_metadata_contact": [
+            {
+                "target_id": 68,
+                "target_type": "node",
+                "target_uuid": "ce66a680-27fc-4712-9c9e-bbc14b0ff8ed",
+                "url": "\/node\/68"
+            }
+        ],
+        "field_nci_for_codes": [
+            {
+                "target_id": 6915,
+                "target_type": "taxonomy_term",
+                "target_uuid": "38e30bd0-6a45-4f0d-bfb9-9062b82268b3",
+                "url": "\/taxonomy\/term\/6915"
+            }
+        ],
+        "field_nci_geonetwork_id": [],
+        "field_nci_product_name": [],
+        "field_nci_project_code": [
+            {
+                "value": "rs0"
+            }
+        ],
+        "field_one_line_summary": [
+            {
+                "value": "Annual geometric median of surface reflectance data.",
+                "format": "basic_html"
+            }
+        ],
+        "field_ordering_entity": [
+            {
+                "target_id": 65,
+                "target_type": "node",
+                "target_uuid": "0902e4b7-2788-46e6-ac6e-603aba2d98e9",
+                "url": "\/node\/65"
+            }
+        ],
+        "field_overview": [
+            {
+                "value": "\u003Cp\u003Esuite provides standardised optical surface reflectance datasets using robust physical models to correct for variations in image radiance values due to atmospheric properties, and sun and sensor geometry. The resulting stack of surface reflectance grids are consistent over space and time which is instrumental in identifying and quantifying environmental change. SR is based on radiance data from the Landsat TM\/ETM+ and OLI sensors.\u003C\/p\u003E\r\n\r\n\u003Cp\u003ESurface Reflectance Statistics products are derived from SR and provide statistical summaries of SR over specified periods (epochs) to highlight extrema, average conditions, or other statistical quantities that give insight into the behaviour of the earth. The geometric median (Geomedian) provides a high dimensional median (the median of a multi-dimensional dataset rather than the basic median) value of earth observations for a specified epoch, and as such gives a representation of the middle of surface reflectance over the time period.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_principal_contact": [
+            {
+                "target_id": 65,
+                "target_type": "node",
+                "target_uuid": "0902e4b7-2788-46e6-ac6e-603aba2d98e9",
+                "url": "\/node\/65"
+            }
+        ],
+        "field_principal_contributors": [],
+        "field_processes": [
+            {
+                "target_id": 117,
+                "target_type": "node",
+                "target_uuid": "4d49da54-9db7-4028-abbc-691108a6d0c8",
+                "url": "\/node\/117"
+            },
+            {
+                "target_id": 118,
+                "target_type": "node",
+                "target_uuid": "c06d5f0b-9f33-4bbc-9d1f-9e47bb0172b2",
+                "url": "\/node\/118"
+            },
+            {
+                "target_id": 119,
+                "target_type": "node",
+                "target_uuid": "0950bfb9-2e3f-4537-bfb4-59f98115ec76",
+                "url": "\/node\/119"
+            },
+            {
+                "target_id": 84,
+                "target_type": "node",
+                "target_uuid": "10cf077d-decc-4712-86ca-843ad7874796",
+                "url": "\/node\/84"
+            },
+            {
+                "target_id": 116,
+                "target_type": "node",
+                "target_uuid": "5b7c9e14-aff5-4fd9-a1c0-871037619016",
+                "url": "\/node\/116"
+            }
+        ],
+        "field_product_life_span": [
+            {
+                "value": "2017-03-20T02:10:26",
+                "end_value": "2017-03-20T02:10:26"
+            }
+        ],
+        "field_product_type": [
+            {
+                "target_id": 6662,
+                "target_type": "taxonomy_term",
+                "target_uuid": "d05abb02-5e38-4509-b395-c4fd14225836",
+                "url": "\/taxonomy\/term\/6662"
+            }
+        ],
+        "field_production_stage": [],
+        "field_publishing_entity": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_publishing_time_frame": [
+            {
+                "value": "2017-06-18T02:10:26",
+                "end_value": "2017-06-18T02:10:26"
+            }
+        ],
+        "field_qa_contact": [
+            {
+                "target_id": 67,
+                "target_type": "node",
+                "target_uuid": "de760eb7-3f10-4b69-96b2-04f7c0e50bf6",
+                "url": "\/node\/67"
+            }
+        ],
+        "field_qa_time_frame": [
+            {
+                "value": "2017-03-20T02:10:26",
+                "end_value": "2017-03-20T02:10:26"
+            }
+        ],
+        "field_quality_assurance": [
+            {
+                "value": "\u003Cp\u003EValidate combined atmospheric and surface BRDF correction using field reflectance measurements at two very different sites, Gwydir, NSW, and Lake Frome, SA\u2014correlation (measured as r) between corrected image values and field data was \u0026gt; 0.95.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EValidate surface BRDF correction using data from image overlap areas of adjacent paths acquired one week apart in northeast Queensland\u2014normalised reflectance factor was very close in corrected images, but not in original images, and difference in reflectance factor values between corrected and uncorrected images can be \u0026gt; 0.05.\u003C\/p\u003E\r\n\r\n\u003Cp\u003ECross-validate Landsat TM data for accuracy of spectral reflectance using the MODIS reflectance product for Lake Frome\u2014correlation (measured as r2) between corrected Landsat TM image values and MODIS reflectance product was 0.93\u20130.97 in all bands except Landsat TM band 5, which was 0.90.\u003C\/p\u003E\r\n\r\n\u003Cp\u003ETopographic Correction As detailed in Li et al. (2012), two high relief areas in southeast Australia (Australian Alps in northeast Victoria and the Blue Mountains in NSW) were used to test the algorithm against eight Landsat images with varying solar angles (seasons), and terrain types. Visual assessment showed that the algorithm removed much of the topographic effect and detected deep shadows in all eight images. An indirect validation based on the change in correlation between the data and terrain slope showed that the correlation coefficient between the surface reflectance factor and the cosine of the incident (sun) angle reduced dramatically after the topographic correction algorithm was applied. The correlation coefficient typically reduced from 0.80\u20130.70 to 0.05 in areas of significant relief. It was also shown how the corrected surface reflectance can provide suitable input data for multi-temporal land cover classification in areas of high relief based on spectral signatures and spectral albedo, while the products based only on BRDF and atmospheric correction cannot. To provide comparison with previous work and to validate the proposed algorithm, two empirical methods based on the C-correction were used as well as the established sun-canopy-sensor SCS-method to provide benchmarks. The proposed method was found to achieve the same measures of shade reduction without empirical regression.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EThe Geometric QA software utilises an area based image-to-image correlation technique to assess and compare the difference between the target image and the reference image at regular gridded QA points. The residual of each QA point will be derived and scene statistics such as number of valid QA points, mean residual X\/Y, STD residual X\/Y and CEP90 will be recorded in v2 AGDC.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EBecause each scene recorded in v2 AGDC will have a GQA assessment result, the \u201cminimum GCP number\u201d threshold has been lowered to enable more products processed to Ortho level \u2013 especially for coastal scenes where only a very small portion of the image contains land for GCP identification purpose.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EProduct generation process is fully automated and there are checks in place to ensure that each step results in output meeting relevant product specification criteria. For example, the production system performs geometry QA before generating the final version of the product. Failed processes are rerun according to set up routines to ensure completeness of data. A sample of final data is verified manually for conformance to product specification.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EAt the end of the process, the system generates a companion dataset, the Pixel Quality assessment (PQ25). The PQ25 is a classification that represents an assessment of whether an image pixel represents an unobscured unsaturated observation of the Earth\u2019s surface and whether the pixel is represented in each spectral band. In particular, whether a pixel contains: \u2022 Spectral Contiguity \u2022 Per band saturation assessment \u2022 Cloud detection \u2022 Cloud shadow estimation \u2022 Offshore (sea) \u2022 Onshore (land) The PQ25 product allows users to produce masks which can be used to exclude affected pixels which don\u2019t meet quality criteria from further analysis.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_resource_type": [
+            {
+                "target_id": 6675,
+                "target_type": "taxonomy_term",
+                "target_uuid": "4d480e06-b1c3-4e8d-a129-b5bd15af5f51",
+                "url": "\/taxonomy\/term\/6675"
+            }
+        ],
+        "field_resource_type_definition": [],
+        "field_reviewer": [],
+        "field_rights_statement": [
+            {
+                "value": "\u003Cp\u003E\u00a9 Commonwealth of Australia (Geoscience Australia) 2015. Creative Commons Attribution 4.0 International Australia License. https:\/\/creativecommons.org\/licenses\/by\/4.0\/.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_security_classification": [
+            {
+                "target_id": 6725,
+                "target_type": "taxonomy_term",
+                "target_uuid": "d7d8386f-bae1-43c7-b543-367f41f17e36",
+                "url": "\/taxonomy\/term\/6725"
+            }
+        ],
+        "field_services": [],
+        "field_simple_title": [
+            {
+                "value": "Surface Reflectance Geometric Median 2.0.0",
+                "format": "basic_html"
+            }
+        ],
+        "field_software_dependencies": [
+            {
+                "target_id": 116,
+                "target_type": "node",
+                "target_uuid": "5b7c9e14-aff5-4fd9-a1c0-871037619016",
+                "url": "\/node\/116"
+            }
+        ],
+        "field_subject_matter_experts": [],
+        "field_summary": [
+            {
+                "value": "\u003Cp\u003EThe annual geometric medians of surface reflectance measurements are calculated per calendar year, on individual sensors (ie. only Lndsat 5 TM or Landsat 7 ETM+ or Landsat 8 OLI) to maintain data integrity. An annual geometric median (geomedian) is a high-dimensional median calculated from the reflectance values drawn from a calendar year. The years available are each full calendar year since 1987. The geomedian (Roberts et al 2017) is used in preference to the mean, as the mean can be adversely effected by extrema whereas the median is less sensitive to outliers. The geomedian is used in preference to the basic median, as it preserves the physical relationship between spectral measurements which the basic median does not. The geometric median is used in preference to the medoid (Flood 2013) as the medoid must choose from available measurements and hence may create a noisy composite, while the geomedian creates a synthetic representation of an epoch while reducing noise and permitting further analysis that is consistent with mathematical and statistical theory. Where the provenance of each pixel in a composite is required the medoid is the preferred method and the geomedian should not be used. The input data used to calculate the geomedian are filtered to remove poor quality observations including cloud, cloud shadow, band saturation (of any band) using the Pixel Quality Assessment (PQA) product. To account for satellite availability and status the statistics are calculated using the following satellites\/sensors for the following periods of time:\u003C\/p\u003E\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E1987-1998 : Landsat 5\u003C\/li\u003E\r\n\t\u003Cli\u003E1999 : Landsat 5 and Landsat 7 (as separate geomedian products)\u003C\/li\u003E\r\n\t\u003Cli\u003E2000-2002 : Landsat 7\u003C\/li\u003E\r\n\t\u003Cli\u003E2003 : Landsat 5 and Landsat 7 (as separate geomedian products)\u003C\/li\u003E\r\n\t\u003Cli\u003E2004-2010 : Landsat 5\u003C\/li\u003E\r\n\t\u003Cli\u003E2011 : Landsat 5 and Landsat 7 (as separate geomedian products)\u003C\/li\u003E\r\n\t\u003Cli\u003E2012 : Landsat 7\u003C\/li\u003E\r\n\t\u003Cli\u003E2013 : Landsat 7 and Landsat 8 (as separate geomedian products)\u003C\/li\u003E\r\n\t\u003Cli\u003E2014 onward : Landsat 8\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_tables": [],
+        "field_update_frequency": [
+            {
+                "target_id": 6697,
+                "target_type": "taxonomy_term",
+                "target_uuid": "bc69c89f-deef-463b-9be8-b5c9962fe979",
+                "url": "\/taxonomy\/term\/6697"
+            }
+        ],
+        "field_use_constraints": [
+            {
+                "value": "\u003Cp\u003E\u00a9 Commonwealth of Australia (Geoscience Australia) 2015. Creative Commons Attribution 4.0 International Australia License. https:\/\/creativecommons.org\/licenses\/by\/4.0\/.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_version_number": [
+            {
+                "value": "2.0.0"
+            }
+        ],
+        "field_websites": []
+    },
+    {
+        "nid": [
+            {
+                "value": 114
+            }
+        ],
+        "uuid": [
+            {
+                "value": "cb9d1194-60d7-4d2d-b06e-a7e72c2fecf6"
+            }
+        ],
+        "vid": [
+            {
+                "value": 194
+            }
+        ],
+        "langcode": [
+            {
+                "value": "en"
+            }
+        ],
+        "type": [
+            {
+                "target_id": "product",
+                "target_type": "node_type",
+                "target_uuid": "9b63d36e-b747-4565-9991-99c5a3e112ff"
+            }
+        ],
+        "status": [
+            {
+                "value": true
+            }
+        ],
+        "title": [
+            {
+                "value": "SR-N-STATS_25_2.0.0"
+            }
+        ],
+        "uid": [
+            {
+                "target_id": 1,
+                "target_type": "user",
+                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                "url": "\/user\/1"
+            }
+        ],
+        "created": [
+            {
+                "value": 1489973934
+            }
+        ],
+        "changed": [
+            {
+                "value": 1489975319
+            }
+        ],
+        "promote": [
+            {
+                "value": false
+            }
+        ],
+        "sticky": [
+            {
+                "value": false
+            }
+        ],
+        "revision_timestamp": [
+            {
+                "value": 1489975319
+            }
+        ],
+        "revision_uid": [
+            {
+                "target_id": 1,
+                "target_type": "user",
+                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                "url": "\/user\/1"
+            }
+        ],
+        "revision_log": [],
+        "revision_translation_affected": [
+            {
+                "value": true
+            }
+        ],
+        "default_langcode": [
+            {
+                "value": true
+            }
+        ],
+        "moderation_state": [
+            {
+                "value": "draft"
+            }
+        ],
+        "workspace": [
+            {
+                "target_id": 1,
+                "target_type": "workspace",
+                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+            }
+        ],
+        "_deleted": [
+            {
+                "value": false
+            }
+        ],
+        "_rev": [
+            {
+                "value": "1-562298e029f5e12af0bfee9d535f61e9"
+            }
+        ],
+        "path": [],
+        "field_access_constraints": [],
+        "field_accuracy_and_limitations": [],
+        "field_acknowledgments": [],
+        "field_alternate_title": [
+            {
+                "value": "Surface reflectance statistics 25m 2.0.0",
+                "format": "basic_html"
+            }
+        ],
+        "field_applications": [],
+        "field_background": [
+            {
+                "value": "\u003Cp\u003EThe product has been developed to provide cloud free data for each recent season and every calendar year. The longer compositing period may make this product unsuitable for studies that are focused on short lived phenomena.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_backup_and_recovery": [],
+        "field_catalogues": [],
+        "field_contact": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_coverage_content_type": [],
+        "field_custodian": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_data_description": [],
+        "field_data_ingestion": [],
+        "field_data_ingestion_time_frame": [
+            {
+                "value": "2017-03-20T01:38:54",
+                "end_value": "2017-03-20T01:38:54"
+            }
+        ],
+        "field_data_source_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_data_sources": [
+            {
+                "target_id": 37,
+                "target_type": "node",
+                "target_uuid": "f045e199-f08a-4a50-93ea-c15b9fdc6bd8",
+                "url": "\/node\/37"
+            },
+            {
+                "target_id": 73,
+                "target_type": "node",
+                "target_uuid": "29c46cb7-b7ae-4c9d-b6ec-f63df56e268e",
+                "url": "\/node\/73"
+            }
+        ],
+        "field_data_transfer": [],
+        "field_developer_title": [],
+        "field_distribution_entity": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_documents": [],
+        "field_doi": [],
+        "field_ecat_id": [],
+        "field_features": [
+            {
+                "value": "\u003Cp\u003ESR-N-Stats is a statistical summary of SR25 for specified epochs (which may be seasons).\u003C\/p\u003E\r\n\r\n\u003Cp\u003ETo account for satellite availability and status the statistics are calculated using the following satellites for the following periods of time:\u003Cbr \/\u003E\r\n1987-1998 : Landsat 5\u003Cbr \/\u003E\r\n1999 : Landsat 5 and Landsat 7\u003Cbr \/\u003E\r\n2000-2002 : Landsat 7\u003Cbr \/\u003E\r\n2003 : Landsat 5 and Landsat 7\u003Cbr \/\u003E\r\n2004-2010 : Landsat 5\u003Cbr \/\u003E\r\n2011-2012 : Landsat 7\u003Cbr \/\u003E\r\n2013 onward : Landsat 8\u003C\/p\u003E\r\n\r\n\u003Cp\u003EThe product is derived from surface reflectance data described in the ARG25 product description. This product includes quality assurance information for each pixel.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EThe products are produced through the Australian Geoscience Data Cube (AGDC). The Data Cube allows the workflows for the product, once developed, to be run over large areas at marginal cost, offering major efficiencies and cost savings over previous approaches and enabling more timely and effective monitoring and management.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_feedback_contact": [
+            {
+                "target_id": 70,
+                "target_type": "node",
+                "target_uuid": "6d21432c-5223-479b-83dd-62905d69a7ff",
+                "url": "\/node\/70"
+            }
+        ],
+        "field_hprm_references": [
+            {
+                "value": "D2015-144446"
+            }
+        ],
+        "field_images": [],
+        "field_ingestion_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_license": [
+            {
+                "target_id": 6718,
+                "target_type": "taxonomy_term",
+                "target_uuid": "519c97b7-c3a8-4a44-b2cf-ea0de47683a8",
+                "url": "\/taxonomy\/term\/6718"
+            }
+        ],
+        "field_maintenance": [],
+        "field_maintenance_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_media_contact": [
+            {
+                "target_id": 69,
+                "target_type": "node",
+                "target_uuid": "254fd315-8ea7-4a9f-a591-0a166e583293",
+                "url": "\/node\/69"
+            }
+        ],
+        "field_metadata_catalogue_time_fr": [
+            {
+                "value": "2017-05-19T01:38:54",
+                "end_value": "2017-05-19T01:38:54"
+            }
+        ],
+        "field_metadata_contact": [
+            {
+                "target_id": 68,
+                "target_type": "node",
+                "target_uuid": "ce66a680-27fc-4712-9c9e-bbc14b0ff8ed",
+                "url": "\/node\/68"
+            }
+        ],
+        "field_nci_for_codes": [],
+        "field_nci_geonetwork_id": [],
+        "field_nci_product_name": [],
+        "field_nci_project_code": [],
+        "field_one_line_summary": [
+            {
+                "value": "Surface reflectance statistics provide a summary of reflectance per year\/season.",
+                "format": "basic_html"
+            }
+        ],
+        "field_ordering_entity": [
+            {
+                "target_id": 65,
+                "target_type": "node",
+                "target_uuid": "0902e4b7-2788-46e6-ac6e-603aba2d98e9",
+                "url": "\/node\/65"
+            }
+        ],
+        "field_overview": [
+            {
+                "value": "\u003Cp\u003EThe \u2018seasonal\u2019 statistics of surface reflectance measurements are calculated per season (three months)\u003Cbr \/\u003E\r\n- Dec\/Jan\/Feb - Season 1\u003Cbr \/\u003E\r\n- Mar\/Apr\/May - Season 2\u003Cbr \/\u003E\r\n- Jun\/July\/August - Season 3\u003Cbr \/\u003E\r\n- September\/October\/November - Season 4\u003C\/p\u003E\r\n\r\n\u003Cp\u003EEach epoch is summarised using the geo-median.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EStatistics are drawn from the reflectance values for each epoch. The epochs available are the most recent 8 seasons and each full calendar year since 1987\u003C\/p\u003E\r\n\r\n\u003Cp\u003EThe input data used to calculate the geo-median are filtered to remove poor quality observations including cloud, cloud shadow, band saturation (of any band). Sea is not filtered. Water is not filtered.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_principal_contact": [
+            {
+                "target_id": 65,
+                "target_type": "node",
+                "target_uuid": "0902e4b7-2788-46e6-ac6e-603aba2d98e9",
+                "url": "\/node\/65"
+            }
+        ],
+        "field_principal_contributors": [],
+        "field_processes": [],
+        "field_product_life_span": [
+            {
+                "value": "2017-03-20T01:38:54",
+                "end_value": "2017-03-20T01:38:54"
+            }
+        ],
+        "field_product_type": [],
+        "field_production_stage": [],
+        "field_publishing_entity": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_publishing_time_frame": [
+            {
+                "value": "2017-06-18T01:38:54",
+                "end_value": "2017-06-18T01:38:54"
+            }
+        ],
+        "field_qa_contact": [
+            {
+                "target_id": 67,
+                "target_type": "node",
+                "target_uuid": "de760eb7-3f10-4b69-96b2-04f7c0e50bf6",
+                "url": "\/node\/67"
+            }
+        ],
+        "field_qa_time_frame": [
+            {
+                "value": "2017-03-20T01:38:54",
+                "end_value": "2017-03-20T01:38:54"
+            }
+        ],
+        "field_quality_assurance": [],
+        "field_resource_type": [],
+        "field_resource_type_definition": [],
+        "field_reviewer": [],
+        "field_rights_statement": [],
+        "field_security_classification": [
+            {
+                "target_id": 6725,
+                "target_type": "taxonomy_term",
+                "target_uuid": "d7d8386f-bae1-43c7-b543-367f41f17e36",
+                "url": "\/taxonomy\/term\/6725"
+            }
+        ],
+        "field_services": [],
+        "field_simple_title": [
+            {
+                "value": "Surface reflectance statistics 2.0.0",
+                "format": "basic_html"
+            }
+        ],
+        "field_software_dependencies": [],
+        "field_subject_matter_experts": [],
+        "field_summary": [],
+        "field_tables": [],
+        "field_update_frequency": [],
+        "field_use_constraints": [],
+        "field_version_number": [
+            {
+                "value": "2.0.0"
+            }
+        ],
+        "field_websites": []
+    },
+    {
+        "nid": [
+            {
+                "value": 113
+            }
+        ],
+        "uuid": [
+            {
+                "value": "b3331362-89b5-4d14-ada5-6e8829dcea26"
+            }
+        ],
+        "vid": [
+            {
+                "value": 193
+            }
+        ],
+        "langcode": [
+            {
+                "value": "en"
+            }
+        ],
+        "type": [
+            {
+                "target_id": "product",
+                "target_type": "node_type",
+                "target_uuid": "9b63d36e-b747-4565-9991-99c5a3e112ff"
+            }
+        ],
+        "status": [
+            {
+                "value": true
+            }
+        ],
+        "title": [
+            {
+                "value": "PQ_25_COUNT_2.0.0"
+            }
+        ],
+        "uid": [
+            {
+                "target_id": 1,
+                "target_type": "user",
+                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                "url": "\/user\/1"
+            }
+        ],
+        "created": [
+            {
+                "value": 1489971879
+            }
+        ],
+        "changed": [
+            {
+                "value": 1489972573
+            }
+        ],
+        "promote": [
+            {
+                "value": false
+            }
+        ],
+        "sticky": [
+            {
+                "value": false
+            }
+        ],
+        "revision_timestamp": [
+            {
+                "value": 1489972573
+            }
+        ],
+        "revision_uid": [
+            {
+                "target_id": 1,
+                "target_type": "user",
+                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                "url": "\/user\/1"
+            }
+        ],
+        "revision_log": [],
+        "revision_translation_affected": [
+            {
+                "value": true
+            }
+        ],
+        "default_langcode": [
+            {
+                "value": true
+            }
+        ],
+        "moderation_state": [
+            {
+                "value": "draft"
+            }
+        ],
+        "workspace": [
+            {
+                "target_id": 1,
+                "target_type": "workspace",
+                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+            }
+        ],
+        "_deleted": [
+            {
+                "value": false
+            }
+        ],
+        "_rev": [
+            {
+                "value": "1-364a0c6edbd1ae2ba6b3550131560193"
+            }
+        ],
+        "path": [],
+        "field_access_constraints": [],
+        "field_accuracy_and_limitations": [
+            {
+                "value": "\u003Cp\u003EThe accuracy of the algorithms for test locations is described in their respective journal articles. However the combination of complex cloud environments, thin cirrus and the scan line corrector error all contribute to the limitations of the PQ25 product . Currently, both the cloud and cloud shadow algorithms rely on the thermal data in order to effectively screen out cloud\/cloud shadow affected pixels. The absence of thermal data prevents these algorithms from running, thereby producing a PQ25 product lacking any cloud or cloud shadow masks. This severely can impact any subsequent analysis.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EThe Land Sea Mask, whilst derived from a 100K vector file, the boundary shape may not accurately represent the coastal features visible in the imagery. In order to decrease the chances of eliminating pixels identified as land, the source vector file was buffered (extended) by 150m outwards towards the sea.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_acknowledgments": [
+            {
+                "value": "\u003Cp\u003ELandsat data is provided by the United States Geological Survey (USGS) through direct reception of the data at Geoscience Australia\u0027s satellite reception facility or download.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_alternate_title": [
+            {
+                "value": "Pixel Quality Count 25m 2.0.0",
+                "format": "basic_html"
+            }
+        ],
+        "field_applications": [
+            {
+                "value": "\u003Cp\u003EBy removing the need for cloud screening and specific scene selection the PQ25 will significantly reduce pre-processing requirements for a wide range of land and coastal monitoring applications and render more accurate results from these analyses, particularly for those utilising time series data. Such applications include various forms of change detection, including monitoring of urban growth, coastal habitats, mining activities, and agricultural production, as well as compliance surveys, scientific research and emergency management.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_background": [
+            {
+                "value": "\u003Cp\u003EAs Landsat Imagery becomes more readily available, there has been a rapid increase in the amount of analyses undertaken by researchers around the globe. Most researchers use some form of quality masking schema in order to remove undesirable pixels from analysis, whether that be cloud, cloud shadow, observations over the ocean, or saturated pixels. In the past, researchers would reject partly cloud-affected scenes in favour of cloud-free scenes. However, Landsat time series analysis using all cloud-free pixels has become a valuable technique and has increased the demand for automation of cloud, cloud shadow and saturation detection. Emergency response applications such as flood mapping typically have to contend with individual cloud affected scenes and therefore rely on effective cloud and cloud shadow removal techniques.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EThe PQ25 product combines established algorithms that detect clouds including the Automated Cloud Cover Assessment (ACCA) (Irish et al. 2006) and Function of mask (Fmask) (Zhu and Woodcock 2012) . ACCA is already widely used within the remote sensing community; it is fast and relatively accurate. Fmask on the other hand is newer, but is rapidly becoming more established, and can provide a more accurate cloud mask than ACCA in certain cloud environments.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EThe sensor saturation flagging protocols developed for the Web Enabled Landsat Data (WELD) product as described in Roy et al. (2011) are used to flag sensor saturation.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EThe PQ25 product has similarities to the QAB layer packaged with OLI data, however it uses additional algorithms to detect cloud and cloud shadow, and is available for Landsat\u2019s 5, 7 and 8.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_backup_and_recovery": [],
+        "field_catalogues": [],
+        "field_contact": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_coverage_content_type": [
+            {
+                "target_id": 6951,
+                "target_type": "taxonomy_term",
+                "target_uuid": "c97038d5-d599-4ccf-b888-7d4c31ebe0e8",
+                "url": "\/taxonomy\/term\/6951"
+            }
+        ],
+        "field_custodian": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_data_description": [],
+        "field_data_ingestion": [],
+        "field_data_ingestion_time_frame": [
+            {
+                "value": "2017-03-20T01:04:39",
+                "end_value": "2017-03-20T01:04:39"
+            }
+        ],
+        "field_data_source_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_data_sources": [
+            {
+                "target_id": 40,
+                "target_type": "node",
+                "target_uuid": "327ef1c6-a29d-49a6-bf5b-c19735956382",
+                "url": "\/node\/40"
+            },
+            {
+                "target_id": 41,
+                "target_type": "node",
+                "target_uuid": "af1ad1c1-124c-41d7-af7c-60e1cb712e4a",
+                "url": "\/node\/41"
+            },
+            {
+                "target_id": 37,
+                "target_type": "node",
+                "target_uuid": "f045e199-f08a-4a50-93ea-c15b9fdc6bd8",
+                "url": "\/node\/37"
+            },
+            {
+                "target_id": 42,
+                "target_type": "node",
+                "target_uuid": "96909ae8-b10b-43e9-883a-639f4bda78d4",
+                "url": "\/node\/42"
+            },
+            {
+                "target_id": 47,
+                "target_type": "node",
+                "target_uuid": "95d49888-d884-4dd1-85a8-973492d7ec99",
+                "url": "\/node\/47"
+            }
+        ],
+        "field_data_transfer": [],
+        "field_developer_title": [],
+        "field_distribution_entity": [
+            {
+                "target_id": 65,
+                "target_type": "node",
+                "target_uuid": "0902e4b7-2788-46e6-ac6e-603aba2d98e9",
+                "url": "\/node\/65"
+            }
+        ],
+        "field_documents": [],
+        "field_doi": [],
+        "field_ecat_id": [],
+        "field_features": [
+            {
+                "value": "\u003Cp\u003EPQ provides an assessment of the quality of observations at a pixel level and includes information about:\u003C\/p\u003E\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003ESpectral Contiguity (lack of signal in any band)\u003C\/li\u003E\r\n\t\u003Cli\u003ESaturation in any band\u003C\/li\u003E\r\n\t\u003Cli\u003EPresence of cloud\u003C\/li\u003E\r\n\t\u003Cli\u003EPresence of cloud shadow\u003C\/li\u003E\r\n\t\u003Cli\u003ELand or sea\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_feedback_contact": [
+            {
+                "target_id": 70,
+                "target_type": "node",
+                "target_uuid": "6d21432c-5223-479b-83dd-62905d69a7ff",
+                "url": "\/node\/70"
+            }
+        ],
+        "field_hprm_references": [],
+        "field_images": [],
+        "field_ingestion_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_license": [
+            {
+                "target_id": 6718,
+                "target_type": "taxonomy_term",
+                "target_uuid": "519c97b7-c3a8-4a44-b2cf-ea0de47683a8",
+                "url": "\/taxonomy\/term\/6718"
+            }
+        ],
+        "field_maintenance": [],
+        "field_maintenance_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_media_contact": [
+            {
+                "target_id": 69,
+                "target_type": "node",
+                "target_uuid": "254fd315-8ea7-4a9f-a591-0a166e583293",
+                "url": "\/node\/69"
+            }
+        ],
+        "field_metadata_catalogue_time_fr": [
+            {
+                "value": "2017-05-19T01:04:39",
+                "end_value": "2017-05-19T01:04:39"
+            }
+        ],
+        "field_metadata_contact": [
+            {
+                "target_id": 68,
+                "target_type": "node",
+                "target_uuid": "ce66a680-27fc-4712-9c9e-bbc14b0ff8ed",
+                "url": "\/node\/68"
+            }
+        ],
+        "field_nci_for_codes": [
+            {
+                "target_id": 6915,
+                "target_type": "taxonomy_term",
+                "target_uuid": "38e30bd0-6a45-4f0d-bfb9-9062b82268b3",
+                "url": "\/taxonomy\/term\/6915"
+            }
+        ],
+        "field_nci_geonetwork_id": [],
+        "field_nci_product_name": [],
+        "field_nci_project_code": [
+            {
+                "value": "rs0"
+            }
+        ],
+        "field_one_line_summary": [
+            {
+                "value": "PQ25 Count is an aggregate assessment of a collection of image pixels to determine if they are unobscured, unsaturated observations of the Earth\u2019s surface and whether the pixels are represented in each spectral band.",
+                "format": "basic_html"
+            }
+        ],
+        "field_ordering_entity": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_overview": [
+            {
+                "value": "\u003Cp\u003EThe PQ25 product facilitates interpretation and processing of Surface Reflectance (SR-N\/NT), Fractional Cover 25 (FC25) and all derivative products.\u003Cbr \/\u003E\r\nPQ25 is an assessment of each image pixel to determine if it is an unobscured, unsaturated observation of the Earth\u2019s surface and also whether the pixel is represented in each spectral band. The PQ product allows users to produce masks which can be used to exclude pixels which don\u2019t meet their quality criteria from analysis . The capacity to automatically exclude such pixels is essential for emerging multi-temporal analysis techniques that make use of every quality assured pixel within a time series of observations.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EUsers can choose to process only land pixels, or only sea pixels depending on their analytical requirements, leading to enhanced computationally efficient.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_principal_contact": [
+            {
+                "target_id": 65,
+                "target_type": "node",
+                "target_uuid": "0902e4b7-2788-46e6-ac6e-603aba2d98e9",
+                "url": "\/node\/65"
+            }
+        ],
+        "field_principal_contributors": [],
+        "field_processes": [],
+        "field_product_life_span": [
+            {
+                "value": "2017-03-20T01:04:39",
+                "end_value": "2017-03-20T01:04:39"
+            }
+        ],
+        "field_product_type": [
+            {
+                "target_id": 6661,
+                "target_type": "taxonomy_term",
+                "target_uuid": "ec326386-9bd0-4723-a4d4-55e2a9636a57",
+                "url": "\/taxonomy\/term\/6661"
+            }
+        ],
+        "field_production_stage": [],
+        "field_publishing_entity": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_publishing_time_frame": [
+            {
+                "value": "2017-06-18T01:04:39",
+                "end_value": "2017-06-18T01:04:39"
+            }
+        ],
+        "field_qa_contact": [
+            {
+                "target_id": 67,
+                "target_type": "node",
+                "target_uuid": "de760eb7-3f10-4b69-96b2-04f7c0e50bf6",
+                "url": "\/node\/67"
+            }
+        ],
+        "field_qa_time_frame": [
+            {
+                "value": "2017-03-20T01:04:39",
+                "end_value": "2017-03-20T01:04:39"
+            }
+        ],
+        "field_quality_assurance": [
+            {
+                "value": "\u003Cp\u003EThe validation of the underlying algorithms is contained within the journal articles that describe ACCA (Irish et al. 2006), Fmask (Zhu and Woodcock 2012) and the ATBD that describes the sensor saturation flagging method (Roy et al. 2010).\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_resource_type": [
+            {
+                "target_id": 6675,
+                "target_type": "taxonomy_term",
+                "target_uuid": "4d480e06-b1c3-4e8d-a129-b5bd15af5f51",
+                "url": "\/taxonomy\/term\/6675"
+            }
+        ],
+        "field_resource_type_definition": [],
+        "field_reviewer": [],
+        "field_rights_statement": [
+            {
+                "value": "\u003Cp\u003E\u00a9 Commonwealth of Australia (Geoscience Australia) 2016.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_security_classification": [
+            {
+                "target_id": 6725,
+                "target_type": "taxonomy_term",
+                "target_uuid": "d7d8386f-bae1-43c7-b543-367f41f17e36",
+                "url": "\/taxonomy\/term\/6725"
+            }
+        ],
+        "field_services": [],
+        "field_simple_title": [
+            {
+                "value": "Pixel Quality Count 2.0.0",
+                "format": "basic_html"
+            }
+        ],
+        "field_software_dependencies": [
+            {
+                "target_id": 75,
+                "target_type": "node",
+                "target_uuid": "a9a8b056-f56e-400e-b7c1-5ef6ca8e6ad1",
+                "url": "\/node\/75"
+            },
+            {
+                "target_id": 76,
+                "target_type": "node",
+                "target_uuid": "375ba6db-5ea5-4bd5-9d5c-6bf4f4892066",
+                "url": "\/node\/76"
+            },
+            {
+                "target_id": 77,
+                "target_type": "node",
+                "target_uuid": "992fbcc7-ae82-4548-ba5e-d9fee28734b5",
+                "url": "\/node\/77"
+            }
+        ],
+        "field_subject_matter_experts": [],
+        "field_summary": [],
+        "field_tables": [],
+        "field_update_frequency": [
+            {
+                "target_id": 6697,
+                "target_type": "taxonomy_term",
+                "target_uuid": "bc69c89f-deef-463b-9be8-b5c9962fe979",
+                "url": "\/taxonomy\/term\/6697"
+            }
+        ],
+        "field_use_constraints": [
+            {
+                "value": "\u003Cp\u003E\u00a9 Commonwealth of Australia (Geoscience Australia) 2016.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_version_number": [],
+        "field_websites": []
+    },
+    {
+        "nid": [
+            {
+                "value": 112
+            }
+        ],
+        "uuid": [
+            {
+                "value": "bd360940-2676-49c0-ba3c-0e8c0d3fadb0"
+            }
+        ],
+        "vid": [
+            {
+                "value": 192
+            }
+        ],
+        "langcode": [
+            {
+                "value": "en"
+            }
+        ],
+        "type": [
+            {
+                "target_id": "product",
+                "target_type": "node_type",
+                "target_uuid": "9b63d36e-b747-4565-9991-99c5a3e112ff"
+            }
+        ],
+        "status": [
+            {
+                "value": true
+            }
+        ],
+        "title": [
+            {
+                "value": "PQ-STATS_25_2.0.0"
+            }
+        ],
+        "uid": [
+            {
+                "target_id": 1,
+                "target_type": "user",
+                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                "url": "\/user\/1"
+            }
+        ],
+        "created": [
+            {
+                "value": 1489969994
+            }
+        ],
+        "changed": [
+            {
+                "value": 1489971692
+            }
+        ],
+        "promote": [
+            {
+                "value": false
+            }
+        ],
+        "sticky": [
+            {
+                "value": false
+            }
+        ],
+        "revision_timestamp": [
+            {
+                "value": 1489971692
+            }
+        ],
+        "revision_uid": [
+            {
+                "target_id": 1,
+                "target_type": "user",
+                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                "url": "\/user\/1"
+            }
+        ],
+        "revision_log": [],
+        "revision_translation_affected": [
+            {
+                "value": true
+            }
+        ],
+        "default_langcode": [
+            {
+                "value": true
+            }
+        ],
+        "moderation_state": [
+            {
+                "value": "draft"
+            }
+        ],
+        "workspace": [
+            {
+                "target_id": 1,
+                "target_type": "workspace",
+                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+            }
+        ],
+        "_deleted": [
+            {
+                "value": false
+            }
+        ],
+        "_rev": [
+            {
+                "value": "1-3e95f76c01e109a3569b8400a387caf3"
+            }
+        ],
+        "path": [],
+        "field_access_constraints": [],
+        "field_accuracy_and_limitations": [],
+        "field_acknowledgments": [],
+        "field_alternate_title": [
+            {
+                "value": "Pixel quality statistics 25m 2.0.0",
+                "format": "basic_html"
+            }
+        ],
+        "field_applications": [
+            {
+                "value": "\u003Cp\u003EPQ-STATS is designed to provide users of the data cube who are performing multi-temporal analysis and change detection with information about the number of observations available at a particular location. This information can also be used to normalise observation counts of particular phenomena. For example what percentage of time did a pixel meet a particular criteria during a particular year.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_background": [
+            {
+                "value": "\u003Cp\u003EThe different sensor designs of Landsat 5 TM, Landsat 7 ETM+, and Landsat 8 OLI all have different sensor saturation characteristics. The PQ25 layer enables users to exclude observations from a given band where the pixels are saturated (exceed the dynamic range of the sensor). The per-band saturation information in PQ allows users to exclude pixels where their specific band of interest is saturated.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EThe PQ 25 layer uses two industry standard cloud\/cloud shadow detection algorithms to flag pixels that potentially contain cloud and allows the user to generate masks based on either algorithm or both algorithms.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EThe PQ25-STATS product is a summary of all of the individual PQ_25 layers.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_backup_and_recovery": [],
+        "field_catalogues": [],
+        "field_contact": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_coverage_content_type": [
+            {
+                "target_id": 6951,
+                "target_type": "taxonomy_term",
+                "target_uuid": "c97038d5-d599-4ccf-b888-7d4c31ebe0e8",
+                "url": "\/taxonomy\/term\/6951"
+            }
+        ],
+        "field_custodian": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_data_description": [],
+        "field_data_ingestion": [],
+        "field_data_ingestion_time_frame": [
+            {
+                "value": "2017-03-20T00:33:14",
+                "end_value": "2017-03-20T00:33:14"
+            }
+        ],
+        "field_data_source_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_data_sources": [],
+        "field_data_transfer": [],
+        "field_developer_title": [],
+        "field_distribution_entity": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_documents": [],
+        "field_doi": [],
+        "field_ecat_id": [],
+        "field_features": [
+            {
+                "value": "\u003Cp\u003EThe PQ statistics are inclusive of Landsat 7 SLC-off data. This allows users to evaluate the number of observations available for time series analysis in any given year.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_feedback_contact": [
+            {
+                "target_id": 70,
+                "target_type": "node",
+                "target_uuid": "6d21432c-5223-479b-83dd-62905d69a7ff",
+                "url": "\/node\/70"
+            }
+        ],
+        "field_hprm_references": [],
+        "field_images": [],
+        "field_ingestion_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_license": [
+            {
+                "target_id": 6718,
+                "target_type": "taxonomy_term",
+                "target_uuid": "519c97b7-c3a8-4a44-b2cf-ea0de47683a8",
+                "url": "\/taxonomy\/term\/6718"
+            }
+        ],
+        "field_maintenance": [],
+        "field_maintenance_contact": [
+            {
+                "target_id": 66,
+                "target_type": "node",
+                "target_uuid": "7463ec64-b236-4716-a9bb-663e52ddfc51",
+                "url": "\/node\/66"
+            }
+        ],
+        "field_media_contact": [
+            {
+                "target_id": 69,
+                "target_type": "node",
+                "target_uuid": "254fd315-8ea7-4a9f-a591-0a166e583293",
+                "url": "\/node\/69"
+            }
+        ],
+        "field_metadata_catalogue_time_fr": [
+            {
+                "value": "2017-05-19T00:33:14",
+                "end_value": "2017-05-19T00:33:14"
+            }
+        ],
+        "field_metadata_contact": [
+            {
+                "target_id": 68,
+                "target_type": "node",
+                "target_uuid": "ce66a680-27fc-4712-9c9e-bbc14b0ff8ed",
+                "url": "\/node\/68"
+            }
+        ],
+        "field_nci_for_codes": [],
+        "field_nci_geonetwork_id": [],
+        "field_nci_product_name": [],
+        "field_nci_project_code": [],
+        "field_one_line_summary": [
+            {
+                "value": "PQ Stats summarises the number of times the Earth surface has been observed under various quality criteria.",
+                "format": "basic_html"
+            }
+        ],
+        "field_ordering_entity": [
+            {
+                "target_id": 65,
+                "target_type": "node",
+                "target_uuid": "0902e4b7-2788-46e6-ac6e-603aba2d98e9",
+                "url": "\/node\/65"
+            }
+        ],
+        "field_overview": [
+            {
+                "value": "\u003Cp\u003EThe Pixel Quality (PQ) product is a classification that represents an assessment of whether an image pixel represents an un-obscured unsaturated observation of the Earth\u2019s surface and whether the pixel is represented in each spectral band. The PQ product allows users to produce masks which can be used to exclude affected pixels from which don\u2019t meet their quality criteria from further analysis. The capacity to automatically exclude such pixels from analysis is essential for emerging multi-temporal analysis techniques that make use of every quality assured pixel within a time series of observations.\u003C\/p\u003E\r\n\r\n\u003Cp\u003EThe PQ-STATS shows the breakdown of how many times a pixel contains a clear observation of the surface (land or sea).\u003C\/p\u003E\r\n\r\n\u003Cp\u003EPQ-STATS is available as a per year summary and as a \u0027whole of archive\u0027 summary (1987 to present).\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_principal_contact": [
+            {
+                "target_id": 65,
+                "target_type": "node",
+                "target_uuid": "0902e4b7-2788-46e6-ac6e-603aba2d98e9",
+                "url": "\/node\/65"
+            }
+        ],
+        "field_principal_contributors": [],
+        "field_processes": [],
+        "field_product_life_span": [
+            {
+                "value": "2017-03-20T00:33:14",
+                "end_value": "2017-03-20T00:33:14"
+            }
+        ],
+        "field_product_type": [],
+        "field_production_stage": [],
+        "field_publishing_entity": [
+            {
+                "target_id": 64,
+                "target_type": "node",
+                "target_uuid": "82716aa8-1eb3-4f17-92c2-e4464c784120",
+                "url": "\/node\/64"
+            }
+        ],
+        "field_publishing_time_frame": [
+            {
+                "value": "2017-06-18T00:33:14",
+                "end_value": "2017-06-18T00:33:14"
+            }
+        ],
+        "field_qa_contact": [
+            {
+                "target_id": 67,
+                "target_type": "node",
+                "target_uuid": "de760eb7-3f10-4b69-96b2-04f7c0e50bf6",
+                "url": "\/node\/67"
+            }
+        ],
+        "field_qa_time_frame": [
+            {
+                "value": "2017-03-20T00:33:14",
+                "end_value": "2017-03-20T00:33:14"
+            }
+        ],
+        "field_quality_assurance": [],
+        "field_resource_type": [],
+        "field_resource_type_definition": [],
+        "field_reviewer": [],
+        "field_rights_statement": [],
+        "field_security_classification": [
+            {
+                "target_id": 6725,
+                "target_type": "taxonomy_term",
+                "target_uuid": "d7d8386f-bae1-43c7-b543-367f41f17e36",
+                "url": "\/taxonomy\/term\/6725"
+            }
+        ],
+        "field_services": [],
+        "field_simple_title": [
+            {
+                "value": "Pixel quality statistics 2.0.0",
+                "format": "basic_html"
+            }
+        ],
+        "field_software_dependencies": [],
+        "field_subject_matter_experts": [],
+        "field_summary": [],
+        "field_tables": [],
+        "field_update_frequency": [
+            {
+                "target_id": 6697,
+                "target_type": "taxonomy_term",
+                "target_uuid": "bc69c89f-deef-463b-9be8-b5c9962fe979",
+                "url": "\/taxonomy\/term\/6697"
+            }
+        ],
+        "field_use_constraints": [],
+        "field_version_number": [
+            {
+                "value": "2.0.0"
+            }
+        ],
+        "field_websites": []
+    }
+]
