@@ -9,26 +9,21 @@ import java.util.List;
  * Look at toDocumentDTO() method in this class for the corresponding DocumentDTO variables.
  */
 public class CmiDocumentDTO {
-   private List<CmiSimpleJsonObject> title; // #TODO Dee should this be alternate title from json? "field_alternate_title"
-   private String content;
+   // raw json properties
+   private List<CmiSimpleJsonObject> title; // #TODO Dee should this be "field_alternate_title"
    private List<CmiSimpleJsonObject> nid;
    private List<CmiSimpleJsonObject> field_principal_contributors;
    private List<CmiSimpleJsonObject> created;
+
+   // property as needed by the application
+   private int nodeId;
 
     public List<CmiSimpleJsonObject> getTitle() {
         return this.title;
     }
 
-    public void setTitle(List<CmiSimpleJsonObject> titles) {
-        this.title = titles;
-    }
-
-    public String getContent() {
-        return content;
-    }
-
-    public void setContent(String content) {
-        this.content = content;
+    public void setTitle(List<CmiSimpleJsonObject> title) {
+        this.title = title;
     }
 
     public List<CmiSimpleJsonObject> getNid() {
@@ -39,11 +34,11 @@ public class CmiDocumentDTO {
         this.nid = nid;
     }
 
-    public List<CmiSimpleJsonObject> getAuthor() {
+    public List<CmiSimpleJsonObject> getPrincipalContributor() {
         return field_principal_contributors;
     }
 
-    public void setAuthor(List<CmiSimpleJsonObject> author) {
+    public void setPrincipalContributor(List<CmiSimpleJsonObject> author) {
         this.field_principal_contributors = author;
     }
 
@@ -53,6 +48,13 @@ public class CmiDocumentDTO {
 
     public void setDateCreated(List<CmiSimpleJsonObject> dateCreated) {
         this.created = dateCreated;
+    }
+
+    public int getNodeId() {
+        if (nodeId == 0 && nid != null) {
+            nodeId = Integer.parseInt(getCmiJsonObjectsAsString(nid));
+        }
+        return nodeId;
     }
 
     private String getCmiJsonObjectsAsString(List<CmiSimpleJsonObject> objects) {
@@ -86,12 +88,17 @@ public class CmiDocumentDTO {
         return dateCreated;
     }
 
+    private String parseAuthor() {
+        String author = null;
+        author = this.getCmiJsonObjectsAsString(this.getPrincipalContributor()); // TODO Dee parse author name from node endpoint
+        return author;
+    }
+
     public DocumentDTO toDocumentDTO() {
         DocumentDTO documentDTO = new DocumentDTO();
         documentDTO.setTitle(this.getCmiJsonObjectsAsString(this.getTitle()));
         documentDTO.setDateCreated(this.getObjectsAsDate(this.getDateCreated()));
-        documentDTO.setAuthor(this.getCmiJsonObjectsAsString(this.getAuthor()));
-        documentDTO.setOrigin("http://13.55.186.172/node/" + this.getCmiJsonObjectsAsString(this.getNid())); // #TODO Dee from config file - maybe cmi url in config and /node as const
+        documentDTO.setAuthor(this.parseAuthor());
         return documentDTO;
     }
 
@@ -99,7 +106,6 @@ public class CmiDocumentDTO {
     public String toString() {
         return "CmiDocumentDTO{" +
                 "title='" + title + '\'' +
-                ", content='" + content + '\'' +
                 ", nid='" + nid + '\'' +
                 ", author='" + field_principal_contributors + '\'' +
                 ", created=" + created +

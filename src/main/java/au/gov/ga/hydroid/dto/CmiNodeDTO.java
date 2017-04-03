@@ -10,9 +10,11 @@ import java.util.Date;
  * Created by u26360 on 30/03/2017.
  */
 public class CmiNodeDTO {
+    // raw json properties
     private String nid;
     private String changed;
 
+    // properties as needed by application
     private int nodeId = 0;
     private Date lastChanged = null;
 
@@ -27,18 +29,9 @@ public class CmiNodeDTO {
         this.nodeId = nodeId;
     }
 
-    public Date getLastChanged() { //Sun Jan 18 15:52:49 AEST 1970
+    public Date getLastChanged() {
         if (lastChanged == null && changed != null) {
             lastChanged = new Date(new Long(changed));
-           /* try {
-                SimpleDateFormat dateFormatter = new SimpleDateFormat("EEE MMM dd HH:mm:ss z yyyy");
-                lastChanged = dateFormatter.parse(changed);
-                System.out.println("lastChanged >> " + lastChanged);
-            }
-            catch (ParseException pe) {
-                pe.printStackTrace();
-                lastChanged = null;
-            }*/
         }
         return lastChanged;
     }
