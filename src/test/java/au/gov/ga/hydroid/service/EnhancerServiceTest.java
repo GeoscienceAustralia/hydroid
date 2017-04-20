@@ -136,8 +136,4 @@ public class EnhancerServiceTest {
       Assert.assertFalse(enhancerService.enhance(document));
    }
 
-    @Test
-    public void testEnhanceCMI() {
-        enhancerService.enhanceCMINodes();
-    }
 }
