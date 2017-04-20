@@ -36,6 +36,7 @@ import java.awt.image.BufferedImage;
 import java.io.*;
 
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -161,6 +162,7 @@ public class EnhancerServiceImpl implements EnhancerService {
             return false;
          }
 
+          logger.info("enhance - about to store files / images to S3");
          // Store full enhanced doc (rdf) in S3
          s3Client.storeFile(configuration.getS3OutputBucket(), configuration.getS3EnhancerOutput() + urn,
                enhancedText, ContentType.APPLICATION_XML.getMimeType());
@@ -169,6 +171,7 @@ public class EnhancerServiceImpl implements EnhancerService {
          if (document.getDocType().equals(DocumentType.IMAGE.name())) {
             saveImageDetails(urn, document, properties);
          }
+          logger.info("enhance - stored files / images to S3");
 
          // Add enhanced document to Solr
          logger.info("enhance - about to add document to solr");
@@ -423,20 +426,20 @@ public class EnhancerServiceImpl implements EnhancerService {
 
     @Override
     public void enhanceCMINodes() { // TODO Dee Clean all sysout
+        logger.debug("about to enhance CMI nodes");
         Gson cmiGson = null;
         List<CmiNodeDTO> cmiNodes = new ArrayList<>();
+        String cmiSummaryEndpoint = configuration.getCmiBaseUrl() + configuration.getCmiSummaryEndpoint();
+//        String cmiSummaryEndpoint = "src/test/resources/testfiles/cmi_summary_test.json"; // #TODO Dee from url
 
         try {
-            //        String cmiSummaryEndpoint = configuration.getCmiBaseUrl() + configuration.getCmiSummaryEndpoint();
-            String cmiSummaryEndpoint = "src/test/resources/testfiles/cmi_summary_test.json"; // #TODO Dee from url
-
             cmiGson = new Gson();
-//            cmiNodes = cmiGson.fromJson(org.apache.commons.io.IOUtils.toString(new URL(cmiSummaryEndpoint), "UTF-8"), new TypeToken<List<CmiNodeDTO>>(){}.getType());
-            cmiNodes = cmiGson.fromJson(new FileReader(cmiSummaryEndpoint), new TypeToken<List<CmiNodeDTO>>(){}.getType()); // TODO Dee from url
+            cmiNodes = cmiGson.fromJson(org.apache.commons.io.IOUtils.toString(new URL(cmiSummaryEndpoint), StandardCharsets.UTF_8), new TypeToken<List<CmiNodeDTO>>(){}.getType());
+//            cmiNodes = cmiGson.fromJson(new FileReader(cmiSummaryEndpoint), new TypeToken<List<CmiNodeDTO>>(){}.getType()); // TODO Dee from url
             cmiNodes.forEach(System.out::println);
         }
         catch (IOException ioe) {
-            logger.error("Failed to enhance CMI nodes - error reading node summary : " + ioe);
+            logger.error("Failed to enhance CMI nodes - error reading node summary from endpoint: " + cmiSummaryEndpoint + "\n" + ioe);
             return;
         }
 
@@ -448,10 +451,19 @@ public class EnhancerServiceImpl implements EnhancerService {
                 // Document was not at all enhanced or previous enhancement failed
                 if (dbDoc == null || dbDoc.getStatus() == EnhancementStatus.FAILURE || dbDoc.getProcessDate().before(cmiNode.getLastChanged())) {
                    cmiGson = new Gson();
-//                   String nodeJson = org.apache.commons.io.IOUtils.toString(new URL(cmiNodeEndpoint), "UTF-8");
+//                   InputStream jsonInStream = IOUtils.getUrlContent(cmiNodeEndpoint);
+//                   String nodeJson = org.apache.commons.io.IOUtils.toString(jsonInStream, StandardCharsets.UTF_8);
 //                   CmiDocumentDTO cmiDocumentDTO = cmiGson.fromJson(nodeJson, CmiDocumentDTO.class);
-                   String nodeJson = new String(Files.readAllBytes(Paths.get(cmiNodeEndpoint))); // TODO Dee from url
-                   CmiDocumentDTO cmiDocumentDTO = cmiGson.fromJson(nodeJson, CmiDocumentDTO.class);
+                   InputStream jsonInStream = new FileInputStream(cmiNodeEndpoint);  // TODO Dee from url
+                   String nodeJson = new String(Files.readAllBytes(Paths.get(cmiNodeEndpoint)));
+                   // CMI Node endpoint contains details of only one node, but is exposed as an array.
+                   List<CmiDocumentDTO> cmiDocumentDTOs = cmiGson.fromJson(nodeJson, new TypeToken<List<CmiDocumentDTO>>(){}.getType());
+                   if (cmiDocumentDTOs.size() == 0 || cmiDocumentDTOs.size() > 1) {
+                       logger.error("Failed to enhance CMI node details - error reading node details from endpoint: " + cmiNodeEndpoint);
+                       return;
+                   }
+
+                   CmiDocumentDTO cmiDocumentDTO = cmiDocumentDTOs.get(0);
                    System.out.println(cmiDocumentDTO.toString());
 
                    if (cmiNode.getNodeId() == cmiDocumentDTO.getNodeId()) { // make sure that content is processed for the correct node
@@ -460,7 +472,8 @@ public class EnhancerServiceImpl implements EnhancerService {
                        documentDTO.setDocType(DocumentType.DOCUMENT.name());
                        documentDTO.setOrigin(cmiNodeEndpoint);
                        documentDTO.setContent(nodeJson);
-//                       this.enhance(documentDTO); // TODO Dee enhance
+                       documentDTO.setSha1Hash(IOUtils.getSha1Hash(IOUtils.fromInputStreamToByteArray(jsonInStream)));
+                       this.enhance(documentDTO); // TODO Dee enhance
                        System.out.println("<< Document Enhanced >> " + cmiDocumentDTO.getNodeId());
                    } else {
                        logger.warn("Failed to enhance CMI node with id : " + cmiDocumentDTO.getNodeId()
@@ -469,7 +482,7 @@ public class EnhancerServiceImpl implements EnhancerService {
                 }
             }
             catch (IOException ioe) {
-                logger.error("Failed to enhance CMI node with id : " + cmiNode.getNodeId() + "/n" + ioe);
+                logger.error("Failed to enhance CMI node with id : " + cmiNode.getNodeId() + "\n" + ioe);
             }
         }
     }
