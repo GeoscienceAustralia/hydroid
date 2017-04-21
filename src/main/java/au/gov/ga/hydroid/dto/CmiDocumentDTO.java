@@ -10,7 +10,7 @@ import java.util.List;
  */
 public class CmiDocumentDTO {
    // raw json properties
-   private List<CmiSimpleJsonObject> title; // #TODO Dee should this be "field_alternate_title"
+   private List<CmiSimpleJsonObject> title;
    private List<CmiSimpleJsonObject> nid;
    private List<CmiSimpleJsonObject> field_principal_contributors;
    private List<CmiSimpleJsonObject> created;

@@ -30,17 +30,16 @@ public class CMITestIT {
 
       //String cmiSummaryEndpoint = configuration.getCmiBaseUrl() + configuration.getCmiSummaryEndpoint();
       String cmiSummaryEndpoint = "http://52.64.197.68/cmi_summary";
-//        String cmiSummaryEndpoint = "src/test/resources/testfiles/cmi_summary_test.json"; // #TODO Dee from url
+//        String cmiSummaryEndpoint = "src/test/resources/testfiles/cmi_summary_test.json";
 
       try {
          Gson cmiGson = new Gson();
          List<CmiNodeDTO> cmiNodes = new ArrayList<>();
          cmiNodes = cmiGson.fromJson(org.apache.commons.io.IOUtils.toString(new URL(cmiSummaryEndpoint), StandardCharsets.UTF_8), new TypeToken<List<CmiNodeDTO>>(){}.getType());
-//            cmiNodes = cmiGson.fromJson(new FileReader(cmiSummaryEndpoint), new TypeToken<List<CmiNodeDTO>>(){}.getType()); // TODO Dee from url
+//            cmiNodes = cmiGson.fromJson(new FileReader(cmiSummaryEndpoint), new TypeToken<List<CmiNodeDTO>>(){}.getType());
          cmiNodes.forEach(System.out::println);
       }
       catch (IOException ioe) {
-         //logger.error("Failed to enhance CMI nodes - error reading node summary from endpoint: " + cmiSummaryEndpoint + "\n" + ioe);
          Assert.fail(ioe.getMessage());
       }
 

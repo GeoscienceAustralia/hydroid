@@ -83,7 +83,10 @@ public class EnhancerServiceTestIT {
       Assert.assertTrue(enhancerService.enhance(document));
    }
 
-
+    @Test
+    public void testEnhanceCMINodes() {
+        enhancerService.enhanceCMINodes();
+    }
 
    @Test
    public void testEnhanceDocuments() {

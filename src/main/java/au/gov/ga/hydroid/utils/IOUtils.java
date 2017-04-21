@@ -88,4 +88,12 @@ public class IOUtils {
       }
    }
 
+    public static String getSha1Hash(String input) {
+        try {
+            return DigestUtils.sha1Hex(input);
+        } catch (Exception e) {
+            throw new HydroidException(e);
+        }
+    }
+
 }
