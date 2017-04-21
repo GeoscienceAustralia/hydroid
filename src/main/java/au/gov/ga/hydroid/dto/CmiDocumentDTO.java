@@ -1,5 +1,8 @@
 package au.gov.ga.hydroid.dto;
 
+import au.gov.ga.hydroid.model.DocumentType;
+import au.gov.ga.hydroid.utils.IOUtils;
+
 import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
@@ -94,11 +97,17 @@ public class CmiDocumentDTO {
         return author;
     }
 
-    public DocumentDTO toDocumentDTO() {
+    public DocumentDTO toDocumentDTO(String origin, String content) {
         DocumentDTO documentDTO = new DocumentDTO();
         documentDTO.setTitle(this.getCmiJsonObjectsAsString(this.getTitle()));
         documentDTO.setDateCreated(this.getObjectsAsDate(this.getDateCreated()));
         documentDTO.setAuthor(this.parseAuthor());
+
+        documentDTO.setDocType(DocumentType.DOCUMENT.name());
+        documentDTO.setOrigin(origin);
+        documentDTO.setContent(content);
+        documentDTO.setSha1Hash(IOUtils.getSha1Hash(content));
+
         return documentDTO;
     }
 
