@@ -1,7 +1,7 @@
 package au.gov.ga.hydroid.integration;
 
 import au.gov.ga.hydroid.HydroidApplication;
-import au.gov.ga.hydroid.dto.CmiNodeDTO;
+import au.gov.ga.hydroid.dto.CmiNodeSummary;
 import com.google.gson.Gson;
 import org.apache.jena.ext.com.google.common.reflect.TypeToken;
 import org.junit.Assert;
@@ -34,8 +34,8 @@ public class CMITestIT {
 
       try {
          Gson cmiGson = new Gson();
-         List<CmiNodeDTO> cmiNodes = new ArrayList<>();
-         cmiNodes = cmiGson.fromJson(org.apache.commons.io.IOUtils.toString(new URL(cmiSummaryEndpoint), StandardCharsets.UTF_8), new TypeToken<List<CmiNodeDTO>>(){}.getType());
+         List<CmiNodeSummary> cmiNodes = new ArrayList<>();
+         cmiNodes = cmiGson.fromJson(org.apache.commons.io.IOUtils.toString(new URL(cmiSummaryEndpoint), StandardCharsets.UTF_8), new TypeToken<List<CmiNodeSummary>>(){}.getType());
 //            cmiNodes = cmiGson.fromJson(new FileReader(cmiSummaryEndpoint), new TypeToken<List<CmiNodeDTO>>(){}.getType());
          cmiNodes.forEach(System.out::println);
       }

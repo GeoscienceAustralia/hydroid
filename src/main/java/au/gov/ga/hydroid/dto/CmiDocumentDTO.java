@@ -8,8 +8,8 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * Representation of the CMI Json output. The variable name should match the keys in the JSON.
- * Look at toDocumentDTO() method in this class for the corresponding DocumentDTO variables.
+ * Representation of the CMI Json output for a particular node. The variable name matches the keys in JSON.
+ * The toDocumentDTO() method converts it to corresponding DocumentDTO.
  */
 public class CmiDocumentDTO {
    // raw json properties

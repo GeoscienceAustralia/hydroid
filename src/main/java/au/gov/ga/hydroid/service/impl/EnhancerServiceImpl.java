@@ -5,7 +5,7 @@ import au.gov.ga.hydroid.dto.DocumentDTO;
 import au.gov.ga.hydroid.dto.ImageAnnotation;
 import au.gov.ga.hydroid.dto.ImageMetadata;
 import au.gov.ga.hydroid.dto.CmiDocumentDTO;
-import au.gov.ga.hydroid.dto.CmiNodeDTO;
+import au.gov.ga.hydroid.dto.CmiNodeSummary;
 import au.gov.ga.hydroid.model.Document;
 import au.gov.ga.hydroid.model.DocumentType;
 import au.gov.ga.hydroid.model.EnhancementStatus;
@@ -425,15 +425,20 @@ public class EnhancerServiceImpl implements EnhancerService {
    }
 
     @Override
+    /**
+     * there are two step in this process:
+     * 1. read the list of all nodes available in CMI for enhancing
+     * 2. for each node, if its not already enhanced successfully, read its contents from endpoint and enhance it.
+     */
     public void enhanceCMINodes() {
         logger.debug("about to enhance CMI nodes");
-        List<CmiNodeDTO> cmiNodes = new ArrayList<>();
+        List<CmiNodeSummary> cmiNodes = new ArrayList<>();
         String cmiSummaryEndpoint = configuration.getCmiBaseUrl() + configuration.getCmiSummaryEndpoint();
 //        String cmiSummaryEndpoint = "src/test/resources/testfiles/cmi_summary_test.json"; // #TODO Dee
 
         try {
             Gson cmiGson = new Gson();
-            cmiNodes = cmiGson.fromJson(org.apache.commons.io.IOUtils.toString(new URL(cmiSummaryEndpoint), StandardCharsets.UTF_8), new TypeToken<List<CmiNodeDTO>>(){}.getType());
+            cmiNodes = cmiGson.fromJson(org.apache.commons.io.IOUtils.toString(new URL(cmiSummaryEndpoint), StandardCharsets.UTF_8), new TypeToken<List<CmiNodeSummary>>(){}.getType());
 //            cmiNodes = cmiGson.fromJson(new FileReader(cmiSummaryEndpoint), new TypeToken<List<CmiNodeDTO>>(){}.getType()); // TODO Dee
         }
         catch (IOException ioe) {
@@ -444,7 +449,7 @@ public class EnhancerServiceImpl implements EnhancerService {
         cmiNodes.forEach(this::enhanceCmiNode);
     }
 
-    private void enhanceCmiNode(CmiNodeDTO cmiNode) {
+    private void enhanceCmiNode(CmiNodeSummary cmiNode) {
         try {
             String cmiNodeEndpoint = configuration.getCmiBaseUrl() + configuration.getCmiNodeEndpoint() + cmiNode.getNodeId();
 //                String cmiNodeEndpoint = "src/test/resources/testfiles/cmi_test.json"; // TODO Dee

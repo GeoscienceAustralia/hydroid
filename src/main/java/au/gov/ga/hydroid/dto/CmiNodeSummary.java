@@ -9,7 +9,7 @@ import java.util.Date;
 /**
  * Created by u26360 on 30/03/2017.
  */
-public class CmiNodeDTO {
+public class CmiNodeSummary {
     // raw json properties
     private String nid;
     private String changed;
