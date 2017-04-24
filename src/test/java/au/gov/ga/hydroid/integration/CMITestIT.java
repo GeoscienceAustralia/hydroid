@@ -28,16 +28,20 @@ public class CMITestIT {
    @Test
    public void testGetCMINodesSummary() {
 
-      //String cmiSummaryEndpoint = configuration.getCmiBaseUrl() + configuration.getCmiSummaryEndpoint();
       String cmiSummaryEndpoint = "http://52.64.197.68/cmi_summary";
-//        String cmiSummaryEndpoint = "src/test/resources/testfiles/cmi_summary_test.json";
+//      String cmiSummaryEndpoint = "src/test/resources/testfiles/cmi_summary_test.json";
 
       try {
          Gson cmiGson = new Gson();
          List<CmiNodeSummary> cmiNodes = new ArrayList<>();
          cmiNodes = cmiGson.fromJson(org.apache.commons.io.IOUtils.toString(new URL(cmiSummaryEndpoint), StandardCharsets.UTF_8), new TypeToken<List<CmiNodeSummary>>(){}.getType());
-//            cmiNodes = cmiGson.fromJson(new FileReader(cmiSummaryEndpoint), new TypeToken<List<CmiNodeDTO>>(){}.getType());
+//            cmiNodes = cmiGson.fromJson(new FileReader(cmiSummaryEndpoint), new TypeToken<List<CmiNodeSummary>>(){}.getType());
          cmiNodes.forEach(System.out::println);
+
+
+//          String cmiNodeEndpoint = "src/test/resources/testfiles/cmi_test.json";
+//          InputStream jsonInStream = new FileInputStream(cmiNodeEndpoint);
+//          String nodeJson = new String(Files.readAllBytes(Paths.get(cmiNodeEndpoint)));
       }
       catch (IOException ioe) {
          Assert.fail(ioe.getMessage());

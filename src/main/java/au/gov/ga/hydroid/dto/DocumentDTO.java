@@ -77,7 +77,7 @@ public class DocumentDTO {
     public String toString() {
         return "DocumentDTO {" +
                 "title ='" + title + '\'' +
-                ", content ='" + content + '\'' +
+//                ", content ='" + content + '\'' +
                 ", docType ='" + docType + '\'' +
                 ", origin ='" + origin + '\'' +
                 ", author ='" + author + '\'' +

@@ -1431,7 +1431,12 @@
                     }
                 ],
                 "field_principal_contact": [],
-                "field_principal_contributors": [],
+                "field_principal_contributors": [
+                    {
+                        "value":"Norman Mueller",
+                        "format":"basic_html"
+                    }
+                ],
                 "field_processes": [],
                 "field_production_stage": [],
                 "field_product_life_span": [

@@ -424,22 +424,20 @@ public class EnhancerServiceImpl implements EnhancerService {
       }
    }
 
-    @Override
     /**
      * there are two step in this process:
      * 1. read the list of all nodes available in CMI for enhancing
      * 2. for each node, if its not already enhanced successfully, read its contents from endpoint and enhance it.
      */
+    @Override
     public void enhanceCMINodes() {
         logger.debug("about to enhance CMI nodes");
         List<CmiNodeSummary> cmiNodes = new ArrayList<>();
         String cmiSummaryEndpoint = configuration.getCmiBaseUrl() + configuration.getCmiSummaryEndpoint();
-//        String cmiSummaryEndpoint = "src/test/resources/testfiles/cmi_summary_test.json"; // #TODO Dee
 
         try {
             Gson cmiGson = new Gson();
             cmiNodes = cmiGson.fromJson(org.apache.commons.io.IOUtils.toString(new URL(cmiSummaryEndpoint), StandardCharsets.UTF_8), new TypeToken<List<CmiNodeSummary>>(){}.getType());
-//            cmiNodes = cmiGson.fromJson(new FileReader(cmiSummaryEndpoint), new TypeToken<List<CmiNodeDTO>>(){}.getType()); // TODO Dee
         }
         catch (IOException ioe) {
             logger.error("Failed to enhance CMI nodes - error reading node summary from endpoint: " + cmiSummaryEndpoint + "\n" + ioe);
@@ -452,15 +450,13 @@ public class EnhancerServiceImpl implements EnhancerService {
     private void enhanceCmiNode(CmiNodeSummary cmiNode) {
         try {
             String cmiNodeEndpoint = configuration.getCmiBaseUrl() + configuration.getCmiNodeEndpoint() + cmiNode.getNodeId();
-//                String cmiNodeEndpoint = "src/test/resources/testfiles/cmi_test.json"; // TODO Dee
+
             Document dbDoc = this.documentService.findByOrigin(cmiNodeEndpoint);
             // Document was not at all enhanced or previous enhancement failed
             if (dbDoc == null || dbDoc.getStatus() == EnhancementStatus.FAILURE || dbDoc.getProcessDate().before(cmiNode.getLastChanged())) {
                Gson cmiGson = new Gson();
                InputStream jsonInStream = IOUtils.getUrlContent(cmiNodeEndpoint);
                String nodeJson = org.apache.commons.io.IOUtils.toString(jsonInStream, StandardCharsets.UTF_8);
-//                   InputStream jsonInStream = new FileInputStream(cmiNodeEndpoint);  // TODO Dee
-//                   String nodeJson = new String(Files.readAllBytes(Paths.get(cmiNodeEndpoint))); // TODO Dee
 
                // CMI Node endpoint contains details of only one node, but is exposed as an array.
                List<CmiDocumentDTO> cmiDocumentDTOs = cmiGson.fromJson(nodeJson, new TypeToken<List<CmiDocumentDTO>>(){}.getType());

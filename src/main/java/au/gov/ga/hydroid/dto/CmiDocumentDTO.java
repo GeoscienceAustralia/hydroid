@@ -15,8 +15,9 @@ public class CmiDocumentDTO {
    // raw json properties
    private List<CmiSimpleJsonObject> title;
    private List<CmiSimpleJsonObject> nid;
-   private List<CmiSimpleJsonObject> field_principal_contributors;
+   private List<CmiAuthorJsonObject> field_data_sources;
    private List<CmiSimpleJsonObject> created;
+   private String author = "";
 
    // property as needed by the application
    private int nodeId;
@@ -35,14 +36,6 @@ public class CmiDocumentDTO {
 
     public void setNid(List<CmiSimpleJsonObject> nid) {
         this.nid = nid;
-    }
-
-    public List<CmiSimpleJsonObject> getPrincipalContributor() {
-        return field_principal_contributors;
-    }
-
-    public void setPrincipalContributor(List<CmiSimpleJsonObject> author) {
-        this.field_principal_contributors = author;
     }
 
     public List<CmiSimpleJsonObject> getDateCreated() {
@@ -91,9 +84,11 @@ public class CmiDocumentDTO {
         return dateCreated;
     }
 
+    /* JSON path to parse author - field_data_sources[0].field_principal_contributors */
     private String parseAuthor() {
-        String author = null;
-        author = this.getCmiJsonObjectsAsString(this.getPrincipalContributor()); // TODO Dee parse author name from node endpoint
+        if (this.field_data_sources != null && this.field_data_sources.size() > 0) {
+            author = this.getCmiJsonObjectsAsString(((CmiAuthorJsonObject) field_data_sources.get(0)).getPrincipalContributors());
+        }
         return author;
     }
 
@@ -116,7 +111,7 @@ public class CmiDocumentDTO {
         return "CmiDocumentDTO{" +
                 "title='" + title + '\'' +
                 ", nid='" + nid + '\'' +
-                ", author='" + field_principal_contributors + '\'' +
+                ", author='" + author + '\'' +
                 ", created=" + created +
                 '}';
     }
