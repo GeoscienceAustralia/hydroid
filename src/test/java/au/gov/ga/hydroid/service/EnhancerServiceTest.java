@@ -88,6 +88,7 @@ public class EnhancerServiceTest {
       document.setContent(IOUtils.parseStream(this.getClass().getResourceAsStream(origin), metadata));
       document.setTitle(metadata.get("title"));
       document.setAuthor(metadata.get("author") == null ? metadata.get("Author") : metadata.get("author"));
+      document.setOrigin("Test Origin");
       document.setDateCreated(DateUtils.parseDate(metadata.get("Creation-Date"), new String[]{"yyyy-MM-dd'T'HH:mm:ss'Z'"}));
       Assert.assertTrue(enhancerService.enhance(document));
    }

@@ -73,4 +73,16 @@ public class DocumentDTO {
       this.sha1Hash = sha1Hash;
    }
 
+    @Override
+    public String toString() {
+        return "DocumentDTO {" +
+                "title ='" + title + '\'' +
+//                ", content ='" + content + '\'' +
+                ", docType ='" + docType + '\'' +
+                ", origin ='" + origin + '\'' +
+                ", author ='" + author + '\'' +
+                ", dateCreated =" + dateCreated +
+                ", sha1Hash ='" + sha1Hash + '\'' +
+                '}';
+    }
 }

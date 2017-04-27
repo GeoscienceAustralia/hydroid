@@ -4,6 +4,8 @@ import au.gov.ga.hydroid.HydroidConfiguration;
 import au.gov.ga.hydroid.dto.DocumentDTO;
 import au.gov.ga.hydroid.dto.ImageAnnotation;
 import au.gov.ga.hydroid.dto.ImageMetadata;
+import au.gov.ga.hydroid.dto.CmiDocumentDTO;
+import au.gov.ga.hydroid.dto.CmiNodeSummary;
 import au.gov.ga.hydroid.model.Document;
 import au.gov.ga.hydroid.model.DocumentType;
 import au.gov.ga.hydroid.model.EnhancementStatus;
@@ -13,9 +15,11 @@ import au.gov.ga.hydroid.utils.HydroidException;
 import au.gov.ga.hydroid.utils.IOUtils;
 import au.gov.ga.hydroid.utils.StanbolMediaTypes;
 import com.amazonaws.services.s3.model.ObjectMetadata;
+import com.google.gson.Gson;
 import org.apache.commons.lang.StringUtils;
 import org.apache.http.client.utils.DateUtils;
 import org.apache.http.entity.ContentType;
+import org.apache.jena.ext.com.google.common.reflect.TypeToken;
 import org.apache.jena.rdf.model.Statement;
 import org.apache.tika.metadata.Metadata;
 import org.apache.tika.parser.AbstractParser;
@@ -29,10 +33,12 @@ import org.springframework.stereotype.Service;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
+import java.io.*;
+
+import java.net.URL;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
@@ -99,7 +105,7 @@ public class EnhancerServiceImpl implements EnhancerService {
    }
 
    private void processFailure(DocumentDTO document, String urn, String reason) {
-      logger.info("processFailure - saving document in the database");
+      logger.info("processFailure - saving document in the database - " + reason);
       saveOrUpdateDocument(document, urn, EnhancementStatus.FAILURE, reason);
       logger.info("processFailure - document saved in the database");
 
@@ -156,6 +162,7 @@ public class EnhancerServiceImpl implements EnhancerService {
             return false;
          }
 
+          logger.info("enhance - about to store files / images to S3");
          // Store full enhanced doc (rdf) in S3
          s3Client.storeFile(configuration.getS3OutputBucket(), configuration.getS3EnhancerOutput() + urn,
                enhancedText, ContentType.APPLICATION_XML.getMimeType());
@@ -164,6 +171,7 @@ public class EnhancerServiceImpl implements EnhancerService {
          if (document.getDocType().equals(DocumentType.IMAGE.name())) {
             saveImageDetails(urn, document, properties);
          }
+          logger.info("enhance - stored files / images to S3");
 
          // Add enhanced document to Solr
          logger.info("enhance - about to add document to solr");
@@ -416,7 +424,63 @@ public class EnhancerServiceImpl implements EnhancerService {
       }
    }
 
-   private void rollbackEnhancement(String urn) {
+    /**
+     * there are two step in this process:
+     * 1. read the list of all nodes available in CMI for enhancing
+     * 2. for each node, if its not already enhanced successfully, read its contents from endpoint and enhance it.
+     */
+    @Override
+    public void enhanceCMINodes() {
+        logger.debug("about to enhance CMI nodes");
+        List<CmiNodeSummary> cmiNodes = new ArrayList<>();
+        String cmiSummaryEndpoint = configuration.getCmiBaseUrl() + configuration.getCmiSummaryEndpoint();
+
+        try {
+            Gson cmiGson = new Gson();
+            cmiNodes = cmiGson.fromJson(org.apache.commons.io.IOUtils.toString(new URL(cmiSummaryEndpoint), StandardCharsets.UTF_8), new TypeToken<List<CmiNodeSummary>>(){}.getType());
+        }
+        catch (IOException ioe) {
+            logger.error("Failed to enhance CMI nodes - error reading node summary from endpoint: " + cmiSummaryEndpoint + "\n" + ioe);
+            return;
+        }
+        // enhance each cmi node
+        cmiNodes.forEach(this::enhanceCmiNode);
+    }
+
+    private void enhanceCmiNode(CmiNodeSummary cmiNode) {
+        try {
+            String cmiNodeEndpoint = configuration.getCmiBaseUrl() + configuration.getCmiNodeEndpoint() + cmiNode.getNodeId();
+
+            Document dbDoc = this.documentService.findByOrigin(cmiNodeEndpoint);
+            // Document was not at all enhanced or previous enhancement failed
+            if (dbDoc == null || dbDoc.getStatus() == EnhancementStatus.FAILURE || dbDoc.getProcessDate().before(cmiNode.getLastChanged())) {
+               Gson cmiGson = new Gson();
+               InputStream jsonInStream = IOUtils.getUrlContent(cmiNodeEndpoint);
+               String nodeJson = org.apache.commons.io.IOUtils.toString(jsonInStream, StandardCharsets.UTF_8);
+
+               // CMI Node endpoint contains details of only one node, but is exposed as an array.
+               List<CmiDocumentDTO> cmiDocumentDTOs = cmiGson.fromJson(nodeJson, new TypeToken<List<CmiDocumentDTO>>(){}.getType());
+               if (cmiDocumentDTOs.size() == 0 || cmiDocumentDTOs.size() > 1) {
+                   logger.error("Failed to enhance CMI node details - error reading node details from endpoint: " + cmiNodeEndpoint);
+                   return;
+               }
+               CmiDocumentDTO cmiDocumentDTO = cmiDocumentDTOs.get(0);
+
+               if (cmiNode.getNodeId() == cmiDocumentDTO.getNodeId()) { // make sure that content is processed for the correct node
+                   DocumentDTO documentDTO = cmiDocumentDTO.toDocumentDTO(cmiNodeEndpoint, nodeJson );
+                   this.enhance(documentDTO); // enhance the cmi node content
+               } else {
+                   logger.warn("Failed to enhance CMI node with id : " + cmiDocumentDTO.getNodeId()
+                           + " as node endpoint seems corrupted : " + cmiNodeEndpoint);
+               }
+            }
+        }
+        catch (IOException ioe) {
+            logger.error("Failed to enhance CMI node with id : " + cmiNode.getNodeId() + "\n" + ioe);
+        }
+    }
+
+    private void rollbackEnhancement(String urn) {
       if (urn == null) {
          return;
       }

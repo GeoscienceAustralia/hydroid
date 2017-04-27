@@ -35,6 +35,7 @@ public class EnhancerJob implements Job {
       enhancerService.enhanceDatasets();
       enhancerService.enhanceModels();
       enhancerService.enhanceImages();
+       enhancerService.enhanceCMINodes();
       Instant finished = Instant.now();
       logger.info("execute finished at.: " + finished);
       logger.info("execute elapsed time: " + Duration.between(started, finished));

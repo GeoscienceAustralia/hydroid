@@ -14,4 +14,9 @@ public interface EnhancerService {
    public void enhanceModels();
    public void enhanceImages();
 
+    /**
+     * enhances documents from cmi
+     */
+    public void enhanceCMINodes();
+
 }

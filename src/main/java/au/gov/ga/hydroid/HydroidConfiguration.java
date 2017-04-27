@@ -57,6 +57,15 @@ public class HydroidConfiguration {
    @Value("${hydroid.pid.path}")
    private String hydroidPidPath;
 
+   @Value ("${cmi.base.url}")
+   private String cmiBaseUrl;
+
+   @Value("${cmi.summary.endpoint}")
+   private String cmiSummaryEndpoint;
+
+   @Value("${cmi.node.endpoint}")
+   private String cmiNodeEndpoint;
+
    public String getProxyHost() {
       return proxyHost;
    }
@@ -117,4 +126,9 @@ public class HydroidConfiguration {
       return hydroidPidPath;
    }
 
+   public String getCmiBaseUrl() { return cmiBaseUrl; }
+
+   public String getCmiSummaryEndpoint() { return cmiSummaryEndpoint; }
+
+   public String getCmiNodeEndpoint() { return cmiNodeEndpoint; }
 }

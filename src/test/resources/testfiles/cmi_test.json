@@ -1,0 +1,4929 @@
+[
+    {
+        "nid": [
+            {
+                "value": 122
+            }
+        ],
+        "uuid": [
+            {
+                "value": "e3579cf9-83d5-4349-9967-0476a64c8dc2"
+            }
+        ],
+        "vid": [
+            {
+                "value": 204
+            }
+        ],
+        "langcode": [
+            {
+                "value": "en"
+            }
+        ],
+        "type": [
+            {
+                "target_id": "product",
+                "target_type": "node_type",
+                "target_uuid": "9b63d36e-b747-4565-9991-99c5a3e112ff"
+            }
+        ],
+        "status": [
+            {
+                "value": true
+            }
+        ],
+        "title": [
+            {
+                "value": "WO-STATS_25_2.1.5"
+            }
+        ],
+        "uid": [
+            {
+                "target_id": 1,
+                "target_type": "user",
+                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                "url": "\/user\/1"
+            }
+        ],
+        "created": [
+            {
+                "value": 1490052613
+            }
+        ],
+        "changed": [
+            {
+                "value": 1490054289
+            }
+        ],
+        "promote": [
+            {
+                "value": false
+            }
+        ],
+        "sticky": [
+            {
+                "value": false
+            }
+        ],
+        "revision_timestamp": [
+            {
+                "value": 1490054289
+            }
+        ],
+        "revision_uid": [
+            {
+                "target_id": 1,
+                "target_type": "user",
+                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                "url": "\/user\/1"
+            }
+        ],
+        "revision_log": [],
+        "revision_translation_affected": [
+            {
+                "value": true
+            }
+        ],
+        "default_langcode": [
+            {
+                "value": true
+            }
+        ],
+        "moderation_state": [
+            {
+                "value": "draft"
+            }
+        ],
+        "workspace": [
+            {
+                "target_id": 1,
+                "target_type": "workspace",
+                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+            }
+        ],
+        "_deleted": [
+            {
+                "value": false
+            }
+        ],
+        "_rev": [
+            {
+                "value": "1-ec1dcb89c2ddfabf32e6cf4ffd563285"
+            }
+        ],
+        "path": [],
+        "field_access_constraints": [],
+        "field_accuracy_and_limitations": [
+            {
+                "value": "\u003Cp\u003EPlease refer to the SR-N_25_2.0.0 Product Description (GA, 2013) for the accuracy and limitations of the atmospheric, BRDF and topographic shading processing sequence. Please refer to Mueller et al. 2016 for details on accuracy and limitations.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_acknowledgments": [
+            {
+                "value": "\u003Cp\u003ELandsat data is provided by the United States Geological Survey (USGS) through direct reception of the data at Geoscience Australias satellite reception facility or download.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_alternate_title": [
+            {
+                "value": "Water Observations from Space Statistics 25m 2.1.5",
+                "format": "basic_html"
+            }
+        ],
+        "field_applications": [
+            {
+                "value": "\u003Cp\u003EThe primary purpose of the WO_2.1.5 and WO_STATS_2.1.5 products is to help understand where flooding may have occurred in the past. This has application in emergency management and risk assessment.\u003Cbr \/\u003E\r\nThe product has many secondary uses. For example the products provide an indication of the permanence of surface water in the Australian landscape by showing where water is observed rarely in comparison to where it is often observed. This has application in water management and mapping. The products have also been used for wetland analyses, water connectivity and surface-ground water relationships.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_background": [
+            {
+                "value": "\u003Cp\u003EThe Water Observations from Space product (WO_2.1.5) is a key component of the National Flood Risk Information Portal (NFRIP), developed by Geoscience Australia (GA). The objective of Water Observations from Space is to analyse GA\u0027s historic archive of satellite imagery to derive water observations, to help understand where flooding may have occurred in the past. The collection of many hundred thousand WOFLs that make up WO_2.1.5 are too cumbersome to display easily. WO_STATS_2.1.5 provides the mechanism to present and deliver WO_2.1.5 in an easily digestible form, and provides understanding of water in the landscape.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_backup_and_recovery": [],
+        "field_catalogues": [],
+        "field_contact": [
+            {
+                "nid": [
+                    {
+                        "value": 64
+                    }
+                ],
+                "uuid": [
+                    {
+                        "value": "82716aa8-1eb3-4f17-92c2-e4464c784120"
+                    }
+                ],
+                "vid": [
+                    {
+                        "value": 111
+                    }
+                ],
+                "langcode": [
+                    {
+                        "value": "en"
+                    }
+                ],
+                "type": [
+                    {
+                        "target_id": "contact",
+                        "target_type": "node_type",
+                        "target_uuid": "e3672a17-5d33-40f0-b4f8-0249345d8c91"
+                    }
+                ],
+                "status": [
+                    {
+                        "value": true
+                    }
+                ],
+                "title": [
+                    {
+                        "value": "Commonwealth of Australia (Geoscience Australia)"
+                    }
+                ],
+                "uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "created": [
+                    {
+                        "value": 1488411904
+                    }
+                ],
+                "changed": [
+                    {
+                        "value": 1488411997
+                    }
+                ],
+                "promote": [
+                    {
+                        "value": false
+                    }
+                ],
+                "sticky": [
+                    {
+                        "value": false
+                    }
+                ],
+                "revision_timestamp": [
+                    {
+                        "value": 1488411997
+                    }
+                ],
+                "revision_uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "revision_log": [],
+                "revision_translation_affected": [
+                    {
+                        "value": true
+                    }
+                ],
+                "default_langcode": [
+                    {
+                        "value": true
+                    }
+                ],
+                "moderation_state": [],
+                "workspace": [
+                    {
+                        "target_id": 1,
+                        "target_type": "workspace",
+                        "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                    }
+                ],
+                "_deleted": [
+                    {
+                        "value": false
+                    }
+                ],
+                "_rev": [
+                    {
+                        "value": "1-94fe877f41511aacffb0e3b952b5d312"
+                    }
+                ],
+                "path": [],
+                "field_contact_name": [
+                    {
+                        "value": "Client Services"
+                    }
+                ],
+                "field_email": [
+                    {
+                        "value": "clientservices@ga.gov.au"
+                    }
+                ],
+                "field_organization": [
+                    {
+                        "nid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "uuid": [
+                            {
+                                "value": "2ac5309e-a20c-4c29-b1b0-e2dba4d17f90"
+                            }
+                        ],
+                        "vid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "langcode": [
+                            {
+                                "value": "en"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "target_id": "organization",
+                                "target_type": "node_type",
+                                "target_uuid": "b16be7e4-0b38-4918-9d08-6bd8b864b0f8"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "title": [
+                            {
+                                "value": "Geoscience Australia"
+                            }
+                        ],
+                        "uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "created": [
+                            {
+                                "value": 1487660362
+                            }
+                        ],
+                        "changed": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "promote": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "sticky": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "revision_timestamp": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "revision_uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "revision_log": [],
+                        "revision_translation_affected": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "default_langcode": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "moderation_state": [],
+                        "workspace": [
+                            {
+                                "target_id": 1,
+                                "target_type": "workspace",
+                                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                            }
+                        ],
+                        "_deleted": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "_rev": [
+                            {
+                                "value": "1-73d9a675c57db7b63be1833d5aa7dee1"
+                            }
+                        ],
+                        "path": [],
+                        "field_address": [
+                            {
+                                "streetAddress": "Cnr Jerrabomberra Ave and Hindmarsh Dr",
+                                "addressLocality": "Symonston",
+                                "addressRegion": "ACT",
+                                "postalCode": "2609",
+                                "postOfficeBoxNumber": "",
+                                "addressCountry": "AU"
+                            }
+                        ],
+                        "field_email": [
+                            {
+                                "value": "clientservices@ga.gov.au"
+                            }
+                        ],
+                        "field_tags": [],
+                        "field_telephone": [
+                            {
+                                "value": "1800 800 173"
+                            }
+                        ],
+                        "field_website": [
+                            {
+                                "uri": "http:\/\/www.ga.gov.au",
+                                "title": "",
+                                "options": []
+                            }
+                        ]
+                    }
+                ],
+                "field_role": [],
+                "field_telephone": [
+                    {
+                        "value": "1800 800 173"
+                    }
+                ]
+            }
+        ],
+        "field_coverage_content_type": [],
+        "field_custodian": [
+            {
+                "nid": [
+                    {
+                        "value": 64
+                    }
+                ],
+                "uuid": [
+                    {
+                        "value": "82716aa8-1eb3-4f17-92c2-e4464c784120"
+                    }
+                ],
+                "vid": [
+                    {
+                        "value": 111
+                    }
+                ],
+                "langcode": [
+                    {
+                        "value": "en"
+                    }
+                ],
+                "type": [
+                    {
+                        "target_id": "contact",
+                        "target_type": "node_type",
+                        "target_uuid": "e3672a17-5d33-40f0-b4f8-0249345d8c91"
+                    }
+                ],
+                "status": [
+                    {
+                        "value": true
+                    }
+                ],
+                "title": [
+                    {
+                        "value": "Commonwealth of Australia (Geoscience Australia)"
+                    }
+                ],
+                "uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "created": [
+                    {
+                        "value": 1488411904
+                    }
+                ],
+                "changed": [
+                    {
+                        "value": 1488411997
+                    }
+                ],
+                "promote": [
+                    {
+                        "value": false
+                    }
+                ],
+                "sticky": [
+                    {
+                        "value": false
+                    }
+                ],
+                "revision_timestamp": [
+                    {
+                        "value": 1488411997
+                    }
+                ],
+                "revision_uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "revision_log": [],
+                "revision_translation_affected": [
+                    {
+                        "value": true
+                    }
+                ],
+                "default_langcode": [
+                    {
+                        "value": true
+                    }
+                ],
+                "moderation_state": [],
+                "workspace": [
+                    {
+                        "target_id": 1,
+                        "target_type": "workspace",
+                        "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                    }
+                ],
+                "_deleted": [
+                    {
+                        "value": false
+                    }
+                ],
+                "_rev": [
+                    {
+                        "value": "1-94fe877f41511aacffb0e3b952b5d312"
+                    }
+                ],
+                "path": [],
+                "field_contact_name": [
+                    {
+                        "value": "Client Services"
+                    }
+                ],
+                "field_email": [
+                    {
+                        "value": "clientservices@ga.gov.au"
+                    }
+                ],
+                "field_organization": [
+                    {
+                        "nid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "uuid": [
+                            {
+                                "value": "2ac5309e-a20c-4c29-b1b0-e2dba4d17f90"
+                            }
+                        ],
+                        "vid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "langcode": [
+                            {
+                                "value": "en"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "target_id": "organization",
+                                "target_type": "node_type",
+                                "target_uuid": "b16be7e4-0b38-4918-9d08-6bd8b864b0f8"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "title": [
+                            {
+                                "value": "Geoscience Australia"
+                            }
+                        ],
+                        "uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "created": [
+                            {
+                                "value": 1487660362
+                            }
+                        ],
+                        "changed": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "promote": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "sticky": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "revision_timestamp": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "revision_uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "revision_log": [],
+                        "revision_translation_affected": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "default_langcode": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "moderation_state": [],
+                        "workspace": [
+                            {
+                                "target_id": 1,
+                                "target_type": "workspace",
+                                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                            }
+                        ],
+                        "_deleted": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "_rev": [
+                            {
+                                "value": "1-73d9a675c57db7b63be1833d5aa7dee1"
+                            }
+                        ],
+                        "path": [],
+                        "field_address": [
+                            {
+                                "streetAddress": "Cnr Jerrabomberra Ave and Hindmarsh Dr",
+                                "addressLocality": "Symonston",
+                                "addressRegion": "ACT",
+                                "postalCode": "2609",
+                                "postOfficeBoxNumber": "",
+                                "addressCountry": "AU"
+                            }
+                        ],
+                        "field_email": [
+                            {
+                                "value": "clientservices@ga.gov.au"
+                            }
+                        ],
+                        "field_tags": [],
+                        "field_telephone": [
+                            {
+                                "value": "1800 800 173"
+                            }
+                        ],
+                        "field_website": [
+                            {
+                                "uri": "http:\/\/www.ga.gov.au",
+                                "title": "",
+                                "options": []
+                            }
+                        ]
+                    }
+                ],
+                "field_role": [],
+                "field_telephone": [
+                    {
+                        "value": "1800 800 173"
+                    }
+                ]
+            }
+        ],
+        "field_data_description": [],
+        "field_data_ingestion": [],
+        "field_data_ingestion_time_frame": [
+            {
+                "value": "2017-03-20T23:30:13",
+                "end_value": "2017-03-20T23:30:13"
+            }
+        ],
+        "field_data_sources": [
+            {
+                "nid": [
+                    {
+                        "value": 121
+                    }
+                ],
+                "uuid": [
+                    {
+                        "value": "150873e7-7aa8-472d-91ea-dd250ac663ef"
+                    }
+                ],
+                "vid": [
+                    {
+                        "value": 203
+                    }
+                ],
+                "langcode": [
+                    {
+                        "value": "en"
+                    }
+                ],
+                "type": [
+                    {
+                        "target_id": "product",
+                        "target_type": "node_type",
+                        "target_uuid": "9b63d36e-b747-4565-9991-99c5a3e112ff"
+                    }
+                ],
+                "status": [
+                    {
+                        "value": true
+                    }
+                ],
+                "title": [
+                    {
+                        "value": "WO_25_2.1.5"
+                    }
+                ],
+                "uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "created": [
+                    {
+                        "value": 1489988156
+                    }
+                ],
+                "changed": [
+                    {
+                        "value": 1489988548
+                    }
+                ],
+                "promote": [
+                    {
+                        "value": false
+                    }
+                ],
+                "sticky": [
+                    {
+                        "value": false
+                    }
+                ],
+                "revision_timestamp": [
+                    {
+                        "value": 1489988548
+                    }
+                ],
+                "revision_uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "revision_log": [],
+                "revision_translation_affected": [
+                    {
+                        "value": true
+                    }
+                ],
+                "default_langcode": [
+                    {
+                        "value": true
+                    }
+                ],
+                "moderation_state": [
+                    {
+                        "value": "draft"
+                    }
+                ],
+                "workspace": [
+                    {
+                        "target_id": 1,
+                        "target_type": "workspace",
+                        "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                    }
+                ],
+                "_deleted": [
+                    {
+                        "value": false
+                    }
+                ],
+                "_rev": [
+                    {
+                        "value": "1-c445db2b33a858027f2a0ae58ebbb079"
+                    }
+                ],
+                "path": [],
+                "field_access_constraints": [],
+                "field_accuracy_and_limitations": [],
+                "field_acknowledgments": [],
+                "field_alternate_title": [
+                    {
+                        "value": "Water Observations from Space 25m 2.1.5",
+                        "format": "basic_html"
+                    }
+                ],
+                "field_applications": [
+                    {
+                        "value": "\u003Cp\u003EThe primary purpose of the WO_25_2.1.5 product is to help understand where flooding may have occurred in the past. This has application in emergency management and risk assessment.\u003Cbr \/\u003E\r\nThe product has many secondary uses. For example the WO_25_2.1.5 product provides an indication on the permanence of surface water in the Australian landscape by showing where water is observed rarely in comparison to where it is often observed. This has application in water management and mapping. WO_25_2.1.5 has also been used for wetland analyses, water connectivity and surface-ground water relationships.\u003C\/p\u003E\r\n",
+                        "format": "basic_html"
+                    }
+                ],
+                "field_background": [
+                    {
+                        "value": "\u003Cp\u003EThe Water Observations from Space product (WO_25_2.1.5) is a key component of the National Flood Risk Information Portal (NFRIP), developed by Geoscience Australia (GA). The objective of Water Observations from Space is to analyse GA\u0027s historic archive of satellite imagery to derive water observations, to help understand where flooding may have occurred in the past.\u003C\/p\u003E\r\n",
+                        "format": "basic_html"
+                    }
+                ],
+                "field_backup_and_recovery": [],
+                "field_catalogues": [],
+                "field_contact": [
+                    {
+                        "nid": [
+                            {
+                                "value": 64
+                            }
+                        ],
+                        "uuid": [
+                            {
+                                "value": "82716aa8-1eb3-4f17-92c2-e4464c784120"
+                            }
+                        ],
+                        "vid": [
+                            {
+                                "value": 111
+                            }
+                        ],
+                        "langcode": [
+                            {
+                                "value": "en"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "target_id": "contact",
+                                "target_type": "node_type",
+                                "target_uuid": "e3672a17-5d33-40f0-b4f8-0249345d8c91"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "title": [
+                            {
+                                "value": "Commonwealth of Australia (Geoscience Australia)"
+                            }
+                        ],
+                        "uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "created": [
+                            {
+                                "value": 1488411904
+                            }
+                        ],
+                        "changed": [
+                            {
+                                "value": 1488411997
+                            }
+                        ],
+                        "promote": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "sticky": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "revision_timestamp": [
+                            {
+                                "value": 1488411997
+                            }
+                        ],
+                        "revision_uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "revision_log": [],
+                        "revision_translation_affected": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "default_langcode": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "moderation_state": [],
+                        "workspace": [
+                            {
+                                "target_id": 1,
+                                "target_type": "workspace",
+                                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                            }
+                        ],
+                        "_deleted": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "_rev": [
+                            {
+                                "value": "1-94fe877f41511aacffb0e3b952b5d312"
+                            }
+                        ],
+                        "path": [],
+                        "field_contact_name": [
+                            {
+                                "value": "Client Services"
+                            }
+                        ],
+                        "field_email": [
+                            {
+                                "value": "clientservices@ga.gov.au"
+                            }
+                        ],
+                        "field_organization": [
+                            {
+                                "nid": [
+                                    {
+                                        "value": 3
+                                    }
+                                ],
+                                "uuid": [
+                                    {
+                                        "value": "2ac5309e-a20c-4c29-b1b0-e2dba4d17f90"
+                                    }
+                                ],
+                                "vid": [
+                                    {
+                                        "value": 3
+                                    }
+                                ],
+                                "langcode": [
+                                    {
+                                        "value": "en"
+                                    }
+                                ],
+                                "type": [
+                                    {
+                                        "target_id": "organization",
+                                        "target_type": "node_type",
+                                        "target_uuid": "b16be7e4-0b38-4918-9d08-6bd8b864b0f8"
+                                    }
+                                ],
+                                "status": [
+                                    {
+                                        "value": true
+                                    }
+                                ],
+                                "title": [
+                                    {
+                                        "value": "Geoscience Australia"
+                                    }
+                                ],
+                                "uid": [
+                                    {
+                                        "target_id": 1,
+                                        "target_type": "user",
+                                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                        "url": "\/user\/1"
+                                    }
+                                ],
+                                "created": [
+                                    {
+                                        "value": 1487660362
+                                    }
+                                ],
+                                "changed": [
+                                    {
+                                        "value": 1487660476
+                                    }
+                                ],
+                                "promote": [
+                                    {
+                                        "value": false
+                                    }
+                                ],
+                                "sticky": [
+                                    {
+                                        "value": false
+                                    }
+                                ],
+                                "revision_timestamp": [
+                                    {
+                                        "value": 1487660476
+                                    }
+                                ],
+                                "revision_uid": [
+                                    {
+                                        "target_id": 1,
+                                        "target_type": "user",
+                                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                        "url": "\/user\/1"
+                                    }
+                                ],
+                                "revision_log": [],
+                                "revision_translation_affected": [
+                                    {
+                                        "value": true
+                                    }
+                                ],
+                                "default_langcode": [
+                                    {
+                                        "value": true
+                                    }
+                                ],
+                                "moderation_state": [],
+                                "workspace": [
+                                    {
+                                        "target_id": 1,
+                                        "target_type": "workspace",
+                                        "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                                    }
+                                ],
+                                "_deleted": [
+                                    {
+                                        "value": false
+                                    }
+                                ],
+                                "_rev": [
+                                    {
+                                        "value": "1-73d9a675c57db7b63be1833d5aa7dee1"
+                                    }
+                                ],
+                                "path": [],
+                                "field_address": [
+                                    {
+                                        "streetAddress": "Cnr Jerrabomberra Ave and Hindmarsh Dr",
+                                        "addressLocality": "Symonston",
+                                        "addressRegion": "ACT",
+                                        "postalCode": "2609",
+                                        "postOfficeBoxNumber": "",
+                                        "addressCountry": "AU"
+                                    }
+                                ],
+                                "field_email": [
+                                    {
+                                        "value": "clientservices@ga.gov.au"
+                                    }
+                                ],
+                                "field_tags": [],
+                                "field_telephone": [
+                                    {
+                                        "value": "1800 800 173"
+                                    }
+                                ],
+                                "field_website": [
+                                    {
+                                        "uri": "http:\/\/www.ga.gov.au",
+                                        "title": "",
+                                        "options": []
+                                    }
+                                ]
+                            }
+                        ],
+                        "field_role": [],
+                        "field_telephone": [
+                            {
+                                "value": "1800 800 173"
+                            }
+                        ]
+                    }
+                ],
+                "field_coverage_content_type": [],
+                "field_custodian": [
+                    {
+                        "nid": [
+                            {
+                                "value": 64
+                            }
+                        ],
+                        "uuid": [
+                            {
+                                "value": "82716aa8-1eb3-4f17-92c2-e4464c784120"
+                            }
+                        ],
+                        "vid": [
+                            {
+                                "value": 111
+                            }
+                        ],
+                        "langcode": [
+                            {
+                                "value": "en"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "target_id": "contact",
+                                "target_type": "node_type",
+                                "target_uuid": "e3672a17-5d33-40f0-b4f8-0249345d8c91"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "title": [
+                            {
+                                "value": "Commonwealth of Australia (Geoscience Australia)"
+                            }
+                        ],
+                        "uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "created": [
+                            {
+                                "value": 1488411904
+                            }
+                        ],
+                        "changed": [
+                            {
+                                "value": 1488411997
+                            }
+                        ],
+                        "promote": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "sticky": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "revision_timestamp": [
+                            {
+                                "value": 1488411997
+                            }
+                        ],
+                        "revision_uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "revision_log": [],
+                        "revision_translation_affected": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "default_langcode": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "moderation_state": [],
+                        "workspace": [
+                            {
+                                "target_id": 1,
+                                "target_type": "workspace",
+                                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                            }
+                        ],
+                        "_deleted": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "_rev": [
+                            {
+                                "value": "1-94fe877f41511aacffb0e3b952b5d312"
+                            }
+                        ],
+                        "path": [],
+                        "field_contact_name": [
+                            {
+                                "value": "Client Services"
+                            }
+                        ],
+                        "field_email": [
+                            {
+                                "value": "clientservices@ga.gov.au"
+                            }
+                        ],
+                        "field_organization": [
+                            {
+                                "nid": [
+                                    {
+                                        "value": 3
+                                    }
+                                ],
+                                "uuid": [
+                                    {
+                                        "value": "2ac5309e-a20c-4c29-b1b0-e2dba4d17f90"
+                                    }
+                                ],
+                                "vid": [
+                                    {
+                                        "value": 3
+                                    }
+                                ],
+                                "langcode": [
+                                    {
+                                        "value": "en"
+                                    }
+                                ],
+                                "type": [
+                                    {
+                                        "target_id": "organization",
+                                        "target_type": "node_type",
+                                        "target_uuid": "b16be7e4-0b38-4918-9d08-6bd8b864b0f8"
+                                    }
+                                ],
+                                "status": [
+                                    {
+                                        "value": true
+                                    }
+                                ],
+                                "title": [
+                                    {
+                                        "value": "Geoscience Australia"
+                                    }
+                                ],
+                                "uid": [
+                                    {
+                                        "target_id": 1,
+                                        "target_type": "user",
+                                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                        "url": "\/user\/1"
+                                    }
+                                ],
+                                "created": [
+                                    {
+                                        "value": 1487660362
+                                    }
+                                ],
+                                "changed": [
+                                    {
+                                        "value": 1487660476
+                                    }
+                                ],
+                                "promote": [
+                                    {
+                                        "value": false
+                                    }
+                                ],
+                                "sticky": [
+                                    {
+                                        "value": false
+                                    }
+                                ],
+                                "revision_timestamp": [
+                                    {
+                                        "value": 1487660476
+                                    }
+                                ],
+                                "revision_uid": [
+                                    {
+                                        "target_id": 1,
+                                        "target_type": "user",
+                                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                        "url": "\/user\/1"
+                                    }
+                                ],
+                                "revision_log": [],
+                                "revision_translation_affected": [
+                                    {
+                                        "value": true
+                                    }
+                                ],
+                                "default_langcode": [
+                                    {
+                                        "value": true
+                                    }
+                                ],
+                                "moderation_state": [],
+                                "workspace": [
+                                    {
+                                        "target_id": 1,
+                                        "target_type": "workspace",
+                                        "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                                    }
+                                ],
+                                "_deleted": [
+                                    {
+                                        "value": false
+                                    }
+                                ],
+                                "_rev": [
+                                    {
+                                        "value": "1-73d9a675c57db7b63be1833d5aa7dee1"
+                                    }
+                                ],
+                                "path": [],
+                                "field_address": [
+                                    {
+                                        "streetAddress": "Cnr Jerrabomberra Ave and Hindmarsh Dr",
+                                        "addressLocality": "Symonston",
+                                        "addressRegion": "ACT",
+                                        "postalCode": "2609",
+                                        "postOfficeBoxNumber": "",
+                                        "addressCountry": "AU"
+                                    }
+                                ],
+                                "field_email": [
+                                    {
+                                        "value": "clientservices@ga.gov.au"
+                                    }
+                                ],
+                                "field_tags": [],
+                                "field_telephone": [
+                                    {
+                                        "value": "1800 800 173"
+                                    }
+                                ],
+                                "field_website": [
+                                    {
+                                        "uri": "http:\/\/www.ga.gov.au",
+                                        "title": "",
+                                        "options": []
+                                    }
+                                ]
+                            }
+                        ],
+                        "field_role": [],
+                        "field_telephone": [
+                            {
+                                "value": "1800 800 173"
+                            }
+                        ]
+                    }
+                ],
+                "field_data_description": [
+                    {
+                        "value": "\u003Cp\u003EData is provided as time series stacks of Water Observation Feature Layers (WOFLs), in a 1 to 1 relationship with the input satellite data. Hence, there is one WOFL for each surface reflectance dataset processed for the occurrence of water in the tile location. WOFLs are stacked into time series NetCDF-CF files for each tile location. WOFLs are structured as bitmap products indicating the presence\/absence of water and any detected confounding pixel quality issues. The bit flags are non-exclusive, so multiple bits may be set to indicate the presence of multiple factors. The frequency of observation for WOfS varies according to which satellites were operational during which years. The breakdown of the satellite observation availability is as follows:\u003C\/p\u003E\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003E1987 - 1998: Landsat 5\u003C\/li\u003E\r\n\t\u003Cli\u003E1999: Landsat 5 and Landsat 7\u003C\/li\u003E\r\n\t\u003Cli\u003E2000 - 2003: Landsat 7\u003C\/li\u003E\r\n\t\u003Cli\u003E2003 - 2011: Landsat 5 and Landsat 7\u003C\/li\u003E\r\n\t\u003Cli\u003E2011 - 2013: Landsat 7\u003C\/li\u003E\r\n\t\u003Cli\u003E2013 onward: Landsat 7 and Landsat 8\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n",
+                        "format": "basic_html"
+                    }
+                ],
+                "field_data_ingestion": [],
+                "field_data_ingestion_time_frame": [
+                    {
+                        "value": "2017-03-20T05:35:56",
+                        "end_value": "2017-03-20T05:35:56"
+                    }
+                ],
+                "field_data_sources": [],
+                "field_data_source_contact": [],
+                "field_data_transfer": [],
+                "field_developer_title": [],
+                "field_distribution_entity": [],
+                "field_documents": [],
+                "field_doi": [],
+                "field_ecat_id": [],
+                "field_features": [
+                    {
+                        "value": "\u003Cp\u003EWO_25_2.1.5 shows water observed for every Landsat-5, Landsat-7 and Landsat-8 image across Australia (excluding External Territories) for the period of 1987 to 2016. The dataset is updated quarterly and is expected to increase in update frequency in the future so that as a satellite acquires data, it will automatically be analysed for the presence of water and added to the WO_25_2.1.5 product in near real time.\u003Cbr \/\u003E\r\nData is provided as Water Observation Feature Layers (WOFLs), in a 1 to 1 relationship with the input satellite data. Hence there is one WOFL for each NBAR dataset processed for the occurrence of water. The details of the content of each WOFL is below.\u003Cbr \/\u003E\r\nIn the future, WO_25_2.1.5 will be updated as new data are added. This is potentially possible because the dataset is produced using the Australian Geoscience Data Cube, containing GA\u0027s entire Australian Landsat archive in a supercomputing environment at the National Computational Infrastructure at the Australian National University.\u003C\/p\u003E\r\n",
+                        "format": "basic_html"
+                    }
+                ],
+                "field_feedback_contact": [],
+                "field_hprm_references": [],
+                "field_images": [],
+                "field_ingestion_contact": [],
+                "field_license": [
+                    {
+                        "target_id": 6718,
+                        "target_type": "taxonomy_term",
+                        "target_uuid": "519c97b7-c3a8-4a44-b2cf-ea0de47683a8",
+                        "url": "\/taxonomy\/term\/6718"
+                    }
+                ],
+                "field_maintenance": [],
+                "field_maintenance_contact": [],
+                "field_media_contact": [],
+                "field_metadata_catalogue_time_fr": [
+                    {
+                        "value": "2017-05-19T05:35:56",
+                        "end_value": "2017-05-19T05:35:56"
+                    }
+                ],
+                "field_metadata_contact": [],
+                "field_nci_for_codes": [],
+                "field_nci_geonetwork_id": [],
+                "field_nci_product_name": [],
+                "field_nci_project_code": [],
+                "field_one_line_summary": [
+                    {
+                        "value": "Water Observations from Space (WOfS) provides historical surface water observations for all of Australia from 1987 to present.",
+                        "format": "basic_html"
+                    }
+                ],
+                "field_ordering_entity": [],
+                "field_overview": [
+                    {
+                        "value": "\u003Cp\u003EWater Observations from Space (WO_25_2.1.5) is a gridded dataset indicating areas where surface water has been observed using the Geoscience Australia (GA) Earth observation satellite data holdings. The current product (Version 1.5) includes observations taken between 1987 and 2016 (inclusive) from the Landsat 5, 7 and 8 satellites. WO_25_2.1.5 covers all of mainland Australia and Tasmania but excludes off-shore Territories.\u003C\/p\u003E\r\n",
+                        "format": "basic_html"
+                    }
+                ],
+                "field_principal_contact": [],
+                "field_principal_contributors": [
+                    {
+                        "value":"Norman Mueller",
+                        "format":"basic_html"
+                    }
+                ],
+                "field_processes": [],
+                "field_production_stage": [],
+                "field_product_life_span": [
+                    {
+                        "value": "2017-03-20T05:35:56",
+                        "end_value": "2017-03-20T05:35:56"
+                    }
+                ],
+                "field_product_type": [
+                    {
+                        "target_id": 6666,
+                        "target_type": "taxonomy_term",
+                        "target_uuid": "7512c7d3-b137-4db5-9bc9-7f365d5d426b",
+                        "url": "\/taxonomy\/term\/6666"
+                    }
+                ],
+                "field_publishing_entity": [],
+                "field_publishing_time_frame": [
+                    {
+                        "value": "2017-06-18T05:35:56",
+                        "end_value": "2017-06-18T05:35:56"
+                    }
+                ],
+                "field_qa_contact": [],
+                "field_qa_time_frame": [
+                    {
+                        "value": "2017-03-20T05:35:56",
+                        "end_value": "2017-03-20T05:35:56"
+                    }
+                ],
+                "field_quality_assurance": [],
+                "field_resource_type": [
+                    {
+                        "target_id": 6671,
+                        "target_type": "taxonomy_term",
+                        "target_uuid": "d56ac5fe-8efa-4e4d-8f40-20f9883ef37b",
+                        "url": "\/taxonomy\/term\/6671"
+                    }
+                ],
+                "field_resource_type_definition": [
+                    {
+                        "target_id": 6694,
+                        "target_type": "taxonomy_term",
+                        "target_uuid": "528e9c1a-3c49-41a9-ae03-ed9e41653f69",
+                        "url": "\/taxonomy\/term\/6694"
+                    }
+                ],
+                "field_reviewer": [],
+                "field_rights_statement": [],
+                "field_security_classification": [
+                    {
+                        "target_id": 6725,
+                        "target_type": "taxonomy_term",
+                        "target_uuid": "d7d8386f-bae1-43c7-b543-367f41f17e36",
+                        "url": "\/taxonomy\/term\/6725"
+                    }
+                ],
+                "field_services": [],
+                "field_simple_title": [
+                    {
+                        "value": "Water Observations from Space 2.1.5",
+                        "format": "basic_html"
+                    }
+                ],
+                "field_software_dependencies": [],
+                "field_subject_matter_experts": [],
+                "field_summary": [
+                    {
+                        "value": "\u003Cp\u003EWater Observations from Space (WOfS) provides surface water observations derived from satellite imagery for all of Australia from 1987 to the present. The WOfS product allows users to get a better understanding of where water is normally present in a landscape, where water is seldom, and where inundation has occurred occasionally. WOfS displays the detected surface water from cloud-free Landsat observations for the whole of Australia.\u003C\/p\u003E\r\n",
+                        "format": "basic_html"
+                    }
+                ],
+                "field_tables": [],
+                "field_update_frequency": [
+                    {
+                        "target_id": 6697,
+                        "target_type": "taxonomy_term",
+                        "target_uuid": "bc69c89f-deef-463b-9be8-b5c9962fe979",
+                        "url": "\/taxonomy\/term\/6697"
+                    }
+                ],
+                "field_use_constraints": [],
+                "field_version_number": [
+                    {
+                        "value": "2.1.5"
+                    }
+                ],
+                "field_websites": []
+            }
+        ],
+        "field_data_source_contact": [
+            {
+                "nid": [
+                    {
+                        "value": 66
+                    }
+                ],
+                "uuid": [
+                    {
+                        "value": "7463ec64-b236-4716-a9bb-663e52ddfc51"
+                    }
+                ],
+                "vid": [
+                    {
+                        "value": 114
+                    }
+                ],
+                "langcode": [
+                    {
+                        "value": "en"
+                    }
+                ],
+                "type": [
+                    {
+                        "target_id": "contact",
+                        "target_type": "node_type",
+                        "target_uuid": "e3672a17-5d33-40f0-b4f8-0249345d8c91"
+                    }
+                ],
+                "status": [
+                    {
+                        "value": true
+                    }
+                ],
+                "title": [
+                    {
+                        "value": "Geoscience Australia - Team Leader, Applications and Systems Support, NEMO "
+                    }
+                ],
+                "uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "created": [
+                    {
+                        "value": 1488412812
+                    }
+                ],
+                "changed": [
+                    {
+                        "value": 1488412850
+                    }
+                ],
+                "promote": [
+                    {
+                        "value": false
+                    }
+                ],
+                "sticky": [
+                    {
+                        "value": false
+                    }
+                ],
+                "revision_timestamp": [
+                    {
+                        "value": 1488412850
+                    }
+                ],
+                "revision_uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "revision_log": [],
+                "revision_translation_affected": [
+                    {
+                        "value": true
+                    }
+                ],
+                "default_langcode": [
+                    {
+                        "value": true
+                    }
+                ],
+                "moderation_state": [],
+                "workspace": [
+                    {
+                        "target_id": 1,
+                        "target_type": "workspace",
+                        "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                    }
+                ],
+                "_deleted": [
+                    {
+                        "value": false
+                    }
+                ],
+                "_rev": [
+                    {
+                        "value": "1-603f21fd73eb50c46a6acc1e8f113d60"
+                    }
+                ],
+                "path": [],
+                "field_contact_name": [],
+                "field_email": [
+                    {
+                        "value": "earth.observation@ga.gov.au"
+                    }
+                ],
+                "field_organization": [
+                    {
+                        "nid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "uuid": [
+                            {
+                                "value": "2ac5309e-a20c-4c29-b1b0-e2dba4d17f90"
+                            }
+                        ],
+                        "vid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "langcode": [
+                            {
+                                "value": "en"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "target_id": "organization",
+                                "target_type": "node_type",
+                                "target_uuid": "b16be7e4-0b38-4918-9d08-6bd8b864b0f8"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "title": [
+                            {
+                                "value": "Geoscience Australia"
+                            }
+                        ],
+                        "uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "created": [
+                            {
+                                "value": 1487660362
+                            }
+                        ],
+                        "changed": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "promote": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "sticky": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "revision_timestamp": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "revision_uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "revision_log": [],
+                        "revision_translation_affected": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "default_langcode": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "moderation_state": [],
+                        "workspace": [
+                            {
+                                "target_id": 1,
+                                "target_type": "workspace",
+                                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                            }
+                        ],
+                        "_deleted": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "_rev": [
+                            {
+                                "value": "1-73d9a675c57db7b63be1833d5aa7dee1"
+                            }
+                        ],
+                        "path": [],
+                        "field_address": [
+                            {
+                                "streetAddress": "Cnr Jerrabomberra Ave and Hindmarsh Dr",
+                                "addressLocality": "Symonston",
+                                "addressRegion": "ACT",
+                                "postalCode": "2609",
+                                "postOfficeBoxNumber": "",
+                                "addressCountry": "AU"
+                            }
+                        ],
+                        "field_email": [
+                            {
+                                "value": "clientservices@ga.gov.au"
+                            }
+                        ],
+                        "field_tags": [],
+                        "field_telephone": [
+                            {
+                                "value": "1800 800 173"
+                            }
+                        ],
+                        "field_website": [
+                            {
+                                "uri": "http:\/\/www.ga.gov.au",
+                                "title": "",
+                                "options": []
+                            }
+                        ]
+                    }
+                ],
+                "field_role": [
+                    {
+                        "value": "Team Leader, Applications and Systems Support, Operations Section NEMO"
+                    }
+                ],
+                "field_telephone": [
+                    {
+                        "value": " 1800 800 173"
+                    }
+                ]
+            }
+        ],
+        "field_data_transfer": [],
+        "field_developer_title": [],
+        "field_distribution_entity": [
+            {
+                "nid": [
+                    {
+                        "value": 64
+                    }
+                ],
+                "uuid": [
+                    {
+                        "value": "82716aa8-1eb3-4f17-92c2-e4464c784120"
+                    }
+                ],
+                "vid": [
+                    {
+                        "value": 111
+                    }
+                ],
+                "langcode": [
+                    {
+                        "value": "en"
+                    }
+                ],
+                "type": [
+                    {
+                        "target_id": "contact",
+                        "target_type": "node_type",
+                        "target_uuid": "e3672a17-5d33-40f0-b4f8-0249345d8c91"
+                    }
+                ],
+                "status": [
+                    {
+                        "value": true
+                    }
+                ],
+                "title": [
+                    {
+                        "value": "Commonwealth of Australia (Geoscience Australia)"
+                    }
+                ],
+                "uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "created": [
+                    {
+                        "value": 1488411904
+                    }
+                ],
+                "changed": [
+                    {
+                        "value": 1488411997
+                    }
+                ],
+                "promote": [
+                    {
+                        "value": false
+                    }
+                ],
+                "sticky": [
+                    {
+                        "value": false
+                    }
+                ],
+                "revision_timestamp": [
+                    {
+                        "value": 1488411997
+                    }
+                ],
+                "revision_uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "revision_log": [],
+                "revision_translation_affected": [
+                    {
+                        "value": true
+                    }
+                ],
+                "default_langcode": [
+                    {
+                        "value": true
+                    }
+                ],
+                "moderation_state": [],
+                "workspace": [
+                    {
+                        "target_id": 1,
+                        "target_type": "workspace",
+                        "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                    }
+                ],
+                "_deleted": [
+                    {
+                        "value": false
+                    }
+                ],
+                "_rev": [
+                    {
+                        "value": "1-94fe877f41511aacffb0e3b952b5d312"
+                    }
+                ],
+                "path": [],
+                "field_contact_name": [
+                    {
+                        "value": "Client Services"
+                    }
+                ],
+                "field_email": [
+                    {
+                        "value": "clientservices@ga.gov.au"
+                    }
+                ],
+                "field_organization": [
+                    {
+                        "nid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "uuid": [
+                            {
+                                "value": "2ac5309e-a20c-4c29-b1b0-e2dba4d17f90"
+                            }
+                        ],
+                        "vid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "langcode": [
+                            {
+                                "value": "en"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "target_id": "organization",
+                                "target_type": "node_type",
+                                "target_uuid": "b16be7e4-0b38-4918-9d08-6bd8b864b0f8"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "title": [
+                            {
+                                "value": "Geoscience Australia"
+                            }
+                        ],
+                        "uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "created": [
+                            {
+                                "value": 1487660362
+                            }
+                        ],
+                        "changed": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "promote": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "sticky": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "revision_timestamp": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "revision_uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "revision_log": [],
+                        "revision_translation_affected": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "default_langcode": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "moderation_state": [],
+                        "workspace": [
+                            {
+                                "target_id": 1,
+                                "target_type": "workspace",
+                                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                            }
+                        ],
+                        "_deleted": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "_rev": [
+                            {
+                                "value": "1-73d9a675c57db7b63be1833d5aa7dee1"
+                            }
+                        ],
+                        "path": [],
+                        "field_address": [
+                            {
+                                "streetAddress": "Cnr Jerrabomberra Ave and Hindmarsh Dr",
+                                "addressLocality": "Symonston",
+                                "addressRegion": "ACT",
+                                "postalCode": "2609",
+                                "postOfficeBoxNumber": "",
+                                "addressCountry": "AU"
+                            }
+                        ],
+                        "field_email": [
+                            {
+                                "value": "clientservices@ga.gov.au"
+                            }
+                        ],
+                        "field_tags": [],
+                        "field_telephone": [
+                            {
+                                "value": "1800 800 173"
+                            }
+                        ],
+                        "field_website": [
+                            {
+                                "uri": "http:\/\/www.ga.gov.au",
+                                "title": "",
+                                "options": []
+                            }
+                        ]
+                    }
+                ],
+                "field_role": [],
+                "field_telephone": [
+                    {
+                        "value": "1800 800 173"
+                    }
+                ]
+            }
+        ],
+        "field_documents": [],
+        "field_doi": [],
+        "field_ecat_id": [
+            {
+                "value": "81568"
+            }
+        ],
+        "field_features": [
+            {
+                "value": "\u003Cp\u003EWO_STATS_2.1.5 delivers statistics of the WO_2.1.5 data in cumulative \u0022summaries\u0022 that combine all water observations from the entire time series into a gridded datasets. Each WOFL in WO_2.1.5 provides information for each pixel, defining whether an observation was clear and dry, clear and wet or masked due to the presence of clouds, shadows or technical issues with the observation. WO_STATS_2.1.5 provides basic statistical summaries of the observation of each pixel through the entire time series from 1987 to present. Five statistics are calculated and delivered as individual dataset: There are five datasets:\u003C\/p\u003E\r\n\r\n\u003Col\u003E\r\n\t\u003Cli\u003ETotal number of clear observations for the pixel, is a count per pixel of the number of observations that were clear and either wet or dry for the full depth of the time series.\u003C\/li\u003E\r\n\t\u003Cli\u003ETotal number of wet observation for the pixel, is a count per pixel of the number of observations that were clear and wet for the full depth of the time series.\u003C\/li\u003E\r\n\t\u003Cli\u003ESummary, is the ratio of clear wet observations to clear wet or dry observation, expressed as a percentage.\u003C\/li\u003E\r\n\t\u003Cli\u003EConfidence, is a value assigned to each pixel based on a statistical analysis of factors, including topographic position, elevation and slope, other independent satellite observations of water, topographic maps of water features, and the observation frequency. It indicates how well the Summary indicates the presence of water in a pixel.\u003C\/li\u003E\r\n\t\u003Cli\u003EFiltered Summary, is produced by combining the Summary and Confidence outputs to mask out those areas where Confidence is less than 1%. Online display of the Water Observations from Space suite of products defaults to the Filtered Summary.\u003C\/li\u003E\r\n\u003C\/ol\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_feedback_contact": [
+            {
+                "nid": [
+                    {
+                        "value": 70
+                    }
+                ],
+                "uuid": [
+                    {
+                        "value": "6d21432c-5223-479b-83dd-62905d69a7ff"
+                    }
+                ],
+                "vid": [
+                    {
+                        "value": 118
+                    }
+                ],
+                "langcode": [
+                    {
+                        "value": "en"
+                    }
+                ],
+                "type": [
+                    {
+                        "target_id": "contact",
+                        "target_type": "node_type",
+                        "target_uuid": "e3672a17-5d33-40f0-b4f8-0249345d8c91"
+                    }
+                ],
+                "status": [
+                    {
+                        "value": true
+                    }
+                ],
+                "title": [
+                    {
+                        "value": "Geoscience Australia - Section Leader, Operations Section, NEMO"
+                    }
+                ],
+                "uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "created": [
+                    {
+                        "value": 1488416325
+                    }
+                ],
+                "changed": [
+                    {
+                        "value": 1488416371
+                    }
+                ],
+                "promote": [
+                    {
+                        "value": false
+                    }
+                ],
+                "sticky": [
+                    {
+                        "value": false
+                    }
+                ],
+                "revision_timestamp": [
+                    {
+                        "value": 1488416371
+                    }
+                ],
+                "revision_uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "revision_log": [],
+                "revision_translation_affected": [
+                    {
+                        "value": true
+                    }
+                ],
+                "default_langcode": [
+                    {
+                        "value": true
+                    }
+                ],
+                "moderation_state": [],
+                "workspace": [
+                    {
+                        "target_id": 1,
+                        "target_type": "workspace",
+                        "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                    }
+                ],
+                "_deleted": [
+                    {
+                        "value": false
+                    }
+                ],
+                "_rev": [
+                    {
+                        "value": "1-b1504dabbd77ce33bb298a4ce48bd56b"
+                    }
+                ],
+                "path": [],
+                "field_contact_name": [
+                    {
+                        "value": "David Hudson"
+                    }
+                ],
+                "field_email": [
+                    {
+                        "value": "earth.observation@ga.gov.au"
+                    }
+                ],
+                "field_organization": [
+                    {
+                        "nid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "uuid": [
+                            {
+                                "value": "2ac5309e-a20c-4c29-b1b0-e2dba4d17f90"
+                            }
+                        ],
+                        "vid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "langcode": [
+                            {
+                                "value": "en"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "target_id": "organization",
+                                "target_type": "node_type",
+                                "target_uuid": "b16be7e4-0b38-4918-9d08-6bd8b864b0f8"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "title": [
+                            {
+                                "value": "Geoscience Australia"
+                            }
+                        ],
+                        "uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "created": [
+                            {
+                                "value": 1487660362
+                            }
+                        ],
+                        "changed": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "promote": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "sticky": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "revision_timestamp": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "revision_uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "revision_log": [],
+                        "revision_translation_affected": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "default_langcode": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "moderation_state": [],
+                        "workspace": [
+                            {
+                                "target_id": 1,
+                                "target_type": "workspace",
+                                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                            }
+                        ],
+                        "_deleted": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "_rev": [
+                            {
+                                "value": "1-73d9a675c57db7b63be1833d5aa7dee1"
+                            }
+                        ],
+                        "path": [],
+                        "field_address": [
+                            {
+                                "streetAddress": "Cnr Jerrabomberra Ave and Hindmarsh Dr",
+                                "addressLocality": "Symonston",
+                                "addressRegion": "ACT",
+                                "postalCode": "2609",
+                                "postOfficeBoxNumber": "",
+                                "addressCountry": "AU"
+                            }
+                        ],
+                        "field_email": [
+                            {
+                                "value": "clientservices@ga.gov.au"
+                            }
+                        ],
+                        "field_tags": [],
+                        "field_telephone": [
+                            {
+                                "value": "1800 800 173"
+                            }
+                        ],
+                        "field_website": [
+                            {
+                                "uri": "http:\/\/www.ga.gov.au",
+                                "title": "",
+                                "options": []
+                            }
+                        ]
+                    }
+                ],
+                "field_role": [
+                    {
+                        "value": "Section Leader, Operations Section, NEMO"
+                    }
+                ],
+                "field_telephone": [
+                    {
+                        "value": "1800 800 173"
+                    }
+                ]
+            }
+        ],
+        "field_hprm_references": [
+            {
+                "value": "D2014-70006"
+            },
+            {
+                "value": "D2015-8035"
+            }
+        ],
+        "field_images": [],
+        "field_ingestion_contact": [
+            {
+                "nid": [
+                    {
+                        "value": 66
+                    }
+                ],
+                "uuid": [
+                    {
+                        "value": "7463ec64-b236-4716-a9bb-663e52ddfc51"
+                    }
+                ],
+                "vid": [
+                    {
+                        "value": 114
+                    }
+                ],
+                "langcode": [
+                    {
+                        "value": "en"
+                    }
+                ],
+                "type": [
+                    {
+                        "target_id": "contact",
+                        "target_type": "node_type",
+                        "target_uuid": "e3672a17-5d33-40f0-b4f8-0249345d8c91"
+                    }
+                ],
+                "status": [
+                    {
+                        "value": true
+                    }
+                ],
+                "title": [
+                    {
+                        "value": "Geoscience Australia - Team Leader, Applications and Systems Support, NEMO "
+                    }
+                ],
+                "uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "created": [
+                    {
+                        "value": 1488412812
+                    }
+                ],
+                "changed": [
+                    {
+                        "value": 1488412850
+                    }
+                ],
+                "promote": [
+                    {
+                        "value": false
+                    }
+                ],
+                "sticky": [
+                    {
+                        "value": false
+                    }
+                ],
+                "revision_timestamp": [
+                    {
+                        "value": 1488412850
+                    }
+                ],
+                "revision_uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "revision_log": [],
+                "revision_translation_affected": [
+                    {
+                        "value": true
+                    }
+                ],
+                "default_langcode": [
+                    {
+                        "value": true
+                    }
+                ],
+                "moderation_state": [],
+                "workspace": [
+                    {
+                        "target_id": 1,
+                        "target_type": "workspace",
+                        "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                    }
+                ],
+                "_deleted": [
+                    {
+                        "value": false
+                    }
+                ],
+                "_rev": [
+                    {
+                        "value": "1-603f21fd73eb50c46a6acc1e8f113d60"
+                    }
+                ],
+                "path": [],
+                "field_contact_name": [],
+                "field_email": [
+                    {
+                        "value": "earth.observation@ga.gov.au"
+                    }
+                ],
+                "field_organization": [
+                    {
+                        "nid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "uuid": [
+                            {
+                                "value": "2ac5309e-a20c-4c29-b1b0-e2dba4d17f90"
+                            }
+                        ],
+                        "vid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "langcode": [
+                            {
+                                "value": "en"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "target_id": "organization",
+                                "target_type": "node_type",
+                                "target_uuid": "b16be7e4-0b38-4918-9d08-6bd8b864b0f8"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "title": [
+                            {
+                                "value": "Geoscience Australia"
+                            }
+                        ],
+                        "uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "created": [
+                            {
+                                "value": 1487660362
+                            }
+                        ],
+                        "changed": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "promote": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "sticky": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "revision_timestamp": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "revision_uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "revision_log": [],
+                        "revision_translation_affected": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "default_langcode": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "moderation_state": [],
+                        "workspace": [
+                            {
+                                "target_id": 1,
+                                "target_type": "workspace",
+                                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                            }
+                        ],
+                        "_deleted": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "_rev": [
+                            {
+                                "value": "1-73d9a675c57db7b63be1833d5aa7dee1"
+                            }
+                        ],
+                        "path": [],
+                        "field_address": [
+                            {
+                                "streetAddress": "Cnr Jerrabomberra Ave and Hindmarsh Dr",
+                                "addressLocality": "Symonston",
+                                "addressRegion": "ACT",
+                                "postalCode": "2609",
+                                "postOfficeBoxNumber": "",
+                                "addressCountry": "AU"
+                            }
+                        ],
+                        "field_email": [
+                            {
+                                "value": "clientservices@ga.gov.au"
+                            }
+                        ],
+                        "field_tags": [],
+                        "field_telephone": [
+                            {
+                                "value": "1800 800 173"
+                            }
+                        ],
+                        "field_website": [
+                            {
+                                "uri": "http:\/\/www.ga.gov.au",
+                                "title": "",
+                                "options": []
+                            }
+                        ]
+                    }
+                ],
+                "field_role": [
+                    {
+                        "value": "Team Leader, Applications and Systems Support, Operations Section NEMO"
+                    }
+                ],
+                "field_telephone": [
+                    {
+                        "value": " 1800 800 173"
+                    }
+                ]
+            }
+        ],
+        "field_license": [
+            {
+                "target_id": 6718,
+                "target_type": "taxonomy_term",
+                "target_uuid": "519c97b7-c3a8-4a44-b2cf-ea0de47683a8",
+                "url": "\/taxonomy\/term\/6718"
+            }
+        ],
+        "field_maintenance": [],
+        "field_maintenance_contact": [
+            {
+                "nid": [
+                    {
+                        "value": 66
+                    }
+                ],
+                "uuid": [
+                    {
+                        "value": "7463ec64-b236-4716-a9bb-663e52ddfc51"
+                    }
+                ],
+                "vid": [
+                    {
+                        "value": 114
+                    }
+                ],
+                "langcode": [
+                    {
+                        "value": "en"
+                    }
+                ],
+                "type": [
+                    {
+                        "target_id": "contact",
+                        "target_type": "node_type",
+                        "target_uuid": "e3672a17-5d33-40f0-b4f8-0249345d8c91"
+                    }
+                ],
+                "status": [
+                    {
+                        "value": true
+                    }
+                ],
+                "title": [
+                    {
+                        "value": "Geoscience Australia - Team Leader, Applications and Systems Support, NEMO "
+                    }
+                ],
+                "uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "created": [
+                    {
+                        "value": 1488412812
+                    }
+                ],
+                "changed": [
+                    {
+                        "value": 1488412850
+                    }
+                ],
+                "promote": [
+                    {
+                        "value": false
+                    }
+                ],
+                "sticky": [
+                    {
+                        "value": false
+                    }
+                ],
+                "revision_timestamp": [
+                    {
+                        "value": 1488412850
+                    }
+                ],
+                "revision_uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "revision_log": [],
+                "revision_translation_affected": [
+                    {
+                        "value": true
+                    }
+                ],
+                "default_langcode": [
+                    {
+                        "value": true
+                    }
+                ],
+                "moderation_state": [],
+                "workspace": [
+                    {
+                        "target_id": 1,
+                        "target_type": "workspace",
+                        "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                    }
+                ],
+                "_deleted": [
+                    {
+                        "value": false
+                    }
+                ],
+                "_rev": [
+                    {
+                        "value": "1-603f21fd73eb50c46a6acc1e8f113d60"
+                    }
+                ],
+                "path": [],
+                "field_contact_name": [],
+                "field_email": [
+                    {
+                        "value": "earth.observation@ga.gov.au"
+                    }
+                ],
+                "field_organization": [
+                    {
+                        "nid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "uuid": [
+                            {
+                                "value": "2ac5309e-a20c-4c29-b1b0-e2dba4d17f90"
+                            }
+                        ],
+                        "vid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "langcode": [
+                            {
+                                "value": "en"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "target_id": "organization",
+                                "target_type": "node_type",
+                                "target_uuid": "b16be7e4-0b38-4918-9d08-6bd8b864b0f8"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "title": [
+                            {
+                                "value": "Geoscience Australia"
+                            }
+                        ],
+                        "uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "created": [
+                            {
+                                "value": 1487660362
+                            }
+                        ],
+                        "changed": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "promote": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "sticky": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "revision_timestamp": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "revision_uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "revision_log": [],
+                        "revision_translation_affected": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "default_langcode": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "moderation_state": [],
+                        "workspace": [
+                            {
+                                "target_id": 1,
+                                "target_type": "workspace",
+                                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                            }
+                        ],
+                        "_deleted": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "_rev": [
+                            {
+                                "value": "1-73d9a675c57db7b63be1833d5aa7dee1"
+                            }
+                        ],
+                        "path": [],
+                        "field_address": [
+                            {
+                                "streetAddress": "Cnr Jerrabomberra Ave and Hindmarsh Dr",
+                                "addressLocality": "Symonston",
+                                "addressRegion": "ACT",
+                                "postalCode": "2609",
+                                "postOfficeBoxNumber": "",
+                                "addressCountry": "AU"
+                            }
+                        ],
+                        "field_email": [
+                            {
+                                "value": "clientservices@ga.gov.au"
+                            }
+                        ],
+                        "field_tags": [],
+                        "field_telephone": [
+                            {
+                                "value": "1800 800 173"
+                            }
+                        ],
+                        "field_website": [
+                            {
+                                "uri": "http:\/\/www.ga.gov.au",
+                                "title": "",
+                                "options": []
+                            }
+                        ]
+                    }
+                ],
+                "field_role": [
+                    {
+                        "value": "Team Leader, Applications and Systems Support, Operations Section NEMO"
+                    }
+                ],
+                "field_telephone": [
+                    {
+                        "value": " 1800 800 173"
+                    }
+                ]
+            }
+        ],
+        "field_media_contact": [
+            {
+                "nid": [
+                    {
+                        "value": 69
+                    }
+                ],
+                "uuid": [
+                    {
+                        "value": "254fd315-8ea7-4a9f-a591-0a166e583293"
+                    }
+                ],
+                "vid": [
+                    {
+                        "value": 117
+                    }
+                ],
+                "langcode": [
+                    {
+                        "value": "en"
+                    }
+                ],
+                "type": [
+                    {
+                        "target_id": "contact",
+                        "target_type": "node_type",
+                        "target_uuid": "e3672a17-5d33-40f0-b4f8-0249345d8c91"
+                    }
+                ],
+                "status": [
+                    {
+                        "value": true
+                    }
+                ],
+                "title": [
+                    {
+                        "value": "Geoscience Australia - GA Media Hotline"
+                    }
+                ],
+                "uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "created": [
+                    {
+                        "value": 1488416148
+                    }
+                ],
+                "changed": [
+                    {
+                        "value": 1488416201
+                    }
+                ],
+                "promote": [
+                    {
+                        "value": false
+                    }
+                ],
+                "sticky": [
+                    {
+                        "value": false
+                    }
+                ],
+                "revision_timestamp": [
+                    {
+                        "value": 1488416201
+                    }
+                ],
+                "revision_uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "revision_log": [],
+                "revision_translation_affected": [
+                    {
+                        "value": true
+                    }
+                ],
+                "default_langcode": [
+                    {
+                        "value": true
+                    }
+                ],
+                "moderation_state": [],
+                "workspace": [
+                    {
+                        "target_id": 1,
+                        "target_type": "workspace",
+                        "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                    }
+                ],
+                "_deleted": [
+                    {
+                        "value": false
+                    }
+                ],
+                "_rev": [
+                    {
+                        "value": "1-d94acd516f30b8ea51239d43c74ca633"
+                    }
+                ],
+                "path": [],
+                "field_contact_name": [],
+                "field_email": [
+                    {
+                        "value": "media@ga.gov.au"
+                    }
+                ],
+                "field_organization": [
+                    {
+                        "nid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "uuid": [
+                            {
+                                "value": "2ac5309e-a20c-4c29-b1b0-e2dba4d17f90"
+                            }
+                        ],
+                        "vid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "langcode": [
+                            {
+                                "value": "en"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "target_id": "organization",
+                                "target_type": "node_type",
+                                "target_uuid": "b16be7e4-0b38-4918-9d08-6bd8b864b0f8"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "title": [
+                            {
+                                "value": "Geoscience Australia"
+                            }
+                        ],
+                        "uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "created": [
+                            {
+                                "value": 1487660362
+                            }
+                        ],
+                        "changed": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "promote": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "sticky": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "revision_timestamp": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "revision_uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "revision_log": [],
+                        "revision_translation_affected": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "default_langcode": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "moderation_state": [],
+                        "workspace": [
+                            {
+                                "target_id": 1,
+                                "target_type": "workspace",
+                                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                            }
+                        ],
+                        "_deleted": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "_rev": [
+                            {
+                                "value": "1-73d9a675c57db7b63be1833d5aa7dee1"
+                            }
+                        ],
+                        "path": [],
+                        "field_address": [
+                            {
+                                "streetAddress": "Cnr Jerrabomberra Ave and Hindmarsh Dr",
+                                "addressLocality": "Symonston",
+                                "addressRegion": "ACT",
+                                "postalCode": "2609",
+                                "postOfficeBoxNumber": "",
+                                "addressCountry": "AU"
+                            }
+                        ],
+                        "field_email": [
+                            {
+                                "value": "clientservices@ga.gov.au"
+                            }
+                        ],
+                        "field_tags": [],
+                        "field_telephone": [
+                            {
+                                "value": "1800 800 173"
+                            }
+                        ],
+                        "field_website": [
+                            {
+                                "uri": "http:\/\/www.ga.gov.au",
+                                "title": "",
+                                "options": []
+                            }
+                        ]
+                    }
+                ],
+                "field_role": [
+                    {
+                        "value": "GA Media Hotline"
+                    }
+                ],
+                "field_telephone": [
+                    {
+                        "value": "1800 882 035"
+                    }
+                ]
+            }
+        ],
+        "field_metadata_catalogue_time_fr": [
+            {
+                "value": "2017-05-19T23:30:13",
+                "end_value": "2017-05-19T23:30:13"
+            }
+        ],
+        "field_metadata_contact": [
+            {
+                "nid": [
+                    {
+                        "value": 68
+                    }
+                ],
+                "uuid": [
+                    {
+                        "value": "ce66a680-27fc-4712-9c9e-bbc14b0ff8ed"
+                    }
+                ],
+                "vid": [
+                    {
+                        "value": 116
+                    }
+                ],
+                "langcode": [
+                    {
+                        "value": "en"
+                    }
+                ],
+                "type": [
+                    {
+                        "target_id": "contact",
+                        "target_type": "node_type",
+                        "target_uuid": "e3672a17-5d33-40f0-b4f8-0249345d8c91"
+                    }
+                ],
+                "status": [
+                    {
+                        "value": true
+                    }
+                ],
+                "title": [
+                    {
+                        "value": "Team Leader, Product Management, Operations Section NEMO"
+                    }
+                ],
+                "uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "created": [
+                    {
+                        "value": 1488416097
+                    }
+                ],
+                "changed": [
+                    {
+                        "value": 1488416127
+                    }
+                ],
+                "promote": [
+                    {
+                        "value": false
+                    }
+                ],
+                "sticky": [
+                    {
+                        "value": false
+                    }
+                ],
+                "revision_timestamp": [
+                    {
+                        "value": 1488416127
+                    }
+                ],
+                "revision_uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "revision_log": [],
+                "revision_translation_affected": [
+                    {
+                        "value": true
+                    }
+                ],
+                "default_langcode": [
+                    {
+                        "value": true
+                    }
+                ],
+                "moderation_state": [],
+                "workspace": [
+                    {
+                        "target_id": 1,
+                        "target_type": "workspace",
+                        "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                    }
+                ],
+                "_deleted": [
+                    {
+                        "value": false
+                    }
+                ],
+                "_rev": [
+                    {
+                        "value": "1-2eb26ca0293229ba87f862df00474e0a"
+                    }
+                ],
+                "path": [],
+                "field_contact_name": [],
+                "field_email": [
+                    {
+                        "value": "earth.observation@ga.gov.au"
+                    }
+                ],
+                "field_organization": [
+                    {
+                        "nid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "uuid": [
+                            {
+                                "value": "2ac5309e-a20c-4c29-b1b0-e2dba4d17f90"
+                            }
+                        ],
+                        "vid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "langcode": [
+                            {
+                                "value": "en"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "target_id": "organization",
+                                "target_type": "node_type",
+                                "target_uuid": "b16be7e4-0b38-4918-9d08-6bd8b864b0f8"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "title": [
+                            {
+                                "value": "Geoscience Australia"
+                            }
+                        ],
+                        "uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "created": [
+                            {
+                                "value": 1487660362
+                            }
+                        ],
+                        "changed": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "promote": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "sticky": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "revision_timestamp": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "revision_uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "revision_log": [],
+                        "revision_translation_affected": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "default_langcode": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "moderation_state": [],
+                        "workspace": [
+                            {
+                                "target_id": 1,
+                                "target_type": "workspace",
+                                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                            }
+                        ],
+                        "_deleted": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "_rev": [
+                            {
+                                "value": "1-73d9a675c57db7b63be1833d5aa7dee1"
+                            }
+                        ],
+                        "path": [],
+                        "field_address": [
+                            {
+                                "streetAddress": "Cnr Jerrabomberra Ave and Hindmarsh Dr",
+                                "addressLocality": "Symonston",
+                                "addressRegion": "ACT",
+                                "postalCode": "2609",
+                                "postOfficeBoxNumber": "",
+                                "addressCountry": "AU"
+                            }
+                        ],
+                        "field_email": [
+                            {
+                                "value": "clientservices@ga.gov.au"
+                            }
+                        ],
+                        "field_tags": [],
+                        "field_telephone": [
+                            {
+                                "value": "1800 800 173"
+                            }
+                        ],
+                        "field_website": [
+                            {
+                                "uri": "http:\/\/www.ga.gov.au",
+                                "title": "",
+                                "options": []
+                            }
+                        ]
+                    }
+                ],
+                "field_role": [
+                    {
+                        "value": "Team Leader, Product Management, Operations Section NEMO"
+                    }
+                ],
+                "field_telephone": [
+                    {
+                        "value": "1800 800 173"
+                    }
+                ]
+            }
+        ],
+        "field_nci_for_codes": [
+            {
+                "target_id": 6915,
+                "target_type": "taxonomy_term",
+                "target_uuid": "38e30bd0-6a45-4f0d-bfb9-9062b82268b3",
+                "url": "\/taxonomy\/term\/6915"
+            }
+        ],
+        "field_nci_geonetwork_id": [],
+        "field_nci_product_name": [],
+        "field_nci_project_code": [
+            {
+                "value": "fk4"
+            }
+        ],
+        "field_one_line_summary": [
+            {
+                "value": "Water Observations from Space Statistics (WO_STATS_2.1.5) is a set of gridded datasets derived from the Water Observations from Space dataset (WO_2.1.5).",
+                "format": "basic_html"
+            }
+        ],
+        "field_ordering_entity": [
+            {
+                "nid": [
+                    {
+                        "value": 65
+                    }
+                ],
+                "uuid": [
+                    {
+                        "value": "0902e4b7-2788-46e6-ac6e-603aba2d98e9"
+                    }
+                ],
+                "vid": [
+                    {
+                        "value": 113
+                    }
+                ],
+                "langcode": [
+                    {
+                        "value": "en"
+                    }
+                ],
+                "type": [
+                    {
+                        "target_id": "contact",
+                        "target_type": "node_type",
+                        "target_uuid": "e3672a17-5d33-40f0-b4f8-0249345d8c91"
+                    }
+                ],
+                "status": [
+                    {
+                        "value": true
+                    }
+                ],
+                "title": [
+                    {
+                        "value": "Geoscience Australia - Client Services"
+                    }
+                ],
+                "uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "created": [
+                    {
+                        "value": 1488412643
+                    }
+                ],
+                "changed": [
+                    {
+                        "value": 1488412736
+                    }
+                ],
+                "promote": [
+                    {
+                        "value": false
+                    }
+                ],
+                "sticky": [
+                    {
+                        "value": false
+                    }
+                ],
+                "revision_timestamp": [
+                    {
+                        "value": 1488412736
+                    }
+                ],
+                "revision_uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "revision_log": [],
+                "revision_translation_affected": [
+                    {
+                        "value": true
+                    }
+                ],
+                "default_langcode": [
+                    {
+                        "value": true
+                    }
+                ],
+                "moderation_state": [],
+                "workspace": [
+                    {
+                        "target_id": 1,
+                        "target_type": "workspace",
+                        "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                    }
+                ],
+                "_deleted": [
+                    {
+                        "value": false
+                    }
+                ],
+                "_rev": [
+                    {
+                        "value": "1-4fdce2632031ff6de1e421c5d6380ab2"
+                    }
+                ],
+                "path": [],
+                "field_contact_name": [],
+                "field_email": [
+                    {
+                        "value": "clientservices@ga.gov.au"
+                    }
+                ],
+                "field_organization": [
+                    {
+                        "nid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "uuid": [
+                            {
+                                "value": "2ac5309e-a20c-4c29-b1b0-e2dba4d17f90"
+                            }
+                        ],
+                        "vid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "langcode": [
+                            {
+                                "value": "en"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "target_id": "organization",
+                                "target_type": "node_type",
+                                "target_uuid": "b16be7e4-0b38-4918-9d08-6bd8b864b0f8"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "title": [
+                            {
+                                "value": "Geoscience Australia"
+                            }
+                        ],
+                        "uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "created": [
+                            {
+                                "value": 1487660362
+                            }
+                        ],
+                        "changed": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "promote": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "sticky": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "revision_timestamp": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "revision_uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "revision_log": [],
+                        "revision_translation_affected": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "default_langcode": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "moderation_state": [],
+                        "workspace": [
+                            {
+                                "target_id": 1,
+                                "target_type": "workspace",
+                                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                            }
+                        ],
+                        "_deleted": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "_rev": [
+                            {
+                                "value": "1-73d9a675c57db7b63be1833d5aa7dee1"
+                            }
+                        ],
+                        "path": [],
+                        "field_address": [
+                            {
+                                "streetAddress": "Cnr Jerrabomberra Ave and Hindmarsh Dr",
+                                "addressLocality": "Symonston",
+                                "addressRegion": "ACT",
+                                "postalCode": "2609",
+                                "postOfficeBoxNumber": "",
+                                "addressCountry": "AU"
+                            }
+                        ],
+                        "field_email": [
+                            {
+                                "value": "clientservices@ga.gov.au"
+                            }
+                        ],
+                        "field_tags": [],
+                        "field_telephone": [
+                            {
+                                "value": "1800 800 173"
+                            }
+                        ],
+                        "field_website": [
+                            {
+                                "uri": "http:\/\/www.ga.gov.au",
+                                "title": "",
+                                "options": []
+                            }
+                        ]
+                    }
+                ],
+                "field_role": [
+                    {
+                        "value": "Manager Client Services"
+                    }
+                ],
+                "field_telephone": [
+                    {
+                        "value": "1800 800 173"
+                    }
+                ]
+            }
+        ],
+        "field_overview": [
+            {
+                "value": "\u003Cp\u003EWater Observations from Space Statistics (WO_STATS_2.1.5) is a set of gridded datasets derived from the Water Observations from Space dataset (WO_2.1.5). WO_STATS_2.1.5 provides five statistical summaries of the WO_2.1.5 dataset:\u003C\/p\u003E\r\n\r\n\u003Cul\u003E\r\n\t\u003Cli\u003Ethe number of clear satellite observations from 1987 to present day;\u003C\/li\u003E\r\n\t\u003Cli\u003Ethe number of occasions water was detected;\u003C\/li\u003E\r\n\t\u003Cli\u003Ethe percentage of clear observations on which water was detected;\u003C\/li\u003E\r\n\t\u003Cli\u003Ethe confidence (or probability) that a water observation in this location is correct. This is a percentage, based on a number of factors including the slope of the land and the existence of other corroborative evidence.\u003C\/li\u003E\r\n\t\u003Cli\u003EThe percentage of clear observations on which water was detected, masked where the confidence is less than 1%.\u003C\/li\u003E\r\n\t\u003Cli\u003EWO_STATS_2.1.5 is updated for each update of WO_2.1.5.\u003C\/li\u003E\r\n\u003C\/ul\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_principal_contact": [
+            {
+                "nid": [
+                    {
+                        "value": 65
+                    }
+                ],
+                "uuid": [
+                    {
+                        "value": "0902e4b7-2788-46e6-ac6e-603aba2d98e9"
+                    }
+                ],
+                "vid": [
+                    {
+                        "value": 113
+                    }
+                ],
+                "langcode": [
+                    {
+                        "value": "en"
+                    }
+                ],
+                "type": [
+                    {
+                        "target_id": "contact",
+                        "target_type": "node_type",
+                        "target_uuid": "e3672a17-5d33-40f0-b4f8-0249345d8c91"
+                    }
+                ],
+                "status": [
+                    {
+                        "value": true
+                    }
+                ],
+                "title": [
+                    {
+                        "value": "Geoscience Australia - Client Services"
+                    }
+                ],
+                "uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "created": [
+                    {
+                        "value": 1488412643
+                    }
+                ],
+                "changed": [
+                    {
+                        "value": 1488412736
+                    }
+                ],
+                "promote": [
+                    {
+                        "value": false
+                    }
+                ],
+                "sticky": [
+                    {
+                        "value": false
+                    }
+                ],
+                "revision_timestamp": [
+                    {
+                        "value": 1488412736
+                    }
+                ],
+                "revision_uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "revision_log": [],
+                "revision_translation_affected": [
+                    {
+                        "value": true
+                    }
+                ],
+                "default_langcode": [
+                    {
+                        "value": true
+                    }
+                ],
+                "moderation_state": [],
+                "workspace": [
+                    {
+                        "target_id": 1,
+                        "target_type": "workspace",
+                        "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                    }
+                ],
+                "_deleted": [
+                    {
+                        "value": false
+                    }
+                ],
+                "_rev": [
+                    {
+                        "value": "1-4fdce2632031ff6de1e421c5d6380ab2"
+                    }
+                ],
+                "path": [],
+                "field_contact_name": [],
+                "field_email": [
+                    {
+                        "value": "clientservices@ga.gov.au"
+                    }
+                ],
+                "field_organization": [
+                    {
+                        "nid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "uuid": [
+                            {
+                                "value": "2ac5309e-a20c-4c29-b1b0-e2dba4d17f90"
+                            }
+                        ],
+                        "vid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "langcode": [
+                            {
+                                "value": "en"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "target_id": "organization",
+                                "target_type": "node_type",
+                                "target_uuid": "b16be7e4-0b38-4918-9d08-6bd8b864b0f8"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "title": [
+                            {
+                                "value": "Geoscience Australia"
+                            }
+                        ],
+                        "uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "created": [
+                            {
+                                "value": 1487660362
+                            }
+                        ],
+                        "changed": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "promote": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "sticky": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "revision_timestamp": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "revision_uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "revision_log": [],
+                        "revision_translation_affected": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "default_langcode": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "moderation_state": [],
+                        "workspace": [
+                            {
+                                "target_id": 1,
+                                "target_type": "workspace",
+                                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                            }
+                        ],
+                        "_deleted": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "_rev": [
+                            {
+                                "value": "1-73d9a675c57db7b63be1833d5aa7dee1"
+                            }
+                        ],
+                        "path": [],
+                        "field_address": [
+                            {
+                                "streetAddress": "Cnr Jerrabomberra Ave and Hindmarsh Dr",
+                                "addressLocality": "Symonston",
+                                "addressRegion": "ACT",
+                                "postalCode": "2609",
+                                "postOfficeBoxNumber": "",
+                                "addressCountry": "AU"
+                            }
+                        ],
+                        "field_email": [
+                            {
+                                "value": "clientservices@ga.gov.au"
+                            }
+                        ],
+                        "field_tags": [],
+                        "field_telephone": [
+                            {
+                                "value": "1800 800 173"
+                            }
+                        ],
+                        "field_website": [
+                            {
+                                "uri": "http:\/\/www.ga.gov.au",
+                                "title": "",
+                                "options": []
+                            }
+                        ]
+                    }
+                ],
+                "field_role": [
+                    {
+                        "value": "Manager Client Services"
+                    }
+                ],
+                "field_telephone": [
+                    {
+                        "value": "1800 800 173"
+                    }
+                ]
+            }
+        ],
+        "field_principal_contributors": [],
+        "field_processes": [],
+        "field_production_stage": [],
+        "field_product_life_span": [
+            {
+                "value": "2017-03-20T23:30:13",
+                "end_value": "2017-03-20T23:30:13"
+            }
+        ],
+        "field_product_type": [
+            {
+                "target_id": 6664,
+                "target_type": "taxonomy_term",
+                "target_uuid": "b66971bd-53ac-40f6-b046-206ab3a972d1",
+                "url": "\/taxonomy\/term\/6664"
+            }
+        ],
+        "field_publishing_entity": [
+            {
+                "nid": [
+                    {
+                        "value": 64
+                    }
+                ],
+                "uuid": [
+                    {
+                        "value": "82716aa8-1eb3-4f17-92c2-e4464c784120"
+                    }
+                ],
+                "vid": [
+                    {
+                        "value": 111
+                    }
+                ],
+                "langcode": [
+                    {
+                        "value": "en"
+                    }
+                ],
+                "type": [
+                    {
+                        "target_id": "contact",
+                        "target_type": "node_type",
+                        "target_uuid": "e3672a17-5d33-40f0-b4f8-0249345d8c91"
+                    }
+                ],
+                "status": [
+                    {
+                        "value": true
+                    }
+                ],
+                "title": [
+                    {
+                        "value": "Commonwealth of Australia (Geoscience Australia)"
+                    }
+                ],
+                "uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "created": [
+                    {
+                        "value": 1488411904
+                    }
+                ],
+                "changed": [
+                    {
+                        "value": 1488411997
+                    }
+                ],
+                "promote": [
+                    {
+                        "value": false
+                    }
+                ],
+                "sticky": [
+                    {
+                        "value": false
+                    }
+                ],
+                "revision_timestamp": [
+                    {
+                        "value": 1488411997
+                    }
+                ],
+                "revision_uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "revision_log": [],
+                "revision_translation_affected": [
+                    {
+                        "value": true
+                    }
+                ],
+                "default_langcode": [
+                    {
+                        "value": true
+                    }
+                ],
+                "moderation_state": [],
+                "workspace": [
+                    {
+                        "target_id": 1,
+                        "target_type": "workspace",
+                        "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                    }
+                ],
+                "_deleted": [
+                    {
+                        "value": false
+                    }
+                ],
+                "_rev": [
+                    {
+                        "value": "1-94fe877f41511aacffb0e3b952b5d312"
+                    }
+                ],
+                "path": [],
+                "field_contact_name": [
+                    {
+                        "value": "Client Services"
+                    }
+                ],
+                "field_email": [
+                    {
+                        "value": "clientservices@ga.gov.au"
+                    }
+                ],
+                "field_organization": [
+                    {
+                        "nid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "uuid": [
+                            {
+                                "value": "2ac5309e-a20c-4c29-b1b0-e2dba4d17f90"
+                            }
+                        ],
+                        "vid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "langcode": [
+                            {
+                                "value": "en"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "target_id": "organization",
+                                "target_type": "node_type",
+                                "target_uuid": "b16be7e4-0b38-4918-9d08-6bd8b864b0f8"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "title": [
+                            {
+                                "value": "Geoscience Australia"
+                            }
+                        ],
+                        "uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "created": [
+                            {
+                                "value": 1487660362
+                            }
+                        ],
+                        "changed": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "promote": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "sticky": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "revision_timestamp": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "revision_uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "revision_log": [],
+                        "revision_translation_affected": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "default_langcode": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "moderation_state": [],
+                        "workspace": [
+                            {
+                                "target_id": 1,
+                                "target_type": "workspace",
+                                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                            }
+                        ],
+                        "_deleted": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "_rev": [
+                            {
+                                "value": "1-73d9a675c57db7b63be1833d5aa7dee1"
+                            }
+                        ],
+                        "path": [],
+                        "field_address": [
+                            {
+                                "streetAddress": "Cnr Jerrabomberra Ave and Hindmarsh Dr",
+                                "addressLocality": "Symonston",
+                                "addressRegion": "ACT",
+                                "postalCode": "2609",
+                                "postOfficeBoxNumber": "",
+                                "addressCountry": "AU"
+                            }
+                        ],
+                        "field_email": [
+                            {
+                                "value": "clientservices@ga.gov.au"
+                            }
+                        ],
+                        "field_tags": [],
+                        "field_telephone": [
+                            {
+                                "value": "1800 800 173"
+                            }
+                        ],
+                        "field_website": [
+                            {
+                                "uri": "http:\/\/www.ga.gov.au",
+                                "title": "",
+                                "options": []
+                            }
+                        ]
+                    }
+                ],
+                "field_role": [],
+                "field_telephone": [
+                    {
+                        "value": "1800 800 173"
+                    }
+                ]
+            }
+        ],
+        "field_publishing_time_frame": [
+            {
+                "value": "2017-06-18T23:30:13",
+                "end_value": "2017-06-18T23:30:13"
+            }
+        ],
+        "field_qa_contact": [
+            {
+                "nid": [
+                    {
+                        "value": 67
+                    }
+                ],
+                "uuid": [
+                    {
+                        "value": "de760eb7-3f10-4b69-96b2-04f7c0e50bf6"
+                    }
+                ],
+                "vid": [
+                    {
+                        "value": 115
+                    }
+                ],
+                "langcode": [
+                    {
+                        "value": "en"
+                    }
+                ],
+                "type": [
+                    {
+                        "target_id": "contact",
+                        "target_type": "node_type",
+                        "target_uuid": "e3672a17-5d33-40f0-b4f8-0249345d8c91"
+                    }
+                ],
+                "status": [
+                    {
+                        "value": true
+                    }
+                ],
+                "title": [
+                    {
+                        "value": "Geoscience Australia - Team Leader, Business Systems Development Section, NEMO"
+                    }
+                ],
+                "uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "created": [
+                    {
+                        "value": 1488412897
+                    }
+                ],
+                "changed": [
+                    {
+                        "value": 1488412938
+                    }
+                ],
+                "promote": [
+                    {
+                        "value": false
+                    }
+                ],
+                "sticky": [
+                    {
+                        "value": false
+                    }
+                ],
+                "revision_timestamp": [
+                    {
+                        "value": 1488412938
+                    }
+                ],
+                "revision_uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "revision_log": [],
+                "revision_translation_affected": [
+                    {
+                        "value": true
+                    }
+                ],
+                "default_langcode": [
+                    {
+                        "value": true
+                    }
+                ],
+                "moderation_state": [],
+                "workspace": [
+                    {
+                        "target_id": 1,
+                        "target_type": "workspace",
+                        "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                    }
+                ],
+                "_deleted": [
+                    {
+                        "value": false
+                    }
+                ],
+                "_rev": [
+                    {
+                        "value": "1-e1fc8dcf1fc82e4c5ba87b48715c0321"
+                    }
+                ],
+                "path": [],
+                "field_contact_name": [],
+                "field_email": [
+                    {
+                        "value": "earth.observation@ga.gov.au"
+                    }
+                ],
+                "field_organization": [
+                    {
+                        "nid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "uuid": [
+                            {
+                                "value": "2ac5309e-a20c-4c29-b1b0-e2dba4d17f90"
+                            }
+                        ],
+                        "vid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "langcode": [
+                            {
+                                "value": "en"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "target_id": "organization",
+                                "target_type": "node_type",
+                                "target_uuid": "b16be7e4-0b38-4918-9d08-6bd8b864b0f8"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "title": [
+                            {
+                                "value": "Geoscience Australia"
+                            }
+                        ],
+                        "uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "created": [
+                            {
+                                "value": 1487660362
+                            }
+                        ],
+                        "changed": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "promote": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "sticky": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "revision_timestamp": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "revision_uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "revision_log": [],
+                        "revision_translation_affected": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "default_langcode": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "moderation_state": [],
+                        "workspace": [
+                            {
+                                "target_id": 1,
+                                "target_type": "workspace",
+                                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                            }
+                        ],
+                        "_deleted": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "_rev": [
+                            {
+                                "value": "1-73d9a675c57db7b63be1833d5aa7dee1"
+                            }
+                        ],
+                        "path": [],
+                        "field_address": [
+                            {
+                                "streetAddress": "Cnr Jerrabomberra Ave and Hindmarsh Dr",
+                                "addressLocality": "Symonston",
+                                "addressRegion": "ACT",
+                                "postalCode": "2609",
+                                "postOfficeBoxNumber": "",
+                                "addressCountry": "AU"
+                            }
+                        ],
+                        "field_email": [
+                            {
+                                "value": "clientservices@ga.gov.au"
+                            }
+                        ],
+                        "field_tags": [],
+                        "field_telephone": [
+                            {
+                                "value": "1800 800 173"
+                            }
+                        ],
+                        "field_website": [
+                            {
+                                "uri": "http:\/\/www.ga.gov.au",
+                                "title": "",
+                                "options": []
+                            }
+                        ]
+                    }
+                ],
+                "field_role": [
+                    {
+                        "value": "Team Leader, Business Systems Development Section, NEMO"
+                    }
+                ],
+                "field_telephone": [
+                    {
+                        "value": " 1800 800 173"
+                    }
+                ]
+            }
+        ],
+        "field_qa_time_frame": [
+            {
+                "value": "2017-03-20T23:30:13",
+                "end_value": "2017-03-20T23:30:13"
+            }
+        ],
+        "field_quality_assurance": [
+            {
+                "value": "\u003Cp\u003EPlease refer to the SR-N_25_2.0.0 Product Description for the validation of the atmospheric, BRDF and topographic shading processing sequence.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_resource_type": [
+            {
+                "target_id": 6671,
+                "target_type": "taxonomy_term",
+                "target_uuid": "d56ac5fe-8efa-4e4d-8f40-20f9883ef37b",
+                "url": "\/taxonomy\/term\/6671"
+            }
+        ],
+        "field_resource_type_definition": [
+            {
+                "target_id": 6694,
+                "target_type": "taxonomy_term",
+                "target_uuid": "528e9c1a-3c49-41a9-ae03-ed9e41653f69",
+                "url": "\/taxonomy\/term\/6694"
+            }
+        ],
+        "field_reviewer": [],
+        "field_rights_statement": [
+            {
+                "value": "\u003Cp\u003E(c) Commonwealth of Australia (Geoscience Australia) 2015. Creative Commons Attribution 4.0 International License. https:\/\/creativecommons.org\/licenses\/by\/4.0\/.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_security_classification": [
+            {
+                "target_id": 6725,
+                "target_type": "taxonomy_term",
+                "target_uuid": "d7d8386f-bae1-43c7-b543-367f41f17e36",
+                "url": "\/taxonomy\/term\/6725"
+            }
+        ],
+        "field_services": [
+            {
+                "uri": "http:\/\/eos.ga.gov.au\/geoserver\/web\/",
+                "title": "WMS",
+                "options": []
+            }
+        ],
+        "field_simple_title": [
+            {
+                "value": "Water Observations from Space Statistics 2.1.5",
+                "format": "basic_html"
+            }
+        ],
+        "field_software_dependencies": [],
+        "field_subject_matter_experts": [
+            {
+                "nid": [
+                    {
+                        "value": 6
+                    }
+                ],
+                "uuid": [
+                    {
+                        "value": "6ae4e810-3899-4dd3-bfa2-15ba818211c6"
+                    }
+                ],
+                "vid": [
+                    {
+                        "value": 8
+                    }
+                ],
+                "langcode": [
+                    {
+                        "value": "en"
+                    }
+                ],
+                "type": [
+                    {
+                        "target_id": "contact",
+                        "target_type": "node_type",
+                        "target_uuid": "e3672a17-5d33-40f0-b4f8-0249345d8c91"
+                    }
+                ],
+                "status": [
+                    {
+                        "value": true
+                    }
+                ],
+                "title": [
+                    {
+                        "value": "Norman Mueller"
+                    }
+                ],
+                "uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "created": [
+                    {
+                        "value": 1487661995
+                    }
+                ],
+                "changed": [
+                    {
+                        "value": 1487662024
+                    }
+                ],
+                "promote": [
+                    {
+                        "value": false
+                    }
+                ],
+                "sticky": [
+                    {
+                        "value": false
+                    }
+                ],
+                "revision_timestamp": [
+                    {
+                        "value": 1487662024
+                    }
+                ],
+                "revision_uid": [
+                    {
+                        "target_id": 1,
+                        "target_type": "user",
+                        "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                        "url": "\/user\/1"
+                    }
+                ],
+                "revision_log": [],
+                "revision_translation_affected": [
+                    {
+                        "value": true
+                    }
+                ],
+                "default_langcode": [
+                    {
+                        "value": true
+                    }
+                ],
+                "moderation_state": [],
+                "workspace": [
+                    {
+                        "target_id": 1,
+                        "target_type": "workspace",
+                        "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                    }
+                ],
+                "_deleted": [
+                    {
+                        "value": false
+                    }
+                ],
+                "_rev": [
+                    {
+                        "value": "1-0779973443e6de02300fd48aa6afe195"
+                    }
+                ],
+                "path": [],
+                "field_contact_name": [
+                    {
+                        "value": "Norman Mueller"
+                    }
+                ],
+                "field_email": [
+                    {
+                        "value": "norman.mueller@ga.gov.au"
+                    }
+                ],
+                "field_organization": [
+                    {
+                        "nid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "uuid": [
+                            {
+                                "value": "2ac5309e-a20c-4c29-b1b0-e2dba4d17f90"
+                            }
+                        ],
+                        "vid": [
+                            {
+                                "value": 3
+                            }
+                        ],
+                        "langcode": [
+                            {
+                                "value": "en"
+                            }
+                        ],
+                        "type": [
+                            {
+                                "target_id": "organization",
+                                "target_type": "node_type",
+                                "target_uuid": "b16be7e4-0b38-4918-9d08-6bd8b864b0f8"
+                            }
+                        ],
+                        "status": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "title": [
+                            {
+                                "value": "Geoscience Australia"
+                            }
+                        ],
+                        "uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "created": [
+                            {
+                                "value": 1487660362
+                            }
+                        ],
+                        "changed": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "promote": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "sticky": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "revision_timestamp": [
+                            {
+                                "value": 1487660476
+                            }
+                        ],
+                        "revision_uid": [
+                            {
+                                "target_id": 1,
+                                "target_type": "user",
+                                "target_uuid": "2c1b7b76-12fb-4273-9255-773773f2ddb6",
+                                "url": "\/user\/1"
+                            }
+                        ],
+                        "revision_log": [],
+                        "revision_translation_affected": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "default_langcode": [
+                            {
+                                "value": true
+                            }
+                        ],
+                        "moderation_state": [],
+                        "workspace": [
+                            {
+                                "target_id": 1,
+                                "target_type": "workspace",
+                                "target_uuid": "79bd7389-c9e5-40f5-ace7-5c0ecc466e6c"
+                            }
+                        ],
+                        "_deleted": [
+                            {
+                                "value": false
+                            }
+                        ],
+                        "_rev": [
+                            {
+                                "value": "1-73d9a675c57db7b63be1833d5aa7dee1"
+                            }
+                        ],
+                        "path": [],
+                        "field_address": [
+                            {
+                                "streetAddress": "Cnr Jerrabomberra Ave and Hindmarsh Dr",
+                                "addressLocality": "Symonston",
+                                "addressRegion": "ACT",
+                                "postalCode": "2609",
+                                "postOfficeBoxNumber": "",
+                                "addressCountry": "AU"
+                            }
+                        ],
+                        "field_email": [
+                            {
+                                "value": "clientservices@ga.gov.au"
+                            }
+                        ],
+                        "field_tags": [],
+                        "field_telephone": [
+                            {
+                                "value": "1800 800 173"
+                            }
+                        ],
+                        "field_website": [
+                            {
+                                "uri": "http:\/\/www.ga.gov.au",
+                                "title": "",
+                                "options": []
+                            }
+                        ]
+                    }
+                ],
+                "field_role": [
+                    {
+                        "value": "Earth Observation Scientist"
+                    }
+                ],
+                "field_telephone": [
+                    {
+                        "value": "+61 2 6249 9895"
+                    }
+                ]
+            }
+        ],
+        "field_summary": [],
+        "field_tables": [],
+        "field_update_frequency": [
+            {
+                "target_id": 6697,
+                "target_type": "taxonomy_term",
+                "target_uuid": "bc69c89f-deef-463b-9be8-b5c9962fe979",
+                "url": "\/taxonomy\/term\/6697"
+            }
+        ],
+        "field_use_constraints": [
+            {
+                "value": "\u003Cp\u003E(c) Commonwealth of Australia (Geoscience Australia) 2015. Creative Commons Attribution 4.0 International License. https:\/\/creativecommons.org\/licenses\/by\/4.0\/. Please refer to Mueller et al. 2016 for further details.\u003C\/p\u003E\r\n",
+                "format": "basic_html"
+            }
+        ],
+        "field_version_number": [
+            {
+                "value": "2.1.5"
+            }
+        ],
+        "field_websites": [
+            {
+                "uri": "http:\/\/www.ga.gov.au\/hazards\/flood\/portal\/national-flood-risk-information-portal.html",
+                "title": "National Flood Risk Information Project (NFRIP) Portal",
+                "options": []
+            }
+        ]
+    }
+]
