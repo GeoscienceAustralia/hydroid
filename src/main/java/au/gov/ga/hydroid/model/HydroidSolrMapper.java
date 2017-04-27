@@ -32,6 +32,7 @@ public class HydroidSolrMapper {
       properties.put("content", document.getContent());
       properties.put("title", document.getTitle());
       properties.put("docType", document.getDocType());
+      properties.put("docOrigin", document.getOrigin());
       if (document.getAuthor() != null) {
          properties.put("creator", document.getAuthor());
       }
