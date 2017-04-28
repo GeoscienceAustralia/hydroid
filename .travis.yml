@@ -22,8 +22,8 @@ deploy:
     bucket: hydroid
     key: vocabulary/hydroid.zip
     bundle_type: zip
-    application: HydroidAmz-hydroidamzappserverAsgCda
-    deployment_group: HydroidAmz-hydroidamzappserverAsgCdg
+    application: hydroid
+    deployment_group: Hydroid-Client-Dev-Deployment
     region: ap-southeast-2
     on:
       branch: master
