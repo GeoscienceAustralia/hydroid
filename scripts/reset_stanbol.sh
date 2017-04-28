@@ -2,15 +2,16 @@ cd /var/tmp
 
 # update hydroid app
 sudo kill -9 $(cat /usr/share/tomcat7/hydroid/hydroid.pid)
-sudo mv /var/tmp/google-vision.json /usr/share/tomcat7/hydroid/google-vision.json
+cp /var/tmp/google-vision.json /usr/share/tomcat7/hydroid/google-vision.json
 export GOOGLE_APPLICATION_CREDENTIALS=/usr/share/tomcat7/hydroid/google-vision.json
-sudo cp /var/tmp/hydroid.jar /usr/share/tomcat7/hydroid/.
+cp /var/tmp/hydroid.jar /usr/share/tomcat7/hydroid/.
 #sudo java -jar /usr/share/tomcat7/hydroid/hydroid.jar > /dev/null 2> /dev/null < /dev/null &
-sudo runuser -l ec2-user -c 'java -jar /usr/share/tomcat7/hydroid/hydroid.jar > /dev/null 2> /dev/null < /dev/null' &
+#sudo runuser -l tomcat -c 'java -jar /usr/share/tomcat7/hydroid/hydroid.jar > /dev/null 2> /dev/null < /dev/null' &
+java -jar /usr/share/tomcat7/hydroid/hydroid.jar > /dev/null 2> /dev/null < /dev/null &
 
 # update tomcat-stanbol
 sudo service tomcat7 stop
-sudo rm -rf /usr/share/tomcat7/stanbol
+rm -rf /usr/share/tomcat7/stanbol
 #sudo rm -rf /usr/share/tomcat7/webapps/hydroid
 #sudo cp /var/tmp/hydroid.war /usr/share/tomcat7/webapps/.
 sudo service tomcat7 start
@@ -26,12 +27,12 @@ printf 'Server last response was [%s]..\n' "$defaultChainResponse"
 printf 'Stanbol ready, configuring...\n'
 sleep 3s
 # Copy GA.solrindex.zip to stanbol datafiles location
-sudo cp /var/tmp/GA.solrindex.zip /usr/share/tomcat7/stanbol/datafiles/GA.solrindex.zip
+cp /var/tmp/GA.solrindex.zip /usr/share/tomcat7/stanbol/datafiles/GA.solrindex.zip
 printf 'Posting bundle...\n'
 # post bundle to OSGi
-sudo cp /var/tmp/org.apache.stanbol.data.site.GA-1.0.0.jar /usr/share/tomcat7/stanbol/fileinstall/org.apache.stanbol.data.site.GA-1.0.0.jar
+cp /var/tmp/org.apache.stanbol.data.site.GA-1.0.0.jar /usr/share/tomcat7/stanbol/fileinstall/org.apache.stanbol.data.site.GA-1.0.0.jar
 sleep 2s
-sudo cp /var/tmp/config/. /usr/share/tomcat7/stanbol/fileinstall/ -R
+cp /var/tmp/config/. /usr/share/tomcat7/stanbol/fileinstall/ -R
 
 newPassword=$(uuidgen)
 printf 'Lock Stanbol system console...'
