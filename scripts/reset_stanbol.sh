@@ -2,16 +2,16 @@ cd /var/tmp
 
 # update hydroid app
 sudo kill -9 $(cat /usr/share/tomcat7/hydroid/hydroid.pid)
-cp /var/tmp/google-vision.json /usr/share/tomcat7/hydroid/google-vision.json
+sudo cp /var/tmp/google-vision.json /usr/share/tomcat7/hydroid/google-vision.json
 export GOOGLE_APPLICATION_CREDENTIALS=/usr/share/tomcat7/hydroid/google-vision.json
-cp /var/tmp/hydroid.jar /usr/share/tomcat7/hydroid/.
+sudo cp /var/tmp/hydroid.jar /usr/share/tomcat7/hydroid/.
 #sudo java -jar /usr/share/tomcat7/hydroid/hydroid.jar > /dev/null 2> /dev/null < /dev/null &
-#sudo runuser -l tomcat -c 'java -jar /usr/share/tomcat7/hydroid/hydroid.jar > /dev/null 2> /dev/null < /dev/null' &
-java -jar /usr/share/tomcat7/hydroid/hydroid.jar > /dev/null 2> /dev/null < /dev/null &
+sudo chown tomcat:tomcat -R /usr/share/tomcat7
+sudo runuser -l tomcat -c 'java -jar /usr/share/tomcat7/hydroid/hydroid.jar > /dev/null 2> /dev/null < /dev/null' &
 
 # update tomcat-stanbol
 sudo service tomcat7 stop
-rm -rf /usr/share/tomcat7/stanbol
+sudo rm -rf /usr/share/tomcat7/stanbol
 #sudo rm -rf /usr/share/tomcat7/webapps/hydroid
 #sudo cp /var/tmp/hydroid.war /usr/share/tomcat7/webapps/.
 sudo service tomcat7 start
@@ -27,12 +27,12 @@ printf 'Server last response was [%s]..\n' "$defaultChainResponse"
 printf 'Stanbol ready, configuring...\n'
 sleep 3s
 # Copy GA.solrindex.zip to stanbol datafiles location
-cp /var/tmp/GA.solrindex.zip /usr/share/tomcat7/stanbol/datafiles/GA.solrindex.zip
+sudo cp /var/tmp/GA.solrindex.zip /usr/share/tomcat7/stanbol/datafiles/GA.solrindex.zip
 printf 'Posting bundle...\n'
 # post bundle to OSGi
-cp /var/tmp/org.apache.stanbol.data.site.GA-1.0.0.jar /usr/share/tomcat7/stanbol/fileinstall/org.apache.stanbol.data.site.GA-1.0.0.jar
+sudo cp /var/tmp/org.apache.stanbol.data.site.GA-1.0.0.jar /usr/share/tomcat7/stanbol/fileinstall/org.apache.stanbol.data.site.GA-1.0.0.jar
 sleep 2s
-cp /var/tmp/config/. /usr/share/tomcat7/stanbol/fileinstall/ -R
+sudo cp /var/tmp/config/. /usr/share/tomcat7/stanbol/fileinstall/ -R
 
 newPassword=$(uuidgen)
 printf 'Lock Stanbol system console...'
@@ -41,5 +41,4 @@ printf 'Lock Stanbol system console...'
 #Copy required AWS profile for API
 cd /usr/share/tomcat7
 sudo cp -R /home/ec2-user/.aws/ .
-sudo chown -R tomcat:tomcat .aws/
-
+sudo chown tomcat:tomcat -R /usr/share/tomcat7

@@ -14,4 +14,4 @@ hooks:
   AfterInstall:
     - location: reset_stanbol.sh
       timeout: 300
-      runas: tomcat
+      runas: ec2-user
