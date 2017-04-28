@@ -5,7 +5,8 @@ sudo kill -9 $(cat /usr/share/tomcat7/hydroid/hydroid.pid)
 sudo mv /var/tmp/google-vision.json /usr/share/tomcat7/hydroid/google-vision.json
 export GOOGLE_APPLICATION_CREDENTIALS=/usr/share/tomcat7/hydroid/google-vision.json
 sudo cp /var/tmp/hydroid.jar /usr/share/tomcat7/hydroid/.
-sudo java -jar /usr/share/tomcat7/hydroid/hydroid.jar > /dev/null 2> /dev/null < /dev/null &
+#sudo java -jar /usr/share/tomcat7/hydroid/hydroid.jar > /dev/null 2> /dev/null < /dev/null &
+sudo runuser -l ec2-user -c 'java -jar /usr/share/tomcat7/hydroid/hydroid.jar > /dev/null 2> /dev/null < /dev/null' &
 
 # update tomcat-stanbol
 sudo service tomcat7 stop
