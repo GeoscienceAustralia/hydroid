@@ -6,7 +6,7 @@ sudo cp /var/tmp/google-vision.json /usr/share/tomcat7/hydroid/google-vision.jso
 export GOOGLE_APPLICATION_CREDENTIALS=/usr/share/tomcat7/hydroid/google-vision.json
 sudo cp /var/tmp/hydroid.jar /usr/share/tomcat7/hydroid/.
 #sudo java -jar /usr/share/tomcat7/hydroid/hydroid.jar > /dev/null 2> /dev/null < /dev/null &
-sudo chown tomcat:tomcat -R /usr/share/tomcat7
+#sudo chown tomcat:tomcat -R /usr/share/tomcat7
 sudo runuser -l tomcat -c 'java -jar /usr/share/tomcat7/hydroid/hydroid.jar > /dev/null 2> /dev/null < /dev/null' &
 
 # update tomcat-stanbol
@@ -41,4 +41,5 @@ printf 'Lock Stanbol system console...'
 #Copy required AWS profile for API
 cd /usr/share/tomcat7
 sudo cp -R /home/ec2-user/.aws/ .
-sudo chown tomcat:tomcat -R /usr/share/tomcat7
+sudo chown -R tomcat:tomcat .aws/
+
