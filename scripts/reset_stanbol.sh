@@ -1,7 +1,13 @@
 cd /var/tmp
 
 # update hydroid app
+sudo kill -9 $(cat /home/ec2-user/hydroid/hydroid.pid)
+cp /var/tmp/google-vision.json /home/ec2-user/hydroid/google-vision.json
+export GOOGLE_APPLICATION_CREDENTIALS=/home/ec2-user/hydroid/google-vision.json
+cp /var/tmp/hydroid.jar /home/ec2-user/hydroid/.
+#sudo java -jar /home/ec2-user/hydroid/hydroid.jar > /dev/null 2> /dev/null < /dev/null &
 #sudo chown tomcat:tomcat -R /usr/share/tomcat7
+java -jar /home/ec2-user/hydroid/hydroid.jar > /dev/null 2> /dev/null < /dev/null &
 
 # update tomcat-stanbol
 sudo service tomcat7 stop
