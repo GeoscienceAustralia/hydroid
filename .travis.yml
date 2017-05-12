@@ -22,8 +22,8 @@ deploy:
     bucket: hydroid
     key: vocabulary/hydroid.zip
     bundle_type: zip
-    application: hydroid
-    deployment_group: Hydroid-Client-Dev-Deployment
+    application: hydroid-stanbol
+    deployment_group: hydroid-stanbol
     region: ap-southeast-2
     on:
       branch: master
